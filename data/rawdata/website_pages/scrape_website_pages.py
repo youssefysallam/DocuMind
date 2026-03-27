@@ -2,14 +2,7 @@
 scrape_website_pages.py
 -----------------------
 Scrapes the SSL website (www.umb.edu/ssl/) and saves each page as a
-JSON file in rawdata/website_pages/.
-
-Each saved file contains:
-  - title       : page title
-  - url         : source URL
-  - source_type : "website_page"
-  - text        : clean extracted text
-  - scraped_at  : timestamp
+JSON file in the SAME directory as this script.
 
 Usage:
     python scrape_website_pages.py
@@ -19,70 +12,74 @@ import os
 import json
 import time
 import re
-from datetime import datetime
+from datetime import datetime, timezone
 
 import requests
 from bs4 import BeautifulSoup
 
-# ── CONFIG ────────────────────────────────────────────────────────────────────
+# --- CONFIG ------------------------------------------------------------------
 BASE_URL   = "https://www.umb.edu/ssl"
-OUTPUT_DIR = os.path.join(os.path.dirname(__file__), "website_pages")
-DELAY      = 1.0   # seconds between requests (be polite to the server)
-HEADERS    = {"User-Agent": "Mozilla/5.0 (UMass RAG Project Crawler)"}
+OUTPUT_DIR = os.path.dirname(os.path.abspath(__file__))  # save next to this script
+DELAY      = 1.0
+HEADERS    = {
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+                  "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+}
 
-# Seed pages to start from — add more as you discover them
+# Seed pages -- only URLs confirmed to exist (no trailing slash on events)
 SEED_URLS = [
     "https://www.umb.edu/ssl/",
-    "https://www.umb.edu/ssl/about/",
     "https://www.umb.edu/ssl/research/",
     "https://www.umb.edu/ssl/people/",
     "https://www.umb.edu/ssl/people/board-of-directors/",
     "https://www.umb.edu/ssl/people/students/",
     "https://www.umb.edu/ssl/people/university-affiliates/",
     "https://www.umb.edu/ssl/projects/",
-    "https://www.umb.edu/ssl/news/",
-    "https://www.umb.edu/ssl/events/",
-    "https://www.umb.edu/ssl/community-partners/",
-    "https://www.umb.edu/ssl/contact/",
+    "https://www.umb.edu/ssl/events",                                        # no trailing slash!
     "https://www.umb.edu/directory/?department=sustainable+solutions+lab",
+    "https://caps.umb.edu/ssl/faculty_grants/community_of_practice",
+    "https://www.umb.edu/news/recent-news/beyond-survival-Sustainable-Solutions-Labs-Drive",
 ]
-# ─────────────────────────────────────────────────────────────────────────────
-
-os.makedirs(OUTPUT_DIR, exist_ok=True)
+# -----------------------------------------------------------------------------
 
 def clean_text(soup):
-    """Remove nav/footer/script noise and return clean body text."""
-    for tag in soup(["nav", "footer", "script", "style", "header", "aside"]):
+    for tag in soup(["nav", "footer", "script", "style", "header", "aside",
+                     "noscript", "iframe", "svg"]):
         tag.decompose()
     text = soup.get_text(separator="\n")
-    # Collapse blank lines
+    # Remove common UMB nav noise
+    noise = [
+        "honeypot link", "Current Students", "Parents & Families",
+        "Faculty & Staff", "Alumni", "Skip to Main Content",
+    ]
+    for n in noise:
+        text = text.replace(n, "")
     text = re.sub(r"\n{3,}", "\n\n", text).strip()
     return text
 
 def slugify(url):
-    """Turn a URL into a safe filename."""
     slug = re.sub(r"https?://[^/]+/", "", url).rstrip("/")
     slug = re.sub(r"[^a-zA-Z0-9_-]", "_", slug) or "index"
     return slug[:80]
 
 def scrape_and_save(url):
     try:
-        resp = requests.get(url, headers=HEADERS, timeout=15)
+        resp = requests.get(url, headers=HEADERS, timeout=15, allow_redirects=True)
         resp.raise_for_status()
     except Exception as e:
-        print(f"  ✗ Failed to fetch {url}: {e}")
+        print("  [FAIL] {}: {}".format(url, e))
         return None
 
     soup  = BeautifulSoup(resp.text, "html.parser")
-    title = soup.title.string.strip() if soup.title else url
+    title = soup.title.string.strip() if soup.title and soup.title.string else url
     text  = clean_text(soup)
 
     record = {
         "title":       title,
-        "url":         url,
+        "url":         resp.url,  # use final URL after redirects
         "source_type": "website_page",
         "text":        text,
-        "scraped_at":  datetime.utcnow().isoformat() + "Z",
+        "scraped_at":  datetime.now(timezone.utc).isoformat(),
     }
 
     fname = slugify(url) + ".json"
@@ -90,30 +87,29 @@ def scrape_and_save(url):
     with open(fpath, "w", encoding="utf-8") as f:
         json.dump(record, f, ensure_ascii=False, indent=2)
 
-    print(f"  ✓ Saved: {fname}  ({len(text)} chars)")
+    print("  [OK] Saved: {}  ({} chars)".format(fname, len(text)))
 
-    # Discover additional SSL sub-pages linked from this page
     discovered = []
     for a in soup.find_all("a", href=True):
         href = a["href"]
         if href.startswith("/ssl/") or href.startswith("https://www.umb.edu/ssl/"):
             full = "https://www.umb.edu" + href if href.startswith("/") else href
-            full = full.split("?")[0].split("#")[0]   # strip query/fragment
-            if full not in visited and full.startswith("https://www.umb.edu/ssl/"):
+            full = full.split("#")[0]
+            if full not in visited and "umb.edu/ssl" in full:
                 discovered.append(full)
     return discovered
 
 visited = set()
 queue   = list(SEED_URLS)
 
-print(f"Starting SSL website scrape → {OUTPUT_DIR}\n")
+print("Starting SSL website scrape -> {}\n".format(OUTPUT_DIR))
 
 while queue:
     url = queue.pop(0)
     if url in visited:
         continue
     visited.add(url)
-    print(f"→ {url}")
+    print("-> {}".format(url))
     new_links = scrape_and_save(url)
     if new_links:
         for link in new_links:
@@ -121,4 +117,4 @@ while queue:
                 queue.append(link)
     time.sleep(DELAY)
 
-print(f"\nDone. Scraped {len(visited)} pages → {OUTPUT_DIR}")
+print("\nDone. Scraped {} pages -> {}".format(len(visited), OUTPUT_DIR))
