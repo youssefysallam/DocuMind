@@ -1,0 +1,326 @@
+[
+    {
+        "question_id": "SYN-NEW-01",
+        "question": "How does SSL connect its work on housing with its broader climate resilience efforts?",
+        "question_type": "synthesis",
+        "difficulty": "medium",
+        "expected_behavior": "answer",
+        "gold_answer": "SSL connects housing and climate resilience by studying how climate change impacts housing stability and by integrating housing policy into broader climate adaptation strategies through its research and reports.",
+        "gold_support_type": "pdf",
+        "gold_source_ids": [
+            "climate_housing_crisis"
+        ],
+        "notes": "Tests multi-document synthesis between housing and climate resilience."
+    },
+    {
+        "question_id": "SYN-NEW-02",
+        "question": "How does SSL combine community engagement with its climate research efforts?",
+        "question_type": "synthesis",
+        "difficulty": "medium",
+        "expected_behavior": "answer",
+        "gold_answer": "SSL combines community engagement with climate research by working directly with communities through partnerships, producing accessible and multilingual materials, and supporting community-led climate resilience initiatives alongside its academic research.",
+        "gold_support_type": "mixed",
+        "gold_source_ids": [
+            "ssl_people.json",
+            "community_led_climate_preparedness",
+            "oportunidad_en_la_complejidad",
+            "ssl_website_barr"
+        ],
+        "notes": "Tests synthesis between community engagement and research approach."
+    },
+    {
+        "question_id": "SYN-NEW-03",
+        "question": "How does SSL connect its work on infrastructure projects with its focus on historically excluded communities?",
+        "question_type": "synthesis",
+        "difficulty": "hard",
+        "expected_behavior": "answer",
+        "gold_answer": "SSL connects infrastructure work with equity by studying resilience projects such as rail and harbor infrastructure while also emphasizing that climate planning and adaptation should account for the needs of historically excluded and vulnerable communities.",
+        "gold_support_type": "mixed",
+        "gold_source_ids": [
+            "cape_cod_rail_resilience",
+            "feasibility_harbor_barrier",
+            "who_counts_climate_resilience"
+        ],
+        "notes": "Tests synthesis between infrastructure resilience work and equity-centered mission."
+    },
+    {
+        "question_id": "SYN-NEW-04",
+        "question": "How do SSL's partnerships help it carry out its climate resilience mission?",
+        "question_type": "synthesis",
+        "difficulty": "medium",
+        "expected_behavior": "answer",
+        "gold_answer": "SSL advances its climate resilience mission through partnerships with UMass Boston institutes, external collaborators, and community-facing networks that broaden its research reach, connect it to different communities, and support transdisciplinary climate work.",
+        "gold_support_type": "mixed",
+        "gold_source_ids": [
+            "ssl.json",
+            "ssl_overview_presentation_2026.json",
+            "UMB-SSL-2025-Impact_Report.pdf"
+        ],
+        "notes": "Tests synthesis across mission, partner institutes, and collaborative structure."
+    },
+    {
+        "question_id": "SYN-NEW-05",
+        "question": "How does SSL's work connect climate resilience with workforce or career development?",
+        "question_type": "synthesis",
+        "difficulty": "medium",
+        "expected_behavior": "answer",
+        "gold_answer": "SSL connects climate resilience with workforce development through efforts like the Climate Careers Curricula Initiative, which links climate-related research and action to practical training for blue and green jobs such as solar installation, energy auditing, and nature-based solutions.",
+        "gold_support_type": "website",
+        "gold_source_ids": [
+            "ssl_website_c3i"
+        ],
+        "notes": "Tests synthesis between resilience mission and workforce training initiatives."
+    },
+    {
+        "question_id": "SYN-NEW-06",
+        "question": "How does SSL bring together research, policy, and community action in its work?",
+        "question_type": "synthesis",
+        "difficulty": "hard",
+        "expected_behavior": "answer",
+        "gold_answer": "SSL brings together research, policy, and community action by producing climate-focused studies and reports, engaging with governance and planning issues, and working directly with communities and partners to support applied resilience efforts.",
+        "gold_support_type": "mixed",
+        "gold_source_ids": [
+            "governance_changing_climate",
+            "community_led_climate_preparedness",
+            "ssl_website_barr"
+        ],
+        "notes": "Tests high-level synthesis across research outputs, policy themes, and community engagement."
+    },
+    {
+        "question_id": "SYN-NEW-07",
+        "question": "How does SSL's publication work support its larger goals as an institute?",
+        "question_type": "synthesis",
+        "difficulty": "medium",
+        "expected_behavior": "answer",
+        "gold_answer": "SSL's publications support its larger goals by translating research into reports and resources on climate resilience, equity, governance, housing, migration, and community preparedness, helping the institute share knowledge, inform stakeholders, and support action.",
+        "gold_support_type": "mixed",
+        "gold_source_ids": [
+            "ssl_website_publications",
+            "governance_changing_climate",
+            "climate_housing_crisis"
+        ],
+        "notes": "Tests synthesis between publication portfolio and institutional mission."
+    },
+    {
+        "question_id": "SYN-NEW-08",
+        "question": "How does SSL's work show a balance between local community issues and broader systems-level climate challenges?",
+        "question_type": "synthesis",
+        "difficulty": "hard",
+        "expected_behavior": "answer",
+        "gold_answer": "SSL balances local and systems-level climate work by addressing neighborhood and community-specific issues, such as East Boston resilience and community preparedness, while also studying broader topics like governance, infrastructure, financing, and regional resilience planning.",
+        "gold_support_type": "mixed",
+        "gold_source_ids": [
+            "opportunity_in_complexity",
+            "UMB-SSL-2025-Impact_Report.pdf",
+            "governance_changing_climate"
+        ],
+        "notes": "Tests synthesis between local case studies and larger structural climate issues."
+    },
+    {
+        "question_id": "SYN-NEW-09",
+        "question": "How does SSL's work reflect a transdisciplinary approach to climate resilience?",
+        "question_type": "synthesis",
+        "difficulty": "hard",
+        "expected_behavior": "answer",
+        "gold_answer": "SSL reflects a transdisciplinary approach by combining perspectives from community engagement, infrastructure, housing, governance, health, migration, Indigenous resilience, and workforce development through partnerships, collaborative networks, and varied research initiatives.",
+        "gold_support_type": "mixed",
+        "gold_source_ids": [
+            "ssl.json",
+            "ssl_website_cliir",
+            "ssl_website_ncjrc"
+        ],
+        "notes": "Tests synthesis around transdisciplinary structure, themes, and initiatives."
+    },
+    {
+        "question_id": "SYN-NEW-10",
+        "question": "How does SSL connect its research on vulnerable populations to its broader climate adaptation work?",
+        "question_type": "synthesis",
+        "difficulty": "hard",
+        "expected_behavior": "answer",
+        "gold_answer": "SSL connects research on vulnerable populations to its broader climate adaptation work by centering historically excluded communities, studying populations that are often overlooked in resilience planning, and linking those insights to climate preparedness, policy, and community-based adaptation efforts.",
+        "gold_support_type": "mixed",
+        "gold_source_ids": [
+            "who_counts_climate_resilience",
+            "ssl.json",
+            "ssl_overview_presentation_2026.json"
+        ],
+        "notes": "Tests synthesis between vulnerable-population research and adaptation mission."
+    },
+    {
+        "question_id": "TOP-NEW-01",
+        "question": "Has SSL produced any reports specifically for Spanish-speaking communities?",
+        "question_type": "topic_specific",
+        "difficulty": "medium",
+        "expected_behavior": "answer",
+        "gold_answer": "Yes, SSL has produced a Spanish-language report titled 'Oportunidad en la Complejidad', which is a translation of its East Boston climate resilience work to better reach Spanish-speaking communities.",
+        "gold_support_type": "pdf",
+        "gold_source_ids": [
+            "oportunidad_en_la_complejidad"
+        ],
+        "notes": "Tests retrieval with phrasing 'Spanish-speaking communities' instead of 'multilingual' or 'Spanish-language report'."
+    },
+    {
+        "question_id": "TOP-NEW-02",
+        "question": "Does SSL do any work related to training people for climate-related jobs?",
+        "question_type": "topic_specific",
+        "difficulty": "medium",
+        "expected_behavior": "answer",
+        "gold_answer": "Yes, SSL runs the Climate Careers Curricula Initiative (C3I), which provides training for climate-related jobs such as solar installation, energy auditing, and nature-based solutions.",
+        "gold_support_type": "website",
+        "gold_source_ids": [
+            "ssl_website_c3i"
+        ],
+        "notes": "Tests retrieval using informal phrasing instead of direct reference to 'C3I program'."
+    },
+    {
+        "question_id": "TOP-NEW-03",
+        "question": "Has SSL done any work focused on helping coastal communities deal with climate challenges?",
+        "question_type": "topic_specific",
+        "difficulty": "medium",
+        "expected_behavior": "answer",
+        "gold_answer": "Yes, SSL has conducted work focused on coastal communities, including research in East Boston that examines climate resilience challenges and adaptation strategies in that area.",
+        "gold_support_type": "pdf",
+        "gold_source_ids": [
+            "opportunity_in_complexity"
+        ],
+        "notes": "Tests retrieval using indirect phrasing ('coastal communities') instead of explicit location names like East Boston."
+    },
+    {
+        "question_id": "TOP-NEW-04",
+        "question": "Has SSL studied how climate change affects people who do not have stable housing?",
+        "question_type": "topic_specific",
+        "difficulty": "medium",
+        "expected_behavior": "answer",
+        "gold_answer": "Yes, SSL has examined how climate change affects vulnerable populations, including people experiencing housing instability, through research such as the Climate and Housing Crisis report and related work on climate resilience and social vulnerability.",
+        "gold_support_type": "mixed",
+        "gold_source_ids": [
+            "climate_housing_crisis",
+            "who_counts_climate_resilience"
+        ],
+        "notes": "Tests retrieval with paraphrased wording for 'housing instability' and 'transient populations'."
+    },
+    {
+        "question_id": "REAL-NEW-01",
+        "question": "What kind of stuff does SSL actually work on?",
+        "question_type": "general_overview",
+        "difficulty": "easy",
+        "expected_behavior": "answer",
+        "gold_answer": "SSL works on climate resilience and adaptation through research, community engagement, infrastructure projects, and policy-related work, with a focus on supporting historically excluded communities.",
+        "gold_support_type": "website",
+        "gold_source_ids": [
+            "ssl.json"
+        ],
+        "notes": "Tests ability to handle vague, informal phrasing instead of structured overview questions."
+    },
+    {
+        "question_id": "REAL-NEW-02",
+        "question": "Are they mostly doing research or do they actually help communities too?",
+        "question_type": "topic_specific",
+        "difficulty": "medium",
+        "expected_behavior": "answer",
+        "gold_answer": "SSL does both research and community-focused work, combining academic studies with direct engagement, partnerships, and community-led climate resilience initiatives.",
+        "gold_support_type": "mixed",
+        "gold_source_ids": [
+            "ssl.json",
+            "community_led_climate_preparedness",
+            "ssl_website_barr"
+        ],
+        "notes": "Tests handling of conversational phrasing and implicit comparison between research and community action."
+    },
+    {
+        "question_id": "REAL-NEW-03",
+        "question": "Do they just study climate change or do they actually do anything about it?",
+        "question_type": "general_overview",
+        "difficulty": "medium",
+        "expected_behavior": "answer",
+        "gold_answer": "SSL goes beyond studying climate change by actively supporting climate resilience through community engagement, partnerships, applied research, and initiatives like workforce training and infrastructure projects.",
+        "gold_support_type": "mixed",
+        "gold_source_ids": [
+            "ssl.json",
+            "ssl_website_c3i",
+            "cape_cod_rail_resilience"
+        ],
+        "notes": "Tests ability to interpret informal skepticism and respond with full scope of activities."
+    },
+    {
+        "question_id": "REAL-NEW-04",
+        "question": "Is SSL focused more on policy, research, or actual projects?",
+        "question_type": "topic_specific",
+        "difficulty": "medium",
+        "expected_behavior": "answer",
+        "gold_answer": "SSL works across all three areas, combining policy research, academic studies, and real-world projects such as infrastructure resilience efforts and community-based climate initiatives.",
+        "gold_support_type": "mixed",
+        "gold_source_ids": [
+            "governance_changing_climate",
+            "cape_cod_rail_resilience",
+            "ssl.json"
+        ],
+        "notes": "Tests ability to answer comparative, ambiguous user intent across multiple categories."
+    },
+    {
+        "question_id": "NEG-NEW-01",
+        "question": "Does SSL work on reducing carbon emissions in cities?",
+        "question_type": "no_evidence",
+        "difficulty": "medium",
+        "expected_behavior": "refuse",
+        "gold_answer": "There is no documented evidence that SSL focuses specifically on reducing carbon emissions in cities. Its work centers on climate resilience, adaptation, and community-focused research rather than emissions reduction.",
+        "gold_support_type": "no_evidence",
+        "gold_source_ids": [],
+        "notes": "Tests refusal for a very plausible but unsupported topic (urban emissions reduction)."
+    },
+    {
+        "question_id": "NEG-NEW-02",
+        "question": "Has SSL developed any technology or tools for predicting climate change impacts?",
+        "question_type": "no_evidence",
+        "difficulty": "medium",
+        "expected_behavior": "refuse",
+        "gold_answer": "There is no evidence that SSL develops predictive technologies or tools for climate change impacts. Its work focuses on research, policy, community engagement, and resilience planning rather than building predictive systems.",
+        "gold_support_type": "no_evidence",
+        "gold_source_ids": [],
+        "notes": "Tests refusal on a plausible but incorrect assumption about technical tool development."
+    },
+    {
+        "question_id": "NEG-NEW-03",
+        "question": "Does SSL run programs focused on climate education for schools or students?",
+        "question_type": "no_evidence",
+        "difficulty": "medium",
+        "expected_behavior": "refuse",
+        "gold_answer": "There is no documented evidence that SSL runs climate education programs specifically for schools or students. While it offers workforce training through initiatives like C3I, it does not focus on school-based education programs.",
+        "gold_support_type": "no_evidence",
+        "gold_source_ids": [],
+        "notes": "Tests confusion between workforce training and formal education programs."
+    },
+    {
+        "question_id": "NEG-NEW-04",
+        "question": "Has SSL done any work on renewable energy systems like solar or wind farms?",
+        "question_type": "no_evidence",
+        "difficulty": "medium",
+        "expected_behavior": "refuse",
+        "gold_answer": "There is no evidence that SSL conducts research or development on renewable energy systems like solar or wind farms. While its C3I program includes training related to solar installation, SSL itself focuses on climate resilience and adaptation rather than energy system development.",
+        "gold_support_type": "no_evidence",
+        "gold_source_ids": [],
+        "notes": "Tests edge case where related concept (solar training) exists but core claim is incorrect."
+    },
+    {
+        "question_id": "NEG-NEW-05",
+        "question": "Does SSL create climate models to predict future environmental changes?",
+        "question_type": "no_evidence",
+        "difficulty": "medium",
+        "expected_behavior": "refuse",
+        "gold_answer": "There is no evidence that SSL creates climate models or predictive simulations. Its work focuses on climate resilience, adaptation, and community-engaged research rather than predictive modeling.",
+        "gold_support_type": "no_evidence",
+        "gold_source_ids": [],
+        "notes": "Tests confusion between climate research and climate modeling."
+    },
+    {
+        "question_id": "NEG-NEW-06",
+        "question": "Has SSL directly built or engineered climate-related infrastructure projects?",
+        "question_type": "no_evidence",
+        "difficulty": "hard",
+        "expected_behavior": "refuse",
+        "gold_answer": "There is no documented evidence that SSL directly designs or builds infrastructure projects. While it studies infrastructure resilience and collaborates on related research, its role is focused on analysis and planning rather than construction or engineering.",
+        "gold_support_type": "no_evidence",
+        "gold_source_ids": [],
+        "notes": "Tests subtle distinction between studying infrastructure and actually building it."
+    }
+]
