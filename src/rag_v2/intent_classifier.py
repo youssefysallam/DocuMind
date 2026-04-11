@@ -111,7 +111,7 @@ def classify_intent_llm(question: str, client: "OpenAI", model: str) -> str:
 def classify_intent(
     question: str,
     client: "OpenAI | None" = None,
-    model: str = "gpt-4o-mini",
+    model: str = "openai/gpt-5.4",
     use_llm_fallback: bool = True,
 ) -> str:
     """Hybrid intent classification: keyword fast-path + LLM fallback.

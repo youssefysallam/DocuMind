@@ -78,7 +78,7 @@ PROJECT_ROOT = Path(__file__).resolve().parents[2]
 load_dotenv(PROJECT_ROOT / ".env")
 
 # V2 reads LLM_MODEL_V2 first; falls back to LLM_MODEL for backward compat
-LLM_MODEL = os.getenv("LLM_MODEL_V2") or os.getenv("LLM_MODEL", "gpt-5-chat-latest")
+LLM_MODEL = os.getenv("LLM_MODEL_V2") or os.getenv("LLM_MODEL", "openai/gpt-5.4")
 
 RESULTS_V2 = PROJECT_ROOT / "results" / "v2"
 EVAL_PHASE2_DIR = PROJECT_ROOT / "data" / "eval_phase2"

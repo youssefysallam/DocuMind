@@ -28,7 +28,7 @@ TOP_K_DENSE = 20
 TOP_K_SPARSE = 20
 TOP_K_FINAL = 5
 
-LLM_DISPLAY = os.getenv("LLM_MODEL_V2") or os.getenv("LLM_MODEL", "gpt-5-chat-latest")
+LLM_DISPLAY = os.getenv("LLM_MODEL_V2") or os.getenv("LLM_MODEL", "openai/gpt-5.4")
 
 # ── System loading ──────────────────────────────────────────────────
 

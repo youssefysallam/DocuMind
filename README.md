@@ -270,32 +270,80 @@ From `results/final/rag_v1_error_analysis.json` — 5 items with `appropriate_be
 ### Prerequisites
 
 - Python ≥ 3.10
-- OpenAI API key (for `gpt-4o-mini`)
+- An OpenAI-compatible API key (OpenAI direct or [OpenRouter](https://openrouter.ai))
 
-### Install
+### 7.1 Install
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/youssefysallam/institute-rag.git
 cd institute-rag
+git checkout feat/embeddings
 pip install -e .
-copy .env.example .env
-# Edit .env to set OPENAI_API_KEY
+pip install gradio
 ```
 
-### Run full evaluation
+### 7.2 Configure API key
+
+```bash
+copy .env.example .env
+```
+
+Open `.env` and fill in the API credentials:
+
+**Option A — OpenRouter (recommended, supports gpt-5.4):**
+
+```
+OPENAI_API_KEY=sk-or-v1-your-key-here
+OPENAI_BASE_URL=https://openrouter.ai/api/v1
+LLM_MODEL=openai/gpt-4o-mini
+LLM_MODEL_V2=openai/gpt-5.4
+```
+
+**Option B — Official OpenAI directly:**
+
+```
+OPENAI_API_KEY=sk-your-openai-key
+LLM_MODEL=gpt-4o-mini
+LLM_MODEL_V2=gpt-5.4
+```
+
+> **Important:** If you are NOT using OpenRouter, do NOT set `OPENAI_BASE_URL` — leave it commented out or delete the line entirely. An empty value will cause errors.
+
+### 7.3 Launch RAG V2 Web UI
+
+```bash
+set PYTHONPATH=src
+python -m rag_v2.app
+```
+
+Wait for `[UI] System ready.` to appear in the terminal, then open **http://localhost:7860** in your browser.
+
+The UI has three tabs:
+- **Chat** — multi-turn conversation with source attribution and consistency check
+- **Evaluation** — V1 vs V2 metrics dashboard
+- **System** — configuration and feature summary
+
+> **First launch will be slow (~30s):** it downloads embedding models (`all-MiniLM-L6-v2`, `ms-marco-MiniLM-L-6-v2`) and builds the FAISS index. Subsequent launches use the cached index and start in ~5s.
+
+### 7.4 Launch RAG V2 CLI (no browser needed)
+
+```bash
+set PYTHONPATH=src
+python -m rag_v2.demo
+```
+
+Type questions in the terminal. Supports multi-turn conversation. Type `quit` to exit.
+
+### 7.5 Run V1 evaluation (70 questions)
 
 ```bash
 set PYTHONPATH=src
 python -m rag_v1.pipeline
 ```
 
-This will:
-1. Load the unified corpus (5,227 chunks)
-2. Build contextualized embeddings and FAISS index (cached after first run)
-3. Evaluate all 70 questions
-4. Save results to `results/final/`
+This loads the corpus, evaluates all 70 questions, and saves results to `results/final/`.
 
-### Run raw-to-embedding agent
+### 7.6 Run raw-to-embedding agent
 
 ```bash
 set PYTHONPATH=src
@@ -303,16 +351,24 @@ python -m raw_to_embedding.pipeline --pdf path/to/doc.pdf -o output/chunks.json
 python -m raw_to_embedding.pipeline --help
 ```
 
-The agent automatically decides which document sections need LLM-driven segmentation (complex, multi-topic blocks) and which can be handled by deterministic splitting (simple, well-structured sections).
-
 ---
 
 ## 8. Repository Structure
 
 ```
 ├── src/
-│   ├── rag_v1/                     # RAG pipeline (retrieval + generation + eval)
-│   │   ├── pipeline.py             # Main entry point (883 lines)
+│   ├── rag_v1/                     # RAG V1 pipeline (retrieval + generation + eval)
+│   │   ├── pipeline.py             # Main entry point
+│   │   └── __init__.py
+│   ├── rag_v2/                     # RAG V2 pipeline (multi-turn, intent-driven)
+│   │   ├── pipeline.py             # Core ask() function + evaluation
+│   │   ├── app.py                  # Gradio Web UI
+│   │   ├── demo.py                 # CLI multi-turn demo
+│   │   ├── multiturn.py            # Coreference resolution + retrieval strategy
+│   │   ├── intent_classifier.py    # Hybrid keyword + LLM intent classification
+│   │   ├── query_transform.py      # HyDE, sub-query decomposition
+│   │   ├── consistency.py          # Answer-evidence consistency check
+│   │   ├── session.py              # Session memory for multi-turn
 │   │   └── __init__.py
 │   └── raw_to_embedding/           # AI Agent–driven embedding pipeline
 │       ├── pipeline.py             # CLI entry point
@@ -320,22 +376,20 @@ The agent automatically decides which document sections need LLM-driven segmenta
 │       ├── chunker.py              # Segmentation → chunks
 │       ├── embedder.py             # Sentence-transformer helper
 │       ├── corpus_build/           # SSL-specific builders
-│       │   ├── pilot_single_pdf.py # Per-PDF semantic chunking
-│       │   └── website_to_chunks.py# Website → unified index
 │       ├── extractors/             # PDF and HTML extractors
 │       ├── processors/             # LLM segmentation agent, chunking
-│       │   └── semantic_segmentation_agent.py  # ★ Core agent logic
 │       ├── validators/             # Anti-hallucination validation
 │       └── utils/                  # Text cleaning, I/O
 ├── data/
-│   ├── eval_70/                    # 70-question evaluation dataset
+│   ├── eval_70/                    # 70-question evaluation dataset (Phase 1)
+│   ├── eval_phase2/                # 104-question dataset (Phase 2, incl. multi-turn)
 │   └── rag_v1/                     # QA memory + contextualized chunks
-├── processed/
-│   └── final_corpus_bundle/        # Unified PDF + website corpus (embeddings + FAISS)
+├── data/final_corpus_bundle/       # Unified PDF + website corpus (embeddings + FAISS)
 ├── results/
-│   ├── final/                      # RAG evaluation outputs
-│   └── raw_to_embedding/           # Corpus build reports + smoke test
-├── report/                         # English experiment reports
+│   ├── final/                      # V1 evaluation outputs
+│   └── v2/                         # V2 evaluation outputs + V1-vs-V2 comparison
+├── report/                         # Experiment reports (EN + ZH)
+├── scripts/                        # Report generation + V1 Phase 2 eval
 ├── configs/                        # Path conventions
 ├── pyproject.toml
 └── .env.example
