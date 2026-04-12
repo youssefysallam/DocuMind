@@ -223,6 +223,9 @@ raw_to_embedding_agent/
 # Raw source PDFs (too large for git)
 src/raw_to_embedding/rawdata/pdfs/
 
+# Frontend (Next.js) — override Python lib/ rule
+!frontend/lib/
+
 # OS files
 Thumbs.db
 .DS_Store
