@@ -309,7 +309,29 @@ LLM_MODEL_V2=gpt-5.4
 
 > **Important:** If you are NOT using OpenRouter, do NOT set `OPENAI_BASE_URL` — leave it commented out or delete the line entirely. An empty value will cause errors.
 
-### 7.3 Launch RAG V2 Web UI
+### 7.3 Launch InfoWeave V2 UI
+
+Run these in two terminals:
+
+```bash
+# Terminal 1
+set PYTHONPATH=src
+python -m rag_v2.api
+```
+
+```bash
+# Terminal 2
+cd frontend
+npm run dev
+```
+
+Then open **http://localhost:3000**.
+
+If the FastAPI server is not running on port `8000`, the frontend chat page will
+fail because it sends requests to `/api/chat`, `/api/eval`, `/api/system`, and
+`/api/session/clear` through the Next.js proxy.
+
+### 7.4 Launch RAG V2 Gradio Web UI
 
 ```bash
 set PYTHONPATH=src
@@ -325,7 +347,7 @@ The UI has three tabs:
 
 > **First launch will be slow (~30s):** it downloads embedding models (`all-MiniLM-L6-v2`, `ms-marco-MiniLM-L-6-v2`) and builds the FAISS index. Subsequent launches use the cached index and start in ~5s.
 
-### 7.4 Launch RAG V2 CLI (no browser needed)
+### 7.5 Launch RAG V2 CLI (no browser needed)
 
 ```bash
 set PYTHONPATH=src

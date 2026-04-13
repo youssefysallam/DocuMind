@@ -14,6 +14,23 @@ export default function ConsistencyCheck({
 }: ConsistencyCheckProps) {
   const [open, setOpen] = useState(false);
 
+  const confidencePercent = consistency
+    ? Math.round(consistency.confidence * 100)
+    : null;
+
+  const confidenceColor =
+    confidencePercent === null
+      ? "text-slate-400"
+      : confidencePercent >= 90
+        ? "text-emerald-700"
+        : confidencePercent >= 80
+          ? "text-emerald-500"
+          : confidencePercent >= 70
+            ? "text-yellow-500"
+            : confidencePercent >= 60
+              ? "text-orange-500"
+              : "text-red-600";
+
   return (
     <div className="border-t border-slate-200/50">
       <button
@@ -43,6 +60,15 @@ export default function ConsistencyCheck({
                 </p>
               ) : (
                 <div className="space-y-2 text-xs">
+                  <p className="text-sm font-semibold text-zinc-900">
+                    Confidence in result{" "}
+                    <span
+                      className={`text-sm font-[family-name:var(--font-geist-mono)] ${confidenceColor}`}
+                    >
+                      {confidencePercent}%
+                    </span>
+                  </p>
+
                   <div className="flex items-center gap-2">
                     {consistency.is_consistent ? (
                       <CheckCircle
@@ -59,11 +85,8 @@ export default function ConsistencyCheck({
                     )}
                     <span className="font-medium text-zinc-900">
                       {consistency.is_consistent
-                        ? "Consistent"
-                        : "Issues detected"}
-                    </span>
-                    <span className="font-[family-name:var(--font-geist-mono)] text-slate-400">
-                      {(consistency.confidence * 100).toFixed(0)}%
+                        ? "Evidence aligned"
+                        : "Some claims need review"}
                     </span>
                   </div>
 
@@ -71,7 +94,7 @@ export default function ConsistencyCheck({
                     consistency.unsupported_claims.length > 0 && (
                       <div>
                         <span className="text-slate-400">
-                          Unsupported claims
+                          Claims that may go beyond the retrieved evidence
                         </span>
                         <ul className="mt-1 space-y-1">
                           {consistency.unsupported_claims.map((claim, i) => (
