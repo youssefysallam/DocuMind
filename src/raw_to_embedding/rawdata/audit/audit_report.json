@@ -1,0 +1,405 @@
+{
+  "generated_at": "2026-03-27T01:43:42.126751+00:00",
+  "page_url_checks": [
+    {
+      "url": "https://scholarworks.umb.edu/ssl",
+      "final_url": "https://scholarworks.umb.edu/ssl/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 34805,
+      "ok": true
+    },
+    {
+      "url": "https://scholarworks.umb.edu/ssl/1",
+      "final_url": "https://scholarworks.umb.edu/ssl/1/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 41240,
+      "ok": true
+    },
+    {
+      "url": "https://scholarworks.umb.edu/ssl/10",
+      "final_url": "https://scholarworks.umb.edu/ssl/10/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 40793,
+      "ok": true
+    },
+    {
+      "url": "https://scholarworks.umb.edu/ssl/11",
+      "final_url": "https://scholarworks.umb.edu/ssl/11/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 37949,
+      "ok": true
+    },
+    {
+      "url": "https://scholarworks.umb.edu/ssl/12",
+      "final_url": "https://scholarworks.umb.edu/ssl/12/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 35671,
+      "ok": true
+    },
+    {
+      "url": "https://scholarworks.umb.edu/ssl/13",
+      "final_url": "https://scholarworks.umb.edu/ssl/13/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 35930,
+      "ok": true
+    },
+    {
+      "url": "https://scholarworks.umb.edu/ssl/14",
+      "final_url": "https://scholarworks.umb.edu/ssl/14/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 36671,
+      "ok": true
+    },
+    {
+      "url": "https://scholarworks.umb.edu/ssl/15",
+      "final_url": "https://scholarworks.umb.edu/ssl/15/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 36783,
+      "ok": true
+    },
+    {
+      "url": "https://scholarworks.umb.edu/ssl/2",
+      "final_url": "https://scholarworks.umb.edu/ssl/2/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 37812,
+      "ok": true
+    },
+    {
+      "url": "https://scholarworks.umb.edu/ssl/3",
+      "final_url": "https://scholarworks.umb.edu/ssl/3/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 34222,
+      "ok": true
+    },
+    {
+      "url": "https://scholarworks.umb.edu/ssl/4",
+      "final_url": "https://scholarworks.umb.edu/ssl/4/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 42030,
+      "ok": true
+    },
+    {
+      "url": "https://scholarworks.umb.edu/ssl/5",
+      "final_url": "https://scholarworks.umb.edu/ssl/5/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 39106,
+      "ok": true
+    },
+    {
+      "url": "https://scholarworks.umb.edu/ssl/6",
+      "final_url": "https://scholarworks.umb.edu/ssl/6/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 34498,
+      "ok": true
+    },
+    {
+      "url": "https://scholarworks.umb.edu/ssl/7",
+      "final_url": "https://scholarworks.umb.edu/ssl/7/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 39412,
+      "ok": true
+    },
+    {
+      "url": "https://scholarworks.umb.edu/ssl/8",
+      "final_url": "https://scholarworks.umb.edu/ssl/8/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 42286,
+      "ok": true
+    },
+    {
+      "url": "https://scholarworks.umb.edu/ssl/9",
+      "final_url": "https://scholarworks.umb.edu/ssl/9/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 43608,
+      "ok": true
+    },
+    {
+      "url": "https://scholarworks.umb.edu/ssl/announcements.html",
+      "final_url": "https://scholarworks.umb.edu/ssl/announcements.html",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 17401,
+      "ok": true
+    },
+    {
+      "url": "https://www.umb.edu/ssl",
+      "final_url": "https://www.umb.edu/ssl/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 37559,
+      "ok": true
+    },
+    {
+      "url": "https://www.umb.edu/ssl/people",
+      "final_url": "https://www.umb.edu/ssl/people/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 37568,
+      "ok": true
+    },
+    {
+      "url": "https://www.umb.edu/ssl/people/board-of-directors",
+      "final_url": "https://www.umb.edu/ssl/people/board-of-directors/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 39477,
+      "ok": true
+    },
+    {
+      "url": "https://www.umb.edu/ssl/people/students",
+      "final_url": "https://www.umb.edu/ssl/people/students/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 47533,
+      "ok": true
+    },
+    {
+      "url": "https://www.umb.edu/ssl/people/university-affiliates",
+      "final_url": "https://www.umb.edu/ssl/people/university-affiliates/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 28005,
+      "ok": true
+    },
+    {
+      "url": "https://www.umb.edu/ssl/projects",
+      "final_url": "https://www.umb.edu/ssl/projects/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 41110,
+      "ok": true
+    },
+    {
+      "url": "https://www.umb.edu/ssl/research",
+      "final_url": "https://www.umb.edu/ssl/research/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 70946,
+      "ok": true
+    }
+  ],
+  "pdf_url_checks": [
+    {
+      "url": "https://scholarworks.umb.edu/cgi/viewcontent.cgi?article=1000&context=ssl",
+      "final_url": "https://scholarworks.umb.edu/cgi/viewcontent.cgi?article=1000&context=ssl",
+      "status": 202,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 0,
+      "ok": true,
+      "note": "ScholarWorks viewcontent：自动化 GET 常为 WAF 挑战/空体；本地 PDF 以 rawdata/pdfs/scholarworks/ 为准（Playwright 已下载）。"
+    },
+    {
+      "url": "https://scholarworks.umb.edu/cgi/viewcontent.cgi?article=1001&context=ssl",
+      "final_url": "https://scholarworks.umb.edu/cgi/viewcontent.cgi?article=1001&context=ssl",
+      "status": 202,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 0,
+      "ok": true,
+      "note": "ScholarWorks viewcontent：自动化 GET 常为 WAF 挑战/空体；本地 PDF 以 rawdata/pdfs/scholarworks/ 为准（Playwright 已下载）。"
+    },
+    {
+      "url": "https://scholarworks.umb.edu/cgi/viewcontent.cgi?article=1002&context=ssl",
+      "final_url": "https://scholarworks.umb.edu/cgi/viewcontent.cgi?article=1002&context=ssl",
+      "status": 202,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 0,
+      "ok": true,
+      "note": "ScholarWorks viewcontent：自动化 GET 常为 WAF 挑战/空体；本地 PDF 以 rawdata/pdfs/scholarworks/ 为准（Playwright 已下载）。"
+    },
+    {
+      "url": "https://scholarworks.umb.edu/cgi/viewcontent.cgi?article=1003&context=ssl",
+      "final_url": "https://scholarworks.umb.edu/cgi/viewcontent.cgi?article=1003&context=ssl",
+      "status": 202,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 0,
+      "ok": true,
+      "note": "ScholarWorks viewcontent：自动化 GET 常为 WAF 挑战/空体；本地 PDF 以 rawdata/pdfs/scholarworks/ 为准（Playwright 已下载）。"
+    },
+    {
+      "url": "https://scholarworks.umb.edu/cgi/viewcontent.cgi?article=1004&context=ssl",
+      "final_url": "https://scholarworks.umb.edu/cgi/viewcontent.cgi?article=1004&context=ssl",
+      "status": 202,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 0,
+      "ok": true,
+      "note": "ScholarWorks viewcontent：自动化 GET 常为 WAF 挑战/空体；本地 PDF 以 rawdata/pdfs/scholarworks/ 为准（Playwright 已下载）。"
+    },
+    {
+      "url": "https://scholarworks.umb.edu/cgi/viewcontent.cgi?article=1005&context=ssl",
+      "final_url": "https://scholarworks.umb.edu/cgi/viewcontent.cgi?article=1005&context=ssl",
+      "status": 202,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 0,
+      "ok": true,
+      "note": "ScholarWorks viewcontent：自动化 GET 常为 WAF 挑战/空体；本地 PDF 以 rawdata/pdfs/scholarworks/ 为准（Playwright 已下载）。"
+    },
+    {
+      "url": "https://scholarworks.umb.edu/cgi/viewcontent.cgi?article=1006&context=ssl",
+      "final_url": "https://scholarworks.umb.edu/cgi/viewcontent.cgi?article=1006&context=ssl",
+      "status": 202,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 0,
+      "ok": true,
+      "note": "ScholarWorks viewcontent：自动化 GET 常为 WAF 挑战/空体；本地 PDF 以 rawdata/pdfs/scholarworks/ 为准（Playwright 已下载）。"
+    },
+    {
+      "url": "https://scholarworks.umb.edu/cgi/viewcontent.cgi?article=1007&context=ssl",
+      "final_url": "https://scholarworks.umb.edu/cgi/viewcontent.cgi?article=1007&context=ssl",
+      "status": 202,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 0,
+      "ok": true,
+      "note": "ScholarWorks viewcontent：自动化 GET 常为 WAF 挑战/空体；本地 PDF 以 rawdata/pdfs/scholarworks/ 为准（Playwright 已下载）。"
+    },
+    {
+      "url": "https://scholarworks.umb.edu/cgi/viewcontent.cgi?article=1008&context=ssl",
+      "final_url": "https://scholarworks.umb.edu/cgi/viewcontent.cgi?article=1008&context=ssl",
+      "status": 202,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 0,
+      "ok": true,
+      "note": "ScholarWorks viewcontent：自动化 GET 常为 WAF 挑战/空体；本地 PDF 以 rawdata/pdfs/scholarworks/ 为准（Playwright 已下载）。"
+    },
+    {
+      "url": "https://scholarworks.umb.edu/cgi/viewcontent.cgi?article=1009&context=ssl",
+      "final_url": "https://scholarworks.umb.edu/cgi/viewcontent.cgi?article=1009&context=ssl",
+      "status": 202,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 0,
+      "ok": true,
+      "note": "ScholarWorks viewcontent：自动化 GET 常为 WAF 挑战/空体；本地 PDF 以 rawdata/pdfs/scholarworks/ 为准（Playwright 已下载）。"
+    },
+    {
+      "url": "https://scholarworks.umb.edu/cgi/viewcontent.cgi?article=1010&context=ssl",
+      "final_url": "https://scholarworks.umb.edu/cgi/viewcontent.cgi?article=1010&context=ssl",
+      "status": 202,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 0,
+      "ok": true,
+      "note": "ScholarWorks viewcontent：自动化 GET 常为 WAF 挑战/空体；本地 PDF 以 rawdata/pdfs/scholarworks/ 为准（Playwright 已下载）。"
+    },
+    {
+      "url": "https://scholarworks.umb.edu/cgi/viewcontent.cgi?article=1011&context=ssl",
+      "final_url": "https://scholarworks.umb.edu/cgi/viewcontent.cgi?article=1011&context=ssl",
+      "status": 202,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 0,
+      "ok": true,
+      "note": "ScholarWorks viewcontent：自动化 GET 常为 WAF 挑战/空体；本地 PDF 以 rawdata/pdfs/scholarworks/ 为准（Playwright 已下载）。"
+    },
+    {
+      "url": "https://scholarworks.umb.edu/cgi/viewcontent.cgi?article=1012&context=ssl",
+      "final_url": "https://scholarworks.umb.edu/cgi/viewcontent.cgi?article=1012&context=ssl",
+      "status": 202,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 0,
+      "ok": true,
+      "note": "ScholarWorks viewcontent：自动化 GET 常为 WAF 挑战/空体；本地 PDF 以 rawdata/pdfs/scholarworks/ 为准（Playwright 已下载）。"
+    },
+    {
+      "url": "https://scholarworks.umb.edu/cgi/viewcontent.cgi?article=1013&context=ssl",
+      "final_url": "https://scholarworks.umb.edu/cgi/viewcontent.cgi?article=1013&context=ssl",
+      "status": 202,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 0,
+      "ok": true,
+      "note": "ScholarWorks viewcontent：自动化 GET 常为 WAF 挑战/空体；本地 PDF 以 rawdata/pdfs/scholarworks/ 为准（Playwright 已下载）。"
+    },
+    {
+      "url": "https://scholarworks.umb.edu/cgi/viewcontent.cgi?article=1014&context=ssl",
+      "final_url": "https://scholarworks.umb.edu/cgi/viewcontent.cgi?article=1014&context=ssl",
+      "status": 202,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 0,
+      "ok": true,
+      "note": "ScholarWorks viewcontent：自动化 GET 常为 WAF 挑战/空体；本地 PDF 以 rawdata/pdfs/scholarworks/ 为准（Playwright 已下载）。"
+    },
+    {
+      "url": "https://www.umb.edu/media/umassboston/content-assets/documents/Governance-for-a-Changing-Climate-Full-Report-UMB-SSL.pdf",
+      "final_url": "https://www.umb.edu/media/umassboston/content-assets/documents/Governance-for-a-Changing-Climate-Full-Report-UMB-SSL.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "bytes": 5367291,
+      "ok": true
+    },
+    {
+      "url": "https://www.umb.edu/media/umassboston/content-assets/documents/Governance_for_a_Changing_Climate_Executive_Summary_UMB_SSL.pdf",
+      "final_url": "https://www.umb.edu/media/umassboston/content-assets/documents/Governance_for_a_Changing_Climate_Executive_Summary_UMB_SSL.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "bytes": 1381703,
+      "ok": true
+    },
+    {
+      "url": "https://www.umb.edu/media/umassboston/content-assets/documents/SSL_Views_That_Matter_9-2020.pdf",
+      "final_url": "https://www.umb.edu/media/umassboston/content-assets/documents/SSL_Views_That_Matter_9-2020.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "bytes": 3359455,
+      "ok": true
+    },
+    {
+      "url": "https://www.umb.edu/media/umassboston/editor-uploads/sustainable-solutions-lab/documents/Who-Counts-In-Climate-Resilience-Web.pdf",
+      "final_url": "https://www.umb.edu/media/umassboston/editor-uploads/sustainable-solutions-lab/documents/Who-Counts-In-Climate-Resilience-Web.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "bytes": 1864614,
+      "ok": true
+    }
+  ],
+  "scholarworks_gap_analysis": {
+    "viewcontent_from_saved_index_html": 15,
+    "viewcontent_from_live_index": 15,
+    "live_fetch_error": null,
+    "urls_in_page_but_not_in_scholarworks_pdf_urls_txt": [],
+    "new_links_on_live_vs_saved_html": []
+  },
+  "pdf_files_copied": {
+    "www_umb_media": [
+      "rawdata\\pdfs\\www_umb_media\\Governance-for-a-Changing-Climate-Full-Report-UMB-SSL.pdf",
+      "rawdata\\pdfs\\www_umb_media\\Governance_for_a_Changing_Climate_Executive_Summary_UMB_SSL.pdf",
+      "rawdata\\pdfs\\www_umb_media\\SSL_Views_That_Matter_9-2020.pdf",
+      "rawdata\\pdfs\\www_umb_media\\Who-Counts-In-Climate-Resilience-Web.pdf"
+    ],
+    "scholarworks": [
+      "rawdata\\pdfs\\scholarworks\\article1000.pdf",
+      "rawdata\\pdfs\\scholarworks\\article1001.pdf",
+      "rawdata\\pdfs\\scholarworks\\article1002.pdf",
+      "rawdata\\pdfs\\scholarworks\\article1003.pdf",
+      "rawdata\\pdfs\\scholarworks\\article1004.pdf",
+      "rawdata\\pdfs\\scholarworks\\article1005.pdf",
+      "rawdata\\pdfs\\scholarworks\\article1006.pdf",
+      "rawdata\\pdfs\\scholarworks\\article1007.pdf",
+      "rawdata\\pdfs\\scholarworks\\article1008.pdf",
+      "rawdata\\pdfs\\scholarworks\\article1009.pdf",
+      "rawdata\\pdfs\\scholarworks\\article1010.pdf",
+      "rawdata\\pdfs\\scholarworks\\article1011.pdf",
+      "rawdata\\pdfs\\scholarworks\\article1012.pdf",
+      "rawdata\\pdfs\\scholarworks\\article1013.pdf",
+      "rawdata\\pdfs\\scholarworks\\article1014.pdf"
+    ]
+  },
+  "counts": {
+    "html_pages": 24,
+    "www_umb_media_pdf_urls": 4,
+    "scholarworks_pdf_urls": 15,
+    "files_www_umb_media": 4,
+    "files_scholarworks": 15
+  }
+}

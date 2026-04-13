@@ -1,0 +1,202 @@
+{
+  "per_pdf": {
+    "Community-Led_Climate_Preparedness_and_Resilience_": {
+      "pdf": "Community-Led_Climate_Preparedness_and_Resilience_",
+      "total_chunks": 174,
+      "c1": {
+        "avg": 583.6,
+        "median": 604,
+        "min": 196,
+        "max": 883,
+        "pct_400_800": 94.3,
+        "pct_over_900": 0.0,
+        "pct_under_200": 0.6,
+        "pass": true
+      },
+      "c2": {
+        "single_topic_pct": 100,
+        "understandable_pct": 100,
+        "natural_boundaries_pct": 95,
+        "pass": true
+      },
+      "c3": {
+        "placeholder_titles": 0,
+        "unique_titles": 18,
+        "subsections": 105,
+        "chunk_types": {
+          "metadata": 6,
+          "paragraph": 164,
+          "table": 4
+        },
+        "pass": true
+      },
+      "c4": {
+        "noise_counts": {
+          "page_headers_footers": 1,
+          "page_numbers": 0,
+          "doi_boilerplate": 1,
+          "crossref_pubmed": 0,
+          "title_type_prefix": 0
+        },
+        "critical_noise": 0,
+        "emb_prefix": 0,
+        "pass": true
+      },
+      "c5": {
+        "pct_complete": 100.0,
+        "missing_fields": {},
+        "invalid_pages": 0,
+        "pass": true
+      }
+    },
+    "Feasibility_of_Harbor-wide_Barrier_Systems__Prelim": {
+      "pdf": "Feasibility_of_Harbor-wide_Barrier_Systems__Prelim",
+      "total_chunks": 762,
+      "c1": {
+        "avg": 582.1,
+        "median": 610,
+        "min": 32,
+        "max": 1292,
+        "pct_400_800": 88.7,
+        "pct_over_900": 0.3,
+        "pct_under_200": 0.1,
+        "pass": true
+      },
+      "c2": {
+        "single_topic_pct": 100,
+        "understandable_pct": 100,
+        "natural_boundaries_pct": 95,
+        "pass": true
+      },
+      "c3": {
+        "placeholder_titles": 0,
+        "unique_titles": 100,
+        "subsections": 154,
+        "chunk_types": {
+          "metadata": 1,
+          "paragraph": 598,
+          "figure_caption": 42,
+          "table": 90,
+          "list": 31
+        },
+        "pass": true
+      },
+      "c4": {
+        "noise_counts": {
+          "page_headers_footers": 8,
+          "page_numbers": 0,
+          "doi_boilerplate": 0,
+          "crossref_pubmed": 0,
+          "title_type_prefix": 0
+        },
+        "critical_noise": 0,
+        "emb_prefix": 0,
+        "pass": true
+      },
+      "c5": {
+        "pct_complete": 100.0,
+        "missing_fields": {},
+        "invalid_pages": 0,
+        "pass": true
+      }
+    },
+    "UMB-SSL-2022-Annual_Report": {
+      "pdf": "UMB-SSL-2022-Annual_Report",
+      "total_chunks": 62,
+      "c1": {
+        "avg": 569.1,
+        "median": 594,
+        "min": 166,
+        "max": 804,
+        "pct_400_800": 85.5,
+        "pct_over_900": 0.0,
+        "pct_under_200": 1.6,
+        "pass": true
+      },
+      "c2": {
+        "single_topic_pct": 100,
+        "understandable_pct": 100,
+        "natural_boundaries_pct": 100,
+        "pass": true
+      },
+      "c3": {
+        "placeholder_titles": 0,
+        "unique_titles": 8,
+        "subsections": 0,
+        "chunk_types": {
+          "metadata": 1,
+          "list": 12,
+          "paragraph": 49
+        },
+        "pass": true
+      },
+      "c4": {
+        "noise_counts": {
+          "page_headers_footers": 0,
+          "page_numbers": 0,
+          "doi_boilerplate": 0,
+          "crossref_pubmed": 0,
+          "title_type_prefix": 0
+        },
+        "critical_noise": 0,
+        "emb_prefix": 0,
+        "pass": true
+      },
+      "c5": {
+        "pct_complete": 100.0,
+        "missing_fields": {},
+        "invalid_pages": 0,
+        "pass": true
+      }
+    },
+    "UMB-SSL-2025-Impact_Report": {
+      "pdf": "UMB-SSL-2025-Impact_Report",
+      "total_chunks": 57,
+      "c1": {
+        "avg": 575.3,
+        "median": 587,
+        "min": 190,
+        "max": 816,
+        "pct_400_800": 91.2,
+        "pct_over_900": 0.0,
+        "pct_under_200": 1.8,
+        "pass": true
+      },
+      "c2": {
+        "single_topic_pct": 100,
+        "understandable_pct": 100,
+        "natural_boundaries_pct": 100,
+        "pass": true
+      },
+      "c3": {
+        "placeholder_titles": 0,
+        "unique_titles": 6,
+        "subsections": 0,
+        "chunk_types": {
+          "paragraph": 57
+        },
+        "pass": true
+      },
+      "c4": {
+        "noise_counts": {
+          "page_headers_footers": 0,
+          "page_numbers": 0,
+          "doi_boilerplate": 0,
+          "crossref_pubmed": 0,
+          "title_type_prefix": 0
+        },
+        "critical_noise": 0,
+        "emb_prefix": 0,
+        "pass": true
+      },
+      "c5": {
+        "pct_complete": 100.0,
+        "missing_fields": {},
+        "invalid_pages": 0,
+        "pass": true
+      }
+    }
+  },
+  "c6_pass": true,
+  "pre_c7_verdict": "ACCEPTED"
+}

@@ -1,0 +1,1 @@
+RAG evaluation logs are not archived separately; see per-question traces in rag_v1_eval_results.json and the automated summary RAG_V1_EVAL_SUMMARY.md (generated when running python -m rag_v1.pipeline).

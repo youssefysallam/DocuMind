@@ -1,0 +1,376 @@
+[
+  {
+    "question_id": "NEG-01",
+    "question": "What is SSL's work on reducing carbon emissions?",
+    "question_type": "no_evidence",
+    "difficulty": "medium",
+    "expected_behavior": "refuse",
+    "gold_answer": "No documented evidence of SSL having specific programs focused on carbon emissions reduction.",
+    "system_answer": "SSL’s work on reducing carbon emissions appears in the context of broader climate justice, resilience, and migration-related research rather than as a standalone emissions-reduction program.\n\nWhat the evidence clearly shows:\n\n- SSL recognizes reducing carbon emissions as necessary for climate accountability, especially for wealthy Western countries like the United States. In its work on climate-induced migration, SSL notes that mitigation investments are important but cautions against over-reliance on technological fixes, arguing that such approaches can reinforce existing inequalities if they primarily serve wealthy actors.\n\n- In its climate resilience financing work, SSL identifies emissions reduction as directly connected to resilience policy. It states that several funding mechanisms could both generate substantial revenue for resilience and reduce carbon emissions, which it describes as the ultimate driver of climate risks.\n\n- One specific policy SSL highlights is a statewide carbon tax in Massachusetts. SSL notes that Massachusetts could become the first state in the U.S. to create such a tax and points to legislative initiatives in that direction.\n\n- SSL also discusses the role of insurance pricing in creating incentives to reduce risk and, indirectly, support decisions that respond to climate impacts. In that context, it says accurate pricing of climate risk can help drive investments, including those that reduce carbon emissions.\n\nWhat is missing from the current evidence:\n\n- The evidence does not describe a dedicated SSL carbon-emissions reduction project, program, or implementation initiative.\n- It also does not provide a full list of SSL strategies for cutting emissions beyond the references to mitigation investments, caution about technological fixes, and support for revenue mechanisms such as a statewide carbon tax.\n\nSo, based on the current corpus, SSL’s work on reducing carbon emissions is primarily policy- and research-oriented, emphasizing:\n1. the necessity of mitigation investments,\n2. caution about inequitable tech-centered solutions, and\n3. financing tools like a statewide carbon tax that can both lower emissions and fund climate resilience.",
+    "resolved_query": "What is SSL's work on reducing carbon emissions?",
+    "intent": "general_overview",
+    "retrieved_chunks": [
+      {
+        "rank": 1,
+        "chunk_id": "QA-001",
+        "source_type": "curated_qa",
+        "source": "qa_memory",
+        "section_title": "What is the Sustainable Solutions Lab (SSL)?",
+        "score": 0.2801,
+        "layer": "qa_memory"
+      },
+      {
+        "rank": 2,
+        "chunk_id": "f85ff3ec12cf08e8",
+        "source_type": "pdf",
+        "source": "Critical approaches to climate-induced migration research and sol.pdf",
+        "section_title": "Introduction",
+        "score": 0.4912,
+        "layer": "corpus"
+      },
+      {
+        "rank": 3,
+        "chunk_id": "905fc36c18709619",
+        "source_type": "pdf",
+        "source": "Executive Summary_Financing Climate Resilience_ Mobilizing Resour.pdf",
+        "section_title": "Resilience Fund",
+        "score": 0.4558,
+        "layer": "corpus"
+      },
+      {
+        "rank": 4,
+        "chunk_id": "0cd8a7ee8b16f85a",
+        "source_type": "pdf",
+        "source": "Financing Climate Resilience_ Mobilizing Resources and Incentives.pdf",
+        "section_title": "6. Expand mass Save program to incentivize",
+        "score": 0.423,
+        "layer": "corpus"
+      },
+      {
+        "rank": 5,
+        "chunk_id": "49d259d682abc231",
+        "source_type": "pdf",
+        "source": "Financing Climate Resilience_ Mobilizing Resources and Incentives.pdf",
+        "section_title": "3. Climate Resilience",
+        "score": 0.3896,
+        "layer": "corpus"
+      }
+    ],
+    "retrieval_eval": {
+      "raw_hit3": null,
+      "raw_hit5": null,
+      "sources": []
+    },
+    "answer_eval": {
+      "factual_accuracy": 1,
+      "completeness": 1,
+      "appropriate_behavior": 0,
+      "hallucination": 2,
+      "is_refusal": 0,
+      "explanation": "The system's answer partially aligns with the gold answer by indicating that SSL does not have specific programs focused on carbon emissions reduction, but it does not explicitly refuse to answer. The completeness is limited as it does not fully capture the nuances of SSL's work, and while it does not state unsupported facts, it lacks a clear refusal."
+    },
+    "retrieval_log": {
+      "intent": "general_overview",
+      "qa_neg_used": false,
+      "hyde_used": false,
+      "final_qa": 1,
+      "final_raw": 4,
+      "strategy": "full_retrieval",
+      "resolved_query": "What is SSL's work on reducing carbon emissions?",
+      "original_query": "What is SSL's work on reducing carbon emissions?",
+      "multihop": {
+        "triggered": false
+      }
+    },
+    "consistency": {
+      "is_consistent": false,
+      "confidence": 0.88,
+      "unsupported_claims": [
+        "SSL notes that mitigation investments are important but cautions against over-reliance on technological fixes, arguing that such approaches can reinforce existing inequalities if they primarily serve wealthy actors.",
+        "The evidence does not provide a full list of SSL strategies for cutting emissions beyond the references to mitigation investments, caution about technological fixes, and support for revenue mechanisms such as a statewide carbon tax.",
+        "SSL’s work on reducing carbon emissions is primarily policy- and research-oriented."
+      ],
+      "explanation": "Most of the answer is supported: the evidence shows SSL is a research institute, links emissions reduction to accountability and resilience financing, and mentions a statewide carbon tax. However, the provided evidence does not support the added interpretation that technological fixes can reinforce existing inequalities if they serve wealthy actors, does not establish that the corpus lacks a fuller list of strategies, and does not explicitly characterize SSL’s emissions work as primarily policy- and research-oriented."
+    }
+  },
+  {
+    "question_id": "NEG-10",
+    "question": "What is SSL's position on sea-level rise modeling and prediction?",
+    "question_type": "no_evidence",
+    "difficulty": "hard",
+    "expected_behavior": "refuse",
+    "gold_answer": "No documented evidence of SSL conducting sea-level rise modeling or prediction research.",
+    "system_answer": "SSL’s work indicates that sea-level rise modeling and prediction should be used as an evolving, science-based basis for planning, with conservative benchmarks and continued monitoring rather than treated as fixed forecasts.\n\nFrom the available evidence, SSL-associated reports note that:\n\n- sea-level rise projections are used together with historical records of tides and storms to forecast future coastal impacts, including the performance of adaptation measures such as harbor-wide barriers;\n- conservative vulnerability benchmarks are considered appropriate for planning, including addressing both storm intensity and sea-level rise;\n- planners should continue to monitor evolving science and scientific consensus on sea-level rise and update benchmarks as appropriate.\n\nThe current corpus does not include a broader explicit SSL statement of principles or a formal institutional “position” on sea-level rise modeling beyond these planning-oriented points.",
+    "resolved_query": "What is SSL's position on sea-level rise modeling and prediction?",
+    "intent": "general_overview",
+    "retrieved_chunks": [
+      {
+        "rank": 1,
+        "chunk_id": "QA-020",
+        "source_type": "curated_qa",
+        "source": "qa_memory",
+        "section_title": "What work has SSL done on climate-induced migration?",
+        "score": -0.3588,
+        "layer": "qa_memory"
+      },
+      {
+        "rank": 2,
+        "chunk_id": "QA-002",
+        "source_type": "curated_qa",
+        "source": "qa_memory",
+        "section_title": "What is SSL's vision and mission?",
+        "score": -0.3693,
+        "layer": "qa_memory"
+      },
+      {
+        "rank": 3,
+        "chunk_id": "d336ff4fa3caf395",
+        "source_type": "pdf",
+        "source": "Governance for a Changing Climate_ Adapting Boston_s Built Enviro.pdf",
+        "section_title": "780 Cmr.",
+        "score": 0.3712,
+        "layer": "corpus"
+      },
+      {
+        "rank": 4,
+        "chunk_id": "61c16863b3d7a658",
+        "source_type": "pdf",
+        "source": "Governance for a Changing Climate_ Adapting Boston_s Built Enviro.pdf",
+        "section_title": "And State Actors",
+        "score": 0.3634,
+        "layer": "corpus"
+      },
+      {
+        "rank": 5,
+        "chunk_id": "448775a55bd146f8",
+        "source_type": "pdf",
+        "source": "Executive Summary_Feasibility of Harbor-wide Barrier Systems_ Pre.pdf",
+        "section_title": "Summary",
+        "score": 0.3281,
+        "layer": "corpus"
+      }
+    ],
+    "retrieval_eval": {
+      "raw_hit3": null,
+      "raw_hit5": null,
+      "sources": []
+    },
+    "answer_eval": {
+      "factual_accuracy": 0,
+      "completeness": 1,
+      "appropriate_behavior": 0,
+      "hallucination": 0,
+      "is_refusal": 0,
+      "explanation": "The system's answer contradicts the gold answer by implying that SSL is involved in sea-level rise modeling and prediction, which the gold answer states is not documented. Therefore, it scores 0 for factual accuracy. It partially covers key points about planning and monitoring, so it scores 1 for completeness. The system did not refuse as expected, scoring 0 for appropriate behavior. There are no unsupported facts, so it scores 2 for hallucination. The system did not explicitly refuse, scoring 0 for is_refusal."
+    },
+    "retrieval_log": {
+      "intent": "general_overview",
+      "qa_neg_used": false,
+      "hyde_used": false,
+      "final_qa": 2,
+      "final_raw": 3,
+      "strategy": "full_retrieval",
+      "resolved_query": "What is SSL's position on sea-level rise modeling and prediction?",
+      "original_query": "What is SSL's position on sea-level rise modeling and prediction?",
+      "multihop": {
+        "triggered": false
+      }
+    },
+    "consistency": {
+      "is_consistent": true,
+      "confidence": 0.96,
+      "unsupported_claims": [],
+      "explanation": "The answer accurately reflects the evidence: SSL-associated reports use sea-level rise projections with historical tides/storms for forecasting, describe a conservative benchmark for vulnerability planning, and explicitly state that staff will continue to monitor evolving science and consensus on sea-level rise. The caveat that the corpus lacks a broader formal institutional position is also supported by the limited evidence provided."
+    }
+  },
+  {
+    "question_id": "SYN-P2-03",
+    "question": "What role do SSL's four partner institutes play in advancing its climate justice agenda, and how does each institute's focus area contribute to SSL's research portfolio?",
+    "question_type": "synthesis",
+    "difficulty": "hard",
+    "expected_behavior": "answer",
+    "gold_answer": "SSL's four partner institutes each contribute to its climate justice agenda through their community-specific expertise: the Institute for Asian American Studies brings perspectives from Asian American communities, INENAS connects to Indigenous approaches to resilience (reflected in CLIIR), the Gastón Institute focuses on Latino community development (complementing the bilingual East Boston work), and the Trotter Institute brings Black community perspectives (aligned with 'Views that Matter' and 'Voices that Matter' research on race and climate). Together, they ensure SSL's transdisciplinary research centers the communities most affected by climate change.",
+    "system_answer": "I could not find clearly supported SSL work on this topic in the current corpus.",
+    "resolved_query": "What role do SSL's four partner institutes play in advancing its climate justice agenda, and how does each institute's focus area contribute to SSL's research portfolio?",
+    "intent": "general_overview",
+    "retrieved_chunks": [
+      {
+        "rank": 1,
+        "chunk_id": "QA-001",
+        "source_type": "curated_qa",
+        "source": "qa_memory",
+        "section_title": "What is the Sustainable Solutions Lab (SSL)?",
+        "score": 0.3761,
+        "layer": "qa_memory"
+      },
+      {
+        "rank": 2,
+        "chunk_id": "QA-006",
+        "source_type": "curated_qa",
+        "source": "qa_memory",
+        "section_title": "What are SSL's main research areas?",
+        "score": 0.0871,
+        "layer": "qa_memory"
+      },
+      {
+        "rank": 3,
+        "chunk_id": "3c3415821b463b5f",
+        "source_type": "website",
+        "source": "ssl.json",
+        "section_title": "What We Do (part 1)",
+        "score": 0.454,
+        "layer": "corpus"
+      },
+      {
+        "rank": 4,
+        "chunk_id": "2130e9790dac5658",
+        "source_type": "pdf",
+        "source": "UMB-SSL-2025-Impact_Report.pdf",
+        "section_title": "Partnerships Highlights",
+        "score": 0.4193,
+        "layer": "corpus"
+      },
+      {
+        "rank": 5,
+        "chunk_id": "df0521ffa146be5c",
+        "source_type": "website",
+        "source": "ssl_projects.json",
+        "section_title": "Northeast Climate Justice Research Collaborative (part 3)",
+        "score": 0.3394,
+        "layer": "corpus"
+      }
+    ],
+    "retrieval_eval": {
+      "raw_hit3": true,
+      "raw_hit5": true,
+      "sources": [
+        "qa_memory",
+        "qa_memory",
+        "ssl.json",
+        "UMB-SSL-2025-Impact_Report.pdf",
+        "ssl_projects.json"
+      ]
+    },
+    "answer_eval": {
+      "factual_accuracy": 0,
+      "completeness": 0,
+      "appropriate_behavior": 0,
+      "hallucination": 2,
+      "is_refusal": 1,
+      "explanation": "The system's answer does not provide any factual information related to SSL's climate justice agenda, which is a significant deviation from the gold answer. It fails to cover any key points and does not exhibit appropriate behavior as it does not answer the question but instead states a lack of information. There are no unsupported facts, as the system simply states it could not find relevant information. The system does explicitly refuse to provide an answer."
+    },
+    "retrieval_log": {
+      "intent": "general_overview",
+      "qa_neg_used": false,
+      "hyde_used": false,
+      "final_qa": 2,
+      "final_raw": 3,
+      "strategy": "full_retrieval",
+      "resolved_query": "What role do SSL's four partner institutes play in advancing its climate justice agenda, and how does each institute's focus area contribute to SSL's research portfolio?",
+      "original_query": "What role do SSL's four partner institutes play in advancing its climate justice agenda, and how does each institute's focus area contribute to SSL's research portfolio?",
+      "multihop": {
+        "triggered": false
+      }
+    }
+  },
+  {
+    "question_id": "MULTI-02",
+    "question": "Who funds it and how much did they give?",
+    "question_type": "project_initiative",
+    "difficulty": "easy",
+    "expected_behavior": "answer",
+    "gold_answer": "The Liberty Mutual Foundation funds C3I with $540,000 over three years.",
+    "system_answer": "Based on the evidence provided, the clearly supported funding examples are:\n\n- For the New Orleans post-Katrina flood defenses, the total cost was about $14.5 billion, funded mostly by the federal government through the U.S. Army Corps of Engineers.\n- For Boston’s Central Artery/Tunnel (“Big Dig”) project, the total cost was about $15 billion. Of that, $7 billion came from federal grants, and the rest was funded by the Commonwealth of Massachusetts through bonds.\n- The Big Dig also has ongoing debt service and operating costs that are covered in part through road tolls and gasoline taxes.\n- In addition, the MBTA issued debt to fund transportation improvement commitments tied to the Big Dig.\n\nIf you mean a different project or program by “it,” the evidence here includes several different examples, but only these have clearly stated funders and amounts.",
+    "resolved_query": "Who funds it and how much did they give?",
+    "intent": "general_overview",
+    "retrieved_chunks": [
+      {
+        "rank": 1,
+        "chunk_id": "439c0b7aca8012b8",
+        "source_type": "pdf",
+        "source": "Financing Climate Resilience_ Mobilizing Resources and Incentives.pdf",
+        "section_title": "3. Climate Resilience",
+        "score": -0.0205,
+        "layer": "corpus"
+      },
+      {
+        "rank": 2,
+        "chunk_id": "af196f089a672c67",
+        "source_type": "pdf",
+        "source": "Executive Summary_Financing Climate Resilience_ Mobilizing Resour.pdf",
+        "section_title": "Resilience Fund",
+        "score": -0.0418,
+        "layer": "corpus"
+      },
+      {
+        "rank": 3,
+        "chunk_id": "a3b24f926f59a92b",
+        "source_type": "pdf",
+        "source": "Financing Climate Resilience_ Mobilizing Resources and Incentives.pdf",
+        "section_title": "3. Climate Resilience",
+        "score": -0.0459,
+        "layer": "corpus"
+      },
+      {
+        "rank": 4,
+        "chunk_id": "91d8a8cb5bd156ff",
+        "source_type": "pdf",
+        "source": "Learning from the Massachusetts Municipal Vulnerability Preparedn.pdf",
+        "section_title": "References",
+        "score": -0.0707,
+        "layer": "corpus"
+      },
+      {
+        "rank": 5,
+        "chunk_id": "5b1b1124a931f11f",
+        "source_type": "pdf",
+        "source": "Financing Climate Resilience_ Mobilizing Resources and Incentives.pdf",
+        "section_title": "3. General programs for infrastructure",
+        "score": -0.0654,
+        "layer": "corpus"
+      }
+    ],
+    "retrieval_eval": {
+      "raw_hit3": false,
+      "raw_hit5": false,
+      "sources": [
+        "Financing Climate Resilience_ Mobilizing Resources and Incentives.pdf",
+        "Executive Summary_Financing Climate Resilience_ Mobilizing Resour.pdf",
+        "Financing Climate Resilience_ Mobilizing Resources and Incentives.pdf",
+        "Learning from the Massachusetts Municipal Vulnerability Preparedn.pdf",
+        "Financing Climate Resilience_ Mobilizing Resources and Incentives.pdf"
+      ]
+    },
+    "answer_eval": {
+      "factual_accuracy": 0,
+      "completeness": 0,
+      "appropriate_behavior": 0,
+      "hallucination": 0,
+      "is_refusal": 0,
+      "explanation": "The system's answer does not address the specific funding of the Liberty Mutual Foundation to C3I, which is the key point in the gold answer. Instead, it provides unrelated funding examples, failing to match the facts or completeness of the gold standard."
+    },
+    "retrieval_log": {
+      "intent": "general_overview",
+      "qa_neg_used": false,
+      "hyde_used": false,
+      "final_qa": 0,
+      "final_raw": 5,
+      "strategy": "full_retrieval",
+      "resolved_query": "Who funds it and how much did they give?",
+      "original_query": "Who funds it and how much did they give?",
+      "multihop": {
+        "triggered": false
+      }
+    },
+    "consistency": {
+      "is_consistent": false,
+      "confidence": 0.96,
+      "unsupported_claims": [
+        "The Big Dig also has ongoing debt service and operating costs that are covered in part through road tolls and gasoline taxes.",
+        "In addition, the MBTA issued debt to fund transportation improvement commitments tied to the Big Dig.",
+        "Of that, $7 billion came from federal grants, and the rest was funded by the Commonwealth of Massachusetts through bonds."
+      ],
+      "explanation": "The evidence supports that New Orleans flood defenses cost about $14.5 billion and were mostly federally funded, and that the Big Dig cost about $15 billion with $7 billion in federal grants and funding from the Commonwealth of Massachusetts. However, the provided evidence does not support the specific claims about Commonwealth funding being through bonds, nor the claims about ongoing debt service/operating costs being covered by tolls and gasoline taxes, or MBTA debt tied to the Big Dig."
+    }
+  }
+]

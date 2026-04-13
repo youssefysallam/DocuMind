@@ -1,0 +1,2 @@
+# Optional: ScholarWorks PDF bulk download (bypasses AWS WAF JS challenge)
+playwright>=1.40.0

@@ -1,0 +1,11 @@
+{
+  "description": "SSL 数据采集 rawdata：页面 URL + PDF 路径，供 raw_to_embedding 使用",
+  "urls_dir": "rawdata/urls/",
+  "ingest_url_dir": "rawdata/urls/ingest/",
+  "pdfs_dir": "rawdata/pdfs/",
+  "audit": "rawdata/audit/audit_report.json",
+  "embedding_agent_examples": {
+    "url_dir": "python main.py --url-dir ./rawdata/urls/ingest",
+    "pdf_globs": "python main.py --pdf ./rawdata/pdfs/www_umb_media/*.pdf ./rawdata/pdfs/scholarworks/*.pdf"
+  }
+}

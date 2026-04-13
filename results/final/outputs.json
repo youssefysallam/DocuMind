@@ -1,0 +1,10 @@
+{
+  "description": "Pointer to primary RAG V1 evaluation outputs in this directory",
+  "full_report_md": "../../report/RAG_V1_FULL_EXPERIMENT_REPORT.md",
+  "eval_results": "rag_v1_eval_results.json",
+  "metrics": "rag_v1_metrics.json",
+  "baseline_comparison": "baseline_vs_rag_v1_metrics.json",
+  "baseline_v4_metrics": "baseline_v4_metrics.json",
+  "errors": "rag_v1_error_analysis.json",
+  "summary_md": "RAG_V1_EVAL_SUMMARY.md"
+}

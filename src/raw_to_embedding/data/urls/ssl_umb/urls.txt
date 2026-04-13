@@ -1,0 +1,27 @@
+# SSL 全量爬取 URL（website_crawler BFS，max_depth=12, max_pages=500）
+# 每行一个；# 开头为注释。供: python main.py --url-dir ./data/urls/ssl_umb/
+
+https://www.umb.edu/ssl
+https://www.umb.edu/ssl/people
+https://www.umb.edu/ssl/projects
+https://www.umb.edu/ssl/research
+https://www.umb.edu/ssl/people/board-of-directors
+https://www.umb.edu/ssl/people/students
+https://www.umb.edu/ssl/people/university-affiliates
+https://scholarworks.umb.edu/ssl
+https://scholarworks.umb.edu/ssl/10
+https://scholarworks.umb.edu/ssl/1
+https://scholarworks.umb.edu/ssl/15
+https://scholarworks.umb.edu/ssl/11
+https://scholarworks.umb.edu/ssl/13
+https://scholarworks.umb.edu/ssl/7
+https://scholarworks.umb.edu/ssl/6
+https://scholarworks.umb.edu/ssl/8
+https://scholarworks.umb.edu/ssl/3
+https://scholarworks.umb.edu/ssl/9
+https://scholarworks.umb.edu/ssl/4
+https://scholarworks.umb.edu/ssl/5
+https://scholarworks.umb.edu/ssl/14
+https://scholarworks.umb.edu/ssl/2
+https://scholarworks.umb.edu/ssl/12
+https://scholarworks.umb.edu/ssl/announcements.html

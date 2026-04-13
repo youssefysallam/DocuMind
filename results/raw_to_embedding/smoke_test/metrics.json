@@ -1,0 +1,651 @@
+{
+  "total_queries": 14,
+  "website_hit_at_5": 12,
+  "hit_rate": 0.8571,
+  "results": [
+    {
+      "query": "Who is B.R. Balachandran and what is his role at SSL?",
+      "has_website_hit": true,
+      "top_results": [
+        {
+          "rank": 1,
+          "source_type": "pdf",
+          "source": "UMB-SSL-2025-Impact_Report.pdf",
+          "section": "Mission",
+          "score": 0.7656,
+          "snippet": "In February 2024, SSL welcomed our new Executive Director,\nDr. B.R. Balachandran, who has since made"
+        },
+        {
+          "rank": 2,
+          "source_type": "website",
+          "source": "profile_directory_brbalachandran.json",
+          "section": "Additional Information (part 1)",
+          "score": 0.5519,
+          "snippet": "Dr. Balachandran is a certified urban planner and international development consultant with over 30 "
+        },
+        {
+          "rank": 3,
+          "source_type": "website",
+          "source": "news_recent-news_beyond-survival-Sustainable-Solutions-Labs-Drive.json",
+          "section": "Beyond Survival: Sustainable Solutions Lab\u2019s Drive (part 16)",
+          "score": 0.5503,
+          "snippet": "Climate change is forcing us to reconsider prevailing paradigms of our relationship with nature and "
+        },
+        {
+          "rank": 4,
+          "source_type": "website",
+          "source": "profile_directory_brbalachandran.json",
+          "section": "Additional Information (part 2)",
+          "score": 0.5476,
+          "snippet": "Balachandran is a certified urban planner and international development consultant with over 30 year"
+        },
+        {
+          "rank": 5,
+          "source_type": "website",
+          "source": "profile_directory_brbalachandran.json",
+          "section": "Biography",
+          "score": 0.5131,
+          "snippet": "Dr. B.R. Balachandran is the Executive Director of the Sustainable Solutions Lab (SSL) at UMass Bost"
+        }
+      ]
+    },
+    {
+      "query": "What is the Climate Careers Curricula Initiative C3I?",
+      "has_website_hit": true,
+      "top_results": [
+        {
+          "rank": 1,
+          "source_type": "website",
+          "source": "ssl_overview_presentation_2026.json",
+          "section": "Climate Careers",
+          "score": 0.8769,
+          "snippet": "Climate Careers\nCurricula\nInitiative (C3I)\nFunded by the Liberty Mutual Foundation.\nCollaborate with"
+        },
+        {
+          "rank": 2,
+          "source_type": "pdf",
+          "source": "UMB-SSL-2025-Impact_Report.pdf",
+          "section": "New Initiatives",
+          "score": 0.7919,
+          "snippet": "C3 Initiative\nThe Climate Careers Curricula Initiative (C3 Initiative), supported by the Liberty\nMut"
+        },
+        {
+          "rank": 3,
+          "source_type": "website",
+          "source": "ssl_projects.json",
+          "section": "Climate Adaptation Forum (part 3)",
+          "score": 0.7835,
+          "snippet": "The Climate Adaptation Forum brings together diverse speakers and attendees across multiple sectors "
+        },
+        {
+          "rank": 4,
+          "source_type": "pdf",
+          "source": "UMB-SSL-2025-Impact_Report.pdf",
+          "section": "New Initiatives",
+          "score": 0.7173,
+          "snippet": "The innovative approach combines aerial surveys, hydrological drought\nanalysis, and real-time monito"
+        },
+        {
+          "rank": 5,
+          "source_type": "pdf",
+          "source": "UMB-SSL-2025-Impact_Report.pdf",
+          "section": "New Initiatives",
+          "score": 0.6776,
+          "snippet": "With USDOT\nfunding, the team is using drones for mapping and\nsensors for monitoring water levels. Th"
+        }
+      ]
+    },
+    {
+      "query": "Who are the members of SSL's External Advisory Board?",
+      "has_website_hit": true,
+      "top_results": [
+        {
+          "rank": 1,
+          "source_type": "website",
+          "source": "ssl_people_board-of-directors.json",
+          "section": "External Advisory Board",
+          "score": 0.7827,
+          "snippet": "SSL\u2019s direction and work is guided by several committees and groups both within and outside of UMB\u2014o"
+        },
+        {
+          "rank": 2,
+          "source_type": "pdf",
+          "source": "UMB-SSL-2022-Annual_Report.pdf",
+          "section": "About",
+          "score": 0.7326,
+          "snippet": "We\u2019re working to keep historically excluded\npeople and communities safe and healthy as\nour climate c"
+        },
+        {
+          "rank": 3,
+          "source_type": "pdf",
+          "source": "UMB-SSL-2025-Impact_Report.pdf",
+          "section": "Mission",
+          "score": 0.5633,
+          "snippet": "In February 2024, SSL welcomed our new Executive Director,\nDr. B.R. Balachandran, who has since made"
+        },
+        {
+          "rank": 4,
+          "source_type": "pdf",
+          "source": "UMB-SSL-2025-Impact_Report.pdf",
+          "section": "Mission",
+          "score": 0.5464,
+          "snippet": "Before becoming SSL\u2019s ED, he held a visiting faculty\nposition at UMB\u2019s School for the Environment an"
+        },
+        {
+          "rank": 5,
+          "source_type": "pdf",
+          "source": "UMB-SSL-2025-Impact_Report.pdf",
+          "section": "Mission",
+          "score": 0.5423,
+          "snippet": "We also hosted 11 Collaborative Friday\npresentations, featuring insightful and boundary-pushing pres"
+        }
+      ]
+    },
+    {
+      "query": "What is the Northeast Climate Justice Research Collaborative?",
+      "has_website_hit": true,
+      "top_results": [
+        {
+          "rank": 1,
+          "source_type": "website",
+          "source": "ssl.json",
+          "section": "Northeast Climate Justice Research Collaborative",
+          "score": 0.9199,
+          "snippet": "We welcome all local and regional climate justice researchers \u2014 whether you've been doing research i"
+        },
+        {
+          "rank": 2,
+          "source_type": "website",
+          "source": "ssl_projects.json",
+          "section": "Northeast Climate Justice Research Collaborative (part 4)",
+          "score": 0.8904,
+          "snippet": "Joining the Northeast Climate Justice Research Collaborative grants you access to:\n\nSeed grants to s"
+        },
+        {
+          "rank": 3,
+          "source_type": "website",
+          "source": "ssl_projects.json",
+          "section": "Northeast Climate Justice Research Collaborative (part 3)",
+          "score": 0.8821,
+          "snippet": "The Collaborative is convened by the Sustainable Solutions Lab (SSL) at UMass Boston. Joining the No"
+        },
+        {
+          "rank": 4,
+          "source_type": "website",
+          "source": "ssl_projects.json",
+          "section": "Northeast Climate Justice Research Collaborative (part 2)",
+          "score": 0.8732,
+          "snippet": "Through networking, dialogue, funding, and resource-sharing, we support scholars to maximize the ben"
+        },
+        {
+          "rank": 5,
+          "source_type": "website",
+          "source": "ssl_projects.json",
+          "section": "Northeast Climate Justice Research Collaborative (part 1)",
+          "score": 0.8708,
+          "snippet": "Launched in the Spring of 2022, the Northeast Climate Justice Research Collaborative (The Collaborat"
+        }
+      ]
+    },
+    {
+      "query": "What are SSL's current research projects?",
+      "has_website_hit": true,
+      "top_results": [
+        {
+          "rank": 1,
+          "source_type": "pdf",
+          "source": "UMB-SSL-2025-Impact_Report.pdf",
+          "section": "Mission",
+          "score": 0.6506,
+          "snippet": "In 2018, with generous support from the Barr Foundation, SSL underwent\nan in-depth multi-stakeholder"
+        },
+        {
+          "rank": 2,
+          "source_type": "website",
+          "source": "news_recent-news_beyond-survival-Sustainable-Solutions-Labs-Drive.json",
+          "section": "Beyond Survival: Sustainable Solutions Lab\u2019s Drive (part 16)",
+          "score": 0.6491,
+          "snippet": "Climate change is forcing us to reconsider prevailing paradigms of our relationship with nature and "
+        },
+        {
+          "rank": 3,
+          "source_type": "pdf",
+          "source": "UMB-SSL-2022-Annual_Report.pdf",
+          "section": "About",
+          "score": 0.6342,
+          "snippet": "We\u2019re working to keep historically excluded\npeople and communities safe and healthy as\nour climate c"
+        },
+        {
+          "rank": 4,
+          "source_type": "website",
+          "source": "news_recent-news_beyond-survival-Sustainable-Solutions-Labs-Drive.json",
+          "section": "Beyond Survival: Sustainable Solutions Lab\u2019s Drive (part 10)",
+          "score": 0.6129,
+          "snippet": "The CLIIR team is exploring emerging approaches to resilience research and conceptualizing SSL\u2019s res"
+        },
+        {
+          "rank": 5,
+          "source_type": "pdf",
+          "source": "UMB-SSL-2025-Impact_Report.pdf",
+          "section": "Mission",
+          "score": 0.6123,
+          "snippet": "Before becoming SSL\u2019s ED, he held a visiting faculty\nposition at UMB\u2019s School for the Environment an"
+        }
+      ]
+    },
+    {
+      "query": "What is the Cape Cod Rail Resilience Project?",
+      "has_website_hit": true,
+      "top_results": [
+        {
+          "rank": 1,
+          "source_type": "website",
+          "source": "ssl_projects.json",
+          "section": "Cape Cod Rail Resilience Project (part 6)",
+          "score": 0.776,
+          "snippet": "Our work was funded by a National Science Foundation planning grant through the Centers for Research"
+        },
+        {
+          "rank": 2,
+          "source_type": "website",
+          "source": "ssl_projects.json",
+          "section": "Cape Cod Rail Resilience Project (part 1)",
+          "score": 0.7417,
+          "snippet": "The Sustainable Solutions Lab (SSL) is proud to be part of the Cape Cod Rail Resilience Project, led"
+        },
+        {
+          "rank": 3,
+          "source_type": "website",
+          "source": "ssl_overview_presentation_2026.json",
+          "section": "Cape Cod Rail",
+          "score": 0.7331,
+          "snippet": "Cape Cod Rail\nResilience\nResearch\nImprove rail safety and climate resilience along the Cape\nMain Lin"
+        },
+        {
+          "rank": 4,
+          "source_type": "pdf",
+          "source": "UMB-SSL-2025-Impact_Report.pdf",
+          "section": "New Initiatives",
+          "score": 0.7242,
+          "snippet": "Cape Cod Rail Resilience Research\nSSL is collaborating with the Massachusetts\nDepartment of Transpor"
+        },
+        {
+          "rank": 5,
+          "source_type": "website",
+          "source": "ssl_projects.json",
+          "section": "Cape Cod Rail Resilience Project (part 5)",
+          "score": 0.7101,
+          "snippet": "The Cape Cod Rail Resilience Project team conducts a field visit to select pilot study sites.Climate"
+        }
+      ]
+    },
+    {
+      "query": "Who are the graduate students working at SSL?",
+      "has_website_hit": false,
+      "top_results": [
+        {
+          "rank": 1,
+          "source_type": "pdf",
+          "source": "UMB-SSL-2022-Annual_Report.pdf",
+          "section": "About",
+          "score": 0.6309,
+          "snippet": "We\u2019re working to keep historically excluded\npeople and communities safe and healthy as\nour climate c"
+        },
+        {
+          "rank": 2,
+          "source_type": "pdf",
+          "source": "UMB-SSL-2025-Impact_Report.pdf",
+          "section": "Mission",
+          "score": 0.5656,
+          "snippet": "In February 2024, SSL welcomed our new Executive Director,\nDr. B.R. Balachandran, who has since made"
+        },
+        {
+          "rank": 3,
+          "source_type": "pdf",
+          "source": "UMB-SSL-2025-Impact_Report.pdf",
+          "section": "Mission",
+          "score": 0.5518,
+          "snippet": "We also hosted 11 Collaborative Friday\npresentations, featuring insightful and boundary-pushing pres"
+        },
+        {
+          "rank": 4,
+          "source_type": "pdf",
+          "source": "UMB-SSL-2025-Impact_Report.pdf",
+          "section": "Mission",
+          "score": 0.5439,
+          "snippet": "Before becoming SSL\u2019s ED, he held a visiting faculty\nposition at UMB\u2019s School for the Environment an"
+        },
+        {
+          "rank": 5,
+          "source_type": "pdf",
+          "source": "UMB-SSL-2022-Annual_Report.pdf",
+          "section": "Students",
+          "score": 0.5413,
+          "snippet": "SSL students are the backbone of our research projects. They pose novel questions and push projects "
+        }
+      ]
+    },
+    {
+      "query": "What is SSL's vision and mission?",
+      "has_website_hit": true,
+      "top_results": [
+        {
+          "rank": 1,
+          "source_type": "pdf",
+          "source": "UMB-SSL-2025-Impact_Report.pdf",
+          "section": "Mission",
+          "score": 0.6377,
+          "snippet": "In 2018, with generous support from the Barr Foundation, SSL underwent\nan in-depth multi-stakeholder"
+        },
+        {
+          "rank": 2,
+          "source_type": "pdf",
+          "source": "UMB-SSL-2022-Annual_Report.pdf",
+          "section": "About",
+          "score": 0.6231,
+          "snippet": "We\u2019re working to keep historically excluded\npeople and communities safe and healthy as\nour climate c"
+        },
+        {
+          "rank": 3,
+          "source_type": "pdf",
+          "source": "UMB-SSL-2025-Impact_Report.pdf",
+          "section": "Mission",
+          "score": 0.5923,
+          "snippet": "Before becoming SSL\u2019s ED, he held a visiting faculty\nposition at UMB\u2019s School for the Environment an"
+        },
+        {
+          "rank": 4,
+          "source_type": "website",
+          "source": "news_recent-news_beyond-survival-Sustainable-Solutions-Labs-Drive.json",
+          "section": "Beyond Survival: Sustainable Solutions Lab\u2019s Drive (part 16)",
+          "score": 0.5558,
+          "snippet": "Climate change is forcing us to reconsider prevailing paradigms of our relationship with nature and "
+        },
+        {
+          "rank": 5,
+          "source_type": "pdf",
+          "source": "UMB-SSL-2025-Impact_Report.pdf",
+          "section": "Mission",
+          "score": 0.5352,
+          "snippet": "We also hosted 11 Collaborative Friday\npresentations, featuring insightful and boundary-pushing pres"
+        }
+      ]
+    },
+    {
+      "query": "What recent events has SSL organized in 2025-2026?",
+      "has_website_hit": true,
+      "top_results": [
+        {
+          "rank": 1,
+          "source_type": "pdf",
+          "source": "UMB-SSL-2025-Impact_Report.pdf",
+          "section": "Mission",
+          "score": 0.6297,
+          "snippet": "In 2018, with generous support from the Barr Foundation, SSL underwent\nan in-depth multi-stakeholder"
+        },
+        {
+          "rank": 2,
+          "source_type": "pdf",
+          "source": "UMB-SSL-2025-Impact_Report.pdf",
+          "section": "Mission",
+          "score": 0.6076,
+          "snippet": "We also hosted 11 Collaborative Friday\npresentations, featuring insightful and boundary-pushing pres"
+        },
+        {
+          "rank": 3,
+          "source_type": "website",
+          "source": "news_recent-news_beyond-survival-Sustainable-Solutions-Labs-Drive.json",
+          "section": "Beyond Survival: Sustainable Solutions Lab\u2019s Drive (part 16)",
+          "score": 0.5582,
+          "snippet": "Climate change is forcing us to reconsider prevailing paradigms of our relationship with nature and "
+        },
+        {
+          "rank": 4,
+          "source_type": "pdf",
+          "source": "UMB-SSL-2025-Impact_Report.pdf",
+          "section": "Mission",
+          "score": 0.5522,
+          "snippet": "Before becoming SSL\u2019s ED, he held a visiting faculty\nposition at UMB\u2019s School for the Environment an"
+        },
+        {
+          "rank": 5,
+          "source_type": "pdf",
+          "source": "UMB-SSL-2022-Annual_Report.pdf",
+          "section": "About",
+          "score": 0.548,
+          "snippet": "We\u2019re working to keep historically excluded\npeople and communities safe and healthy as\nour climate c"
+        }
+      ]
+    },
+    {
+      "query": "What is the CLIIR initiative and why was it suspended?",
+      "has_website_hit": false,
+      "top_results": [
+        {
+          "rank": 1,
+          "source_type": "pdf",
+          "source": "Governance for a Changing Climate_ Adapting Boston_s Built Enviro.pdf",
+          "section": "52. Illinois Farmers Insurance Co v Metro Water Reclamation District",
+          "score": 0.4751,
+          "snippet": "January 2018. Conservation Law Foundation and the Boston Green Ribbon\nCommission. Retrieved from htt"
+        },
+        {
+          "rank": 2,
+          "source_type": "pdf",
+          "source": "Learning from the Massachusetts Municipal Vulnerability Preparedn.pdf",
+          "section": "3. Environmental Justice and MVP workshops and planning reports",
+          "score": 0.4293,
+          "snippet": "How best to incentivize and/or compensate involved individuals and\norganizations for such work\u2014given"
+        },
+        {
+          "rank": 3,
+          "source_type": "pdf",
+          "source": "Critical approaches to climate-induced migration research and sol.pdf",
+          "section": "References",
+          "score": 0.424,
+          "snippet": "Naquin, D. Jr. 2023. \u201cJean Charles Choctaw Nation Complaint Under Title VI of the Civil Rights Act o"
+        },
+        {
+          "rank": 4,
+          "source_type": "pdf",
+          "source": "Learning from the Massachusetts Municipal Vulnerability Preparedn.pdf",
+          "section": "3. Environmental Justice and MVP workshops and planning reports",
+          "score": 0.4065,
+          "snippet": "The position itself was fairly new in part because the city wanted to participate in the MVP\nProgram"
+        },
+        {
+          "rank": 5,
+          "source_type": "pdf",
+          "source": "Financing Climate Resilience_ Mobilizing Resources and Incentives.pdf",
+          "section": "conclusions",
+          "score": 0.4004,
+          "snippet": "83 clinton climate initiative. (april 2009). CCI\u2019s Energy Effciency Building\nRetroft Program. retrie"
+        }
+      ]
+    },
+    {
+      "query": "What is Rajini Srikanth's research expertise?",
+      "has_website_hit": true,
+      "top_results": [
+        {
+          "rank": 1,
+          "source_type": "website",
+          "source": "profile_directory_rajinisrikanth.json",
+          "section": "Overview",
+          "score": 0.6668,
+          "snippet": "Rajini.Srikanth - UMass Boston\n\nRajini.Srikanth\n\nRajini Srikanth\n\nDepartment:\n\nProvost's Office & Vi"
+        },
+        {
+          "rank": 2,
+          "source_type": "website",
+          "source": "profile_directory_rajinisrikanth.json",
+          "section": "Professional Publications & Contributions (part 7)",
+          "score": 0.4319,
+          "snippet": "Rajini Srikanth and Elora Halim Chowdhury. Routledge, 2018. Introductory chapter authored by co-edit"
+        },
+        {
+          "rank": 3,
+          "source_type": "website",
+          "source": "profile_directory_rajinisrikanth.json",
+          "section": "Professional Publications & Contributions (part 17)",
+          "score": 0.4224,
+          "snippet": "Sunaina Maira and Rajini Srikanth (editors listed alphabetically). A collection of fiction, poetry, "
+        },
+        {
+          "rank": 4,
+          "source_type": "website",
+          "source": "profile_directory_brbalachandran.json",
+          "section": "Additional Information (part 1)",
+          "score": 0.3993,
+          "snippet": "Dr. Balachandran is a certified urban planner and international development consultant with over 30 "
+        },
+        {
+          "rank": 5,
+          "source_type": "website",
+          "source": "profile_directory_rajinisrikanth.json",
+          "section": "Additional Information",
+          "score": 0.3962,
+          "snippet": "Mississippi Quarterly, Amerasia Journal, Critical Mass: A Journal of Asian American Cultural Critici"
+        }
+      ]
+    },
+    {
+      "query": "What is Paul Kirshen's work on climate resilience?",
+      "has_website_hit": true,
+      "top_results": [
+        {
+          "rank": 1,
+          "source_type": "website",
+          "source": "profile_directory_paulkirshen.json",
+          "section": "Additional Information (part 1)",
+          "score": 0.7258,
+          "snippet": "Paul Kirshen has thirty years of experience serving as principal investigator/ project manager of co"
+        },
+        {
+          "rank": 2,
+          "source_type": "website",
+          "source": "ssl_people_students.json",
+          "section": "Master's (part 3)",
+          "score": 0.6597,
+          "snippet": "Paul Kirshen from the School for the Environment (SFE). Vishal is passionate about synthesizing soci"
+        },
+        {
+          "rank": 3,
+          "source_type": "website",
+          "source": "profile_directory_paulkirshen.json",
+          "section": "Additional Information (part 10)",
+          "score": 0.6416,
+          "snippet": "He is also part of teams conducting a national vulnerability assessment of US Army Corps of Engineer"
+        },
+        {
+          "rank": 4,
+          "source_type": "website",
+          "source": "profile_directory_paulkirshen.json",
+          "section": "Overview",
+          "score": 0.6271,
+          "snippet": "Paul.Kirshen - UMass Boston\n\nPaul.Kirshen\n\nPaul Kirshen\n\nDepartment:\n\nSchool for the Environment\n\nTi"
+        },
+        {
+          "rank": 5,
+          "source_type": "pdf",
+          "source": "Governance for a Changing Climate_ Adapting Boston_s Built Enviro.pdf",
+          "section": "And State Actors",
+          "score": 0.5739,
+          "snippet": "For further reference, below is a selected list\nof additional actors for added context. Similar\nto t"
+        }
+      ]
+    },
+    {
+      "query": "How does SSL collaborate with Just A Start?",
+      "has_website_hit": true,
+      "top_results": [
+        {
+          "rank": 1,
+          "source_type": "pdf",
+          "source": "UMB-SSL-2025-Impact_Report.pdf",
+          "section": "Mission",
+          "score": 0.5927,
+          "snippet": "In 2018, with generous support from the Barr Foundation, SSL underwent\nan in-depth multi-stakeholder"
+        },
+        {
+          "rank": 2,
+          "source_type": "pdf",
+          "source": "UMB-SSL-2022-Annual_Report.pdf",
+          "section": "About",
+          "score": 0.5805,
+          "snippet": "We\u2019re working to keep historically excluded\npeople and communities safe and healthy as\nour climate c"
+        },
+        {
+          "rank": 3,
+          "source_type": "website",
+          "source": "news_recent-news_beyond-survival-Sustainable-Solutions-Labs-Drive.json",
+          "section": "Beyond Survival: Sustainable Solutions Lab\u2019s Drive (part 16)",
+          "score": 0.5705,
+          "snippet": "Climate change is forcing us to reconsider prevailing paradigms of our relationship with nature and "
+        },
+        {
+          "rank": 4,
+          "source_type": "pdf",
+          "source": "UMB-SSL-2022-Annual_Report.pdf",
+          "section": "Research Highlight",
+          "score": 0.5373,
+          "snippet": "Since then, SSL has\nconnected people for over 40 conversations to begin\nintentionally weaving connec"
+        },
+        {
+          "rank": 5,
+          "source_type": "pdf",
+          "source": "UMB-SSL-2025-Impact_Report.pdf",
+          "section": "Mission",
+          "score": 0.5273,
+          "snippet": "Before becoming SSL\u2019s ED, he held a visiting faculty\nposition at UMB\u2019s School for the Environment an"
+        }
+      ]
+    },
+    {
+      "query": "What is the Lumbee Tribe climate adaptation project?",
+      "has_website_hit": true,
+      "top_results": [
+        {
+          "rank": 1,
+          "source_type": "website",
+          "source": "ssl_overview_presentation_2026.json",
+          "section": "Community-Led Approach to Climate Adaptation",
+          "score": 0.7109,
+          "snippet": "Community-Led Approach to Climate Adaptation\nfor the Lumbee Tribe of North Carolina\nThe Lumbee Tribe"
+        },
+        {
+          "rank": 2,
+          "source_type": "pdf",
+          "source": "UMB-SSL-2025-Impact_Report.pdf",
+          "section": "New Initiatives",
+          "score": 0.6929,
+          "snippet": "Strengthening Indigenous Resilience: A Community-\nLed Approach to Climate Adaptation for the Lumbee\n"
+        },
+        {
+          "rank": 3,
+          "source_type": "pdf",
+          "source": "UMB-SSL-2025-Impact_Report.pdf",
+          "section": "New Initiatives",
+          "score": 0.6639,
+          "snippet": "Its goal is to collaborate\nwith industry partners, community-based organizations, and academic exper"
+        },
+        {
+          "rank": 4,
+          "source_type": "pdf",
+          "source": "Governance for a Changing Climate_ Adapting Boston_s Built Enviro.pdf",
+          "section": "And State Actors",
+          "score": 0.595,
+          "snippet": "Descrip\u00ad\ntions below were either: (1) drafted by the\nagency or organization themselves, (2) written\n"
+        },
+        {
+          "rank": 5,
+          "source_type": "pdf",
+          "source": "Learning from the Massachusetts Municipal Vulnerability Preparedn.pdf",
+          "section": "References",
+          "score": 0.5837,
+          "snippet": "Central to climate adaptation is the development of regulations, codes, and programs\nthat build inst"
+        }
+      ]
+    }
+  ]
+}

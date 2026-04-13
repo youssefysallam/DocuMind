@@ -1,0 +1,29 @@
+{
+  "total_questions": 70,
+  "by_type": {
+    "general_overview": 15,
+    "project_initiative": 12,
+    "topic_specific": 15,
+    "publication_finding": 5,
+    "synthesis": 8,
+    "no_evidence": 15
+  },
+  "by_expected_behavior": {
+    "answer": 53,
+    "partial_answer": 2,
+    "refuse": 15
+  },
+  "by_difficulty": {
+    "easy": 18,
+    "medium": 36,
+    "hard": 16
+  },
+  "by_gold_support_type": {
+    "website": 20,
+    "mixed": 20,
+    "pdf": 15,
+    "no_evidence": 15
+  },
+  "refuse_pct": 0.214,
+  "synthesis_or_multi_source_pct": 0.286
+}

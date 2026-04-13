@@ -1,0 +1,5 @@
+# 每行一个网址。以 # 开头的行是注释，会被忽略。
+# 也可以把整行写成 URL；若一行里既有说明又有链接，会提取第一个 http(s) 链接。
+
+https://example.org
+# https://www.wikipedia.org/

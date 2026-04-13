@@ -1,0 +1,442 @@
+{
+  "corpus": {
+    "total_pdfs": 18,
+    "processed": 18,
+    "failed": [],
+    "total_chunks": 5121,
+    "index_vectors": 5121
+  },
+  "per_pdf_stats": {
+    "Community-Led Climate Preparedness and Resilience in Boston_ New.pdf": {
+      "pdf": "Community-Led Climate Preparedness and Resilience in Boston_ New.pdf",
+      "chunks": 173,
+      "avg_len": 586.3,
+      "median_len": 604,
+      "time_s": 5.5,
+      "status": "OK"
+    },
+    "Connecting for Equitable Climate Adaptation_ Mapping Stakeholder.pdf": {
+      "pdf": "Connecting for Equitable Climate Adaptation_ Mapping Stakeholder.pdf",
+      "chunks": 87,
+      "avg_len": 581.7,
+      "median_len": 602,
+      "time_s": 0.8,
+      "status": "OK"
+    },
+    "Critical approaches to climate-induced migration research and sol.pdf": {
+      "pdf": "Critical approaches to climate-induced migration research and sol.pdf",
+      "chunks": 123,
+      "avg_len": 553.3,
+      "median_len": 567,
+      "time_s": 0.8,
+      "status": "OK"
+    },
+    "Executive Summary_Feasibility of Harbor-wide Barrier Systems_ Pre.pdf": {
+      "pdf": "Executive Summary_Feasibility of Harbor-wide Barrier Systems_ Pre.pdf",
+      "chunks": 126,
+      "avg_len": 551.4,
+      "median_len": 559,
+      "time_s": 0.8,
+      "status": "OK"
+    },
+    "Executive Summary_Financing Climate Resilience_ Mobilizing Resour.pdf": {
+      "pdf": "Executive Summary_Financing Climate Resilience_ Mobilizing Resour.pdf",
+      "chunks": 97,
+      "avg_len": 539.8,
+      "median_len": 557,
+      "time_s": 0.8,
+      "status": "OK"
+    },
+    "Executive Summary_Governance for a Changing Climate_ Adapting Bos.pdf": {
+      "pdf": "Executive Summary_Governance for a Changing Climate_ Adapting Bos.pdf",
+      "chunks": 85,
+      "avg_len": 573.9,
+      "median_len": 586,
+      "time_s": 0.8,
+      "status": "OK"
+    },
+    "Feasibility of Harbor-wide Barrier Systems_ Preliminary Analysis.pdf": {
+      "pdf": "Feasibility of Harbor-wide Barrier Systems_ Preliminary Analysis.pdf",
+      "chunks": 762,
+      "avg_len": 582.1,
+      "median_len": 610,
+      "time_s": 2.3,
+      "status": "OK"
+    },
+    "Financing Climate Resilience_ Mobilizing Resources and Incentives.pdf": {
+      "pdf": "Financing Climate Resilience_ Mobilizing Resources and Incentives.pdf",
+      "chunks": 562,
+      "avg_len": 535.2,
+      "median_len": 547,
+      "time_s": 1.4,
+      "status": "OK"
+    },
+    "Governance for a Changing Climate_ Adapting Boston_s Built Enviro.pdf": {
+      "pdf": "Governance for a Changing Climate_ Adapting Boston_s Built Enviro.pdf",
+      "chunks": 943,
+      "avg_len": 562.2,
+      "median_len": 586,
+      "time_s": 1.9,
+      "status": "OK"
+    },
+    "Learning from the Massachusetts Municipal Vulnerability Preparedn.pdf": {
+      "pdf": "Learning from the Massachusetts Municipal Vulnerability Preparedn.pdf",
+      "chunks": 491,
+      "avg_len": 561.9,
+      "median_len": 587,
+      "time_s": 1.3,
+      "status": "OK"
+    },
+    "Oportunidad en la Complejidad_Recomendaciones para una Resilienci.pdf": {
+      "pdf": "Oportunidad en la Complejidad_Recomendaciones para una Resilienci.pdf",
+      "chunks": 478,
+      "avg_len": 545.7,
+      "median_len": 568,
+      "time_s": 1.4,
+      "status": "OK"
+    },
+    "Opportunity in the Complexity_ Recommendations for Equitable Clim.pdf": {
+      "pdf": "Opportunity in the Complexity_ Recommendations for Equitable Clim.pdf",
+      "chunks": 418,
+      "avg_len": 555.9,
+      "median_len": 576,
+      "time_s": 1.3,
+      "status": "OK"
+    },
+    "UMB-SSL-2022-Annual_Report.pdf": {
+      "pdf": "UMB-SSL-2022-Annual_Report.pdf",
+      "chunks": 62,
+      "avg_len": 569.1,
+      "median_len": 594,
+      "time_s": 0.8,
+      "status": "OK"
+    },
+    "UMB-SSL-2025-Impact_Report.pdf": {
+      "pdf": "UMB-SSL-2025-Impact_Report.pdf",
+      "chunks": 57,
+      "avg_len": 575.3,
+      "median_len": 587,
+      "time_s": 0.8,
+      "status": "OK"
+    },
+    "Views that Matter_ Race and Opinions on Climate Change of Boston (1).pdf": {
+      "pdf": "Views that Matter_ Race and Opinions on Climate Change of Boston (1).pdf",
+      "chunks": 162,
+      "avg_len": 636.3,
+      "median_len": 605,
+      "time_s": 1.0,
+      "status": "OK"
+    },
+    "Views that Matter_ Race and Opinions on Climate Change of Boston.pdf": {
+      "pdf": "Views that Matter_ Race and Opinions on Climate Change of Boston.pdf",
+      "chunks": 162,
+      "avg_len": 636.3,
+      "median_len": 605,
+      "time_s": 1.0,
+      "status": "OK"
+    },
+    "Voices that Matter_ Boston Area Residents of Color Discuss Climat.pdf": {
+      "pdf": "Voices that Matter_ Boston Area Residents of Color Discuss Climat.pdf",
+      "chunks": 193,
+      "avg_len": 505.4,
+      "median_len": 539,
+      "time_s": 1.0,
+      "status": "OK"
+    },
+    "Who Counts in Climate Resilience_ Transient Populations and Clima.pdf": {
+      "pdf": "Who Counts in Climate Resilience_ Transient Populations and Clima.pdf",
+      "chunks": 140,
+      "avg_len": 531.0,
+      "median_len": 540,
+      "time_s": 0.9,
+      "status": "OK"
+    }
+  },
+  "retrieval": {
+    "total_queries": 56,
+    "hit3": 35,
+    "hit5": 41,
+    "hit3_rate": 62.5,
+    "hit5_rate": 73.2,
+    "section_match_rate": 73.2,
+    "noise_rate": 0.0
+  },
+  "per_pdf_retrieval": {
+    "Community-Led Climate Preparedness and Resilience in Boston_ New.pdf": {
+      "queries": 3,
+      "hit3": 2,
+      "hit5": 2,
+      "section_match": 2,
+      "noise": 0,
+      "hit3_rate": 67,
+      "hit5_rate": 67
+    },
+    "Connecting for Equitable Climate Adaptation_ Mapping Stakeholder.pdf": {
+      "queries": 3,
+      "hit3": 3,
+      "hit5": 3,
+      "section_match": 3,
+      "noise": 0,
+      "hit3_rate": 100,
+      "hit5_rate": 100
+    },
+    "Critical approaches to climate-induced migration research and sol.pdf": {
+      "queries": 3,
+      "hit3": 3,
+      "hit5": 3,
+      "section_match": 3,
+      "noise": 0,
+      "hit3_rate": 100,
+      "hit5_rate": 100
+    },
+    "Executive Summary_Feasibility of Harbor-wide Barrier Systems_ Pre.pdf": {
+      "queries": 3,
+      "hit3": 2,
+      "hit5": 2,
+      "section_match": 2,
+      "noise": 0,
+      "hit3_rate": 67,
+      "hit5_rate": 67
+    },
+    "Executive Summary_Financing Climate Resilience_ Mobilizing Resour.pdf": {
+      "queries": 3,
+      "hit3": 1,
+      "hit5": 3,
+      "section_match": 3,
+      "noise": 0,
+      "hit3_rate": 33,
+      "hit5_rate": 100
+    },
+    "Executive Summary_Governance for a Changing Climate_ Adapting Bos.pdf": {
+      "queries": 3,
+      "hit3": 1,
+      "hit5": 2,
+      "section_match": 2,
+      "noise": 0,
+      "hit3_rate": 33,
+      "hit5_rate": 67
+    },
+    "Feasibility of Harbor-wide Barrier Systems_ Preliminary Analysis.pdf": {
+      "queries": 5,
+      "hit3": 4,
+      "hit5": 4,
+      "section_match": 4,
+      "noise": 0,
+      "hit3_rate": 80,
+      "hit5_rate": 80
+    },
+    "Financing Climate Resilience_ Mobilizing Resources and Incentives.pdf": {
+      "queries": 3,
+      "hit3": 2,
+      "hit5": 2,
+      "section_match": 2,
+      "noise": 0,
+      "hit3_rate": 67,
+      "hit5_rate": 67
+    },
+    "Governance for a Changing Climate_ Adapting Boston_s Built Enviro.pdf": {
+      "queries": 3,
+      "hit3": 3,
+      "hit5": 3,
+      "section_match": 3,
+      "noise": 0,
+      "hit3_rate": 100,
+      "hit5_rate": 100
+    },
+    "Learning from the Massachusetts Municipal Vulnerability Preparedn.pdf": {
+      "queries": 3,
+      "hit3": 2,
+      "hit5": 3,
+      "section_match": 3,
+      "noise": 0,
+      "hit3_rate": 67,
+      "hit5_rate": 100
+    },
+    "Oportunidad en la Complejidad_Recomendaciones para una Resilienci.pdf": {
+      "queries": 3,
+      "hit3": 1,
+      "hit5": 1,
+      "section_match": 1,
+      "noise": 0,
+      "hit3_rate": 33,
+      "hit5_rate": 33
+    },
+    "Opportunity in the Complexity_ Recommendations for Equitable Clim.pdf": {
+      "queries": 3,
+      "hit3": 2,
+      "hit5": 2,
+      "section_match": 2,
+      "noise": 0,
+      "hit3_rate": 67,
+      "hit5_rate": 67
+    },
+    "UMB-SSL-2022-Annual_Report.pdf": {
+      "queries": 3,
+      "hit3": 1,
+      "hit5": 2,
+      "section_match": 2,
+      "noise": 0,
+      "hit3_rate": 33,
+      "hit5_rate": 67
+    },
+    "UMB-SSL-2025-Impact_Report.pdf": {
+      "queries": 3,
+      "hit3": 0,
+      "hit5": 0,
+      "section_match": 0,
+      "noise": 0,
+      "hit3_rate": 0,
+      "hit5_rate": 0
+    },
+    "Views that Matter_ Race and Opinions on Climate Change of Boston (1).pdf": {
+      "queries": 3,
+      "hit3": 2,
+      "hit5": 2,
+      "section_match": 2,
+      "noise": 0,
+      "hit3_rate": 67,
+      "hit5_rate": 67
+    },
+    "Views that Matter_ Race and Opinions on Climate Change of Boston.pdf": {
+      "queries": 3,
+      "hit3": 2,
+      "hit5": 2,
+      "section_match": 2,
+      "noise": 0,
+      "hit3_rate": 67,
+      "hit5_rate": 67
+    },
+    "Voices that Matter_ Boston Area Residents of Color Discuss Climat.pdf": {
+      "queries": 3,
+      "hit3": 1,
+      "hit5": 2,
+      "section_match": 2,
+      "noise": 0,
+      "hit3_rate": 33,
+      "hit5_rate": 67
+    },
+    "Who Counts in Climate Resilience_ Transient Populations and Clima.pdf": {
+      "queries": 3,
+      "hit3": 3,
+      "hit5": 3,
+      "section_match": 3,
+      "noise": 0,
+      "hit3_rate": 100,
+      "hit5_rate": 100
+    }
+  },
+  "failure_cases": [
+    {
+      "pdf": "Community-Led Climate Preparedness and Resilience in Boston_ New.pdf",
+      "query": "What are the main reasons communities of color are more vulnerable to climate change?",
+      "top_result_pdf": "Voices that Matter_ Boston Area Residents of Color Discuss Climat.pdf",
+      "top_result_section": "Conclusion",
+      "top_score": 0.8054
+    },
+    {
+      "pdf": "Executive Summary_Feasibility of Harbor-wide Barrier Systems_ Pre.pdf",
+      "query": "What are the key findings of the harbor barrier feasibility study?",
+      "top_result_pdf": "Governance for a Changing Climate_ Adapting Boston_s Built Enviro.pdf",
+      "top_result_section": "13. Crafting usable knowledge for sustainable deve",
+      "top_score": 0.7834
+    },
+    {
+      "pdf": "Executive Summary_Governance for a Changing Climate_ Adapting Bos.pdf",
+      "query": "How does the built environment need to change for climate resilience?",
+      "top_result_pdf": "Governance for a Changing Climate_ Adapting Boston_s Built Enviro.pdf",
+      "top_result_section": "780 Cmr.",
+      "top_score": 0.7592
+    },
+    {
+      "pdf": "Feasibility of Harbor-wide Barrier Systems_ Preliminary Analysis.pdf",
+      "query": "What types of gates and structural components are considered?",
+      "top_result_pdf": "Feasibility of Harbor-wide Barrier Systems_ Preliminary Analysis.pdf",
+      "top_result_section": "Figure 4. 5",
+      "top_score": 0.542
+    },
+    {
+      "pdf": "Financing Climate Resilience_ Mobilizing Resources and Incentives.pdf",
+      "query": "How can municipalities fund climate adaptation infrastructure projects?",
+      "top_result_pdf": "Learning from the Massachusetts Municipal Vulnerability Preparedn.pdf",
+      "top_result_section": "3. Environmental Justice and MVP workshops and pla",
+      "top_score": 0.7552
+    },
+    {
+      "pdf": "Oportunidad en la Complejidad_Recomendaciones para una Resilienci.pdf",
+      "query": "What equity considerations does this Spanish-language report emphasize for climate resilience?",
+      "top_result_pdf": "Opportunity in the Complexity_ Recommendations for Equitable Clim.pdf",
+      "top_result_section": "5. Discussion and recommendations",
+      "top_score": 0.6665
+    },
+    {
+      "pdf": "Oportunidad en la Complejidad_Recomendaciones para una Resilienci.pdf",
+      "query": "What community input was gathered for equitable climate resilience?",
+      "top_result_pdf": "Community-Led Climate Preparedness and Resilience in Boston_ New.pdf",
+      "top_result_section": "5. Discussion",
+      "top_score": 0.7945
+    },
+    {
+      "pdf": "Opportunity in the Complexity_ Recommendations for Equitable Clim.pdf",
+      "query": "How should climate adaptation address racial and economic disparities?",
+      "top_result_pdf": "Connecting for Equitable Climate Adaptation_ Mapping Stakeholder.pdf",
+      "top_result_section": "Introduction",
+      "top_score": 0.7551
+    },
+    {
+      "pdf": "UMB-SSL-2022-Annual_Report.pdf",
+      "query": "What student research contributions are highlighted in the annual report?",
+      "top_result_pdf": "UMB-SSL-2025-Impact_Report.pdf",
+      "top_result_section": "Thank You",
+      "top_score": 0.4412
+    },
+    {
+      "pdf": "UMB-SSL-2025-Impact_Report.pdf",
+      "query": "What are the core mission areas of the Sustainable Solutions Lab?",
+      "top_result_pdf": "Voices that Matter_ Boston Area Residents of Color Discuss Climat.pdf",
+      "top_result_section": "Acknowledgments",
+      "top_score": 0.7164
+    },
+    {
+      "pdf": "UMB-SSL-2025-Impact_Report.pdf",
+      "query": "What new initiatives were launched as described in the 2025 Impact Report?",
+      "top_result_pdf": "Learning from the Massachusetts Municipal Vulnerability Preparedn.pdf",
+      "top_result_section": "3. Environmental Justice and MVP workshops and pla",
+      "top_score": 0.5468
+    },
+    {
+      "pdf": "UMB-SSL-2025-Impact_Report.pdf",
+      "query": "What partnerships and community engagement highlights are mentioned?",
+      "top_result_pdf": "Learning from the Massachusetts Municipal Vulnerability Preparedn.pdf",
+      "top_result_section": "2. The MVP program and Environmental Justice",
+      "top_score": 0.757
+    },
+    {
+      "pdf": "Views that Matter_ Race and Opinions on Climate Change of Boston (1).pdf",
+      "query": "What are the key findings about public attitudes toward climate action?",
+      "top_result_pdf": "Community-Led Climate Preparedness and Resilience in Boston_ New.pdf",
+      "top_result_section": "2.1. Climate Change Perceptions, Awareness, and Ex",
+      "top_score": 0.6954
+    },
+    {
+      "pdf": "Views that Matter_ Race and Opinions on Climate Change of Boston.pdf",
+      "query": "What policy preferences emerge from the survey data?",
+      "top_result_pdf": "Voices that Matter_ Boston Area Residents of Color Discuss Climat.pdf",
+      "top_result_section": "Conclusion",
+      "top_score": 0.455
+    },
+    {
+      "pdf": "Voices that Matter_ Boston Area Residents of Color Discuss Climat.pdf",
+      "query": "What climate change concerns do residents of color in Boston express?",
+      "top_result_pdf": "Views that Matter_ Race and Opinions on Climate Change of Boston.pdf",
+      "top_result_section": "introDuCtion",
+      "top_score": 0.7756
+    }
+  ],
+  "failing_pdfs": [
+    "UMB-SSL-2025-Impact_Report.pdf"
+  ],
+  "recommendations": [
+    "[weak_retrieval] 1 PDF(s) with h@3 < 33%: ['UMB-SSL-2025-Impact_Report.pdf']",
+    "[cross_pdf_confusion] Query for 'Community-Led Climate Prepared' returned results from 'Voices that Matter_ Boston Are' — may indicate semantic overlap between documents."
+  ]
+}

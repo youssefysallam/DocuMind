@@ -1,0 +1,1 @@
+Batch build logs were not retained as standalone files. See full_pipeline_report.json, website_pipeline_report.json, and FINAL_CORPUS_REPORT.md for structured run metadata.

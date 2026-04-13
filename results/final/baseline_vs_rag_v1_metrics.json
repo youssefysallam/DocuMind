@@ -1,0 +1,5 @@
+{
+  "note": "Baseline = archived v4 eval on same 70-question set; RAG V1 = former v7 (v4 QA policy + contextualized chunks + contextualized FAISS).",
+  "baseline_v4": "See baseline_v4_metrics.json",
+  "rag_v1": "See rag_v1_metrics.json"
+}

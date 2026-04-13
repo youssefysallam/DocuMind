@@ -1,0 +1,383 @@
+[
+  {
+    "question_id": "PUB-03",
+    "question": "What multilingual publications has SSL produced?",
+    "question_type": "publication_finding",
+    "difficulty": "medium",
+    "expected_behavior": "answer",
+    "gold_answer": "SSL has produced at least one multilingual publication: 'Oportunidad en la Complejidad,' which is the Spanish-language version of their East Boston resilience report 'Opportunity in the Complexity.' This reflects SSL's commitment to making climate research accessible to non-English-speaking communities.",
+    "system_answer": "I could not find clearly supported SSL work on this topic in the current corpus.",
+    "retrieved_chunks": [
+      {
+        "rank": 1,
+        "chunk_id": "QA-007",
+        "source_type": "curated_qa",
+        "source": "qa_memory",
+        "section_title": "What major reports has SSL published?",
+        "score": 0.2678,
+        "layer": "qa_memory"
+      },
+      {
+        "rank": 2,
+        "chunk_id": "f813e553d1b0364f",
+        "source_type": "website",
+        "source": "profile_directory_rajinisrikanth.json",
+        "section_title": "Professional Publications & Contributions (part 42)",
+        "score": 0.5357,
+        "layer": "corpus"
+      },
+      {
+        "rank": 3,
+        "chunk_id": "9e662189c8ae3a35",
+        "source_type": "pdf",
+        "source": "UMB-SSL-2025-Impact_Report.pdf",
+        "section_title": "New Initiatives",
+        "score": 0.2961,
+        "layer": "corpus"
+      },
+      {
+        "rank": 4,
+        "chunk_id": "7be31dcc312b21c2",
+        "source_type": "website",
+        "source": "profile_directory_rajinisrikanth.json",
+        "section_title": "Professional Publications & Contributions (part 7)",
+        "score": 0.2656,
+        "layer": "corpus"
+      },
+      {
+        "rank": 5,
+        "chunk_id": "2ce3142c596a13e8",
+        "source_type": "website",
+        "source": "profile_directory_rajinisrikanth.json",
+        "section_title": "Professional Publications & Contributions (part 23)",
+        "score": 0.2578,
+        "layer": "corpus"
+      }
+    ],
+    "retrieval_eval": {
+      "raw_hit3": false,
+      "raw_hit5": false,
+      "sources": [
+        "qa_memory",
+        "profile_directory_rajinisrikanth.json",
+        "UMB-SSL-2025-Impact_Report.pdf",
+        "profile_directory_rajinisrikanth.json",
+        "profile_directory_rajinisrikanth.json"
+      ]
+    },
+    "answer_eval": {
+      "factual_accuracy": 0,
+      "completeness": 0,
+      "appropriate_behavior": 0,
+      "hallucination": 2,
+      "is_refusal": 1,
+      "explanation": "The system's answer does not match any facts from the gold answer, as it fails to acknowledge the existence of the multilingual publication and its significance. It does not cover any key points from the gold answer, and it incorrectly states that it could not find relevant information, which is a refusal but not an appropriate one since it should have provided the information instead."
+    },
+    "retrieval_log": {
+      "intent": "publication_finding",
+      "qa_neg_used": false,
+      "final_qa": 1,
+      "final_raw": 4
+    }
+  },
+  {
+    "question_id": "NEG-01",
+    "question": "What is SSL's work on reducing carbon emissions?",
+    "question_type": "no_evidence",
+    "difficulty": "medium",
+    "expected_behavior": "refuse",
+    "gold_answer": "There is no documented evidence of SSL having specific programs or research focused on carbon emissions reduction. SSL's work centers on climate resilience, adaptation, equity, and community engagement rather than direct emissions reduction.",
+    "system_answer": "The Sustainable Solutions Lab (SSL) at UMass Boston engages in various initiatives aimed at reducing carbon emissions. One significant aspect of their work includes advocating for a state-wide carbon tax in Massachusetts, which could position the state as the first in the U.S. to implement such a measure. This initiative is part of a broader strategy to generate substantial revenues for resilience while also addressing the root causes of climate risks, namely carbon emissions (Source: 'Executive Summary: Financing Climate Resilience' and 'Financing Climate Resilience').\n\nAdditionally, SSL emphasizes the importance of climate mitigation investments in wealthy countries, highlighting the need for accountability from major carbon emitters. They caution against an over-reliance on technological solutions, which may perpetuate existing inequalities rather than effectively addressing climate change (Source: 'Critical Approaches to Climate-Induced Migration').\n\nOverall, SSL's work on reducing carbon emissions is multifaceted, focusing on policy advocacy, equitable climate adaptation, and critical assessments of existing solutions.",
+    "retrieved_chunks": [
+      {
+        "rank": 1,
+        "chunk_id": "QA-001",
+        "source_type": "curated_qa",
+        "source": "qa_memory",
+        "section_title": "What is the Sustainable Solutions Lab (SSL)?",
+        "score": 0.2801,
+        "layer": "qa_memory"
+      },
+      {
+        "rank": 2,
+        "chunk_id": "f85ff3ec12cf08e8",
+        "source_type": "pdf",
+        "source": "Critical approaches to climate-induced migration research and sol.pdf",
+        "section_title": "Introduction",
+        "score": 0.4912,
+        "layer": "corpus"
+      },
+      {
+        "rank": 3,
+        "chunk_id": "905fc36c18709619",
+        "source_type": "pdf",
+        "source": "Executive Summary_Financing Climate Resilience_ Mobilizing Resour.pdf",
+        "section_title": "Resilience Fund",
+        "score": 0.4558,
+        "layer": "corpus"
+      },
+      {
+        "rank": 4,
+        "chunk_id": "0cd8a7ee8b16f85a",
+        "source_type": "pdf",
+        "source": "Financing Climate Resilience_ Mobilizing Resources and Incentives.pdf",
+        "section_title": "6. Expand mass Save program to incentivize",
+        "score": 0.423,
+        "layer": "corpus"
+      },
+      {
+        "rank": 5,
+        "chunk_id": "49d259d682abc231",
+        "source_type": "pdf",
+        "source": "Financing Climate Resilience_ Mobilizing Resources and Incentives.pdf",
+        "section_title": "3. Climate Resilience",
+        "score": 0.3896,
+        "layer": "corpus"
+      }
+    ],
+    "retrieval_eval": {
+      "raw_hit3": null,
+      "raw_hit5": null,
+      "sources": []
+    },
+    "answer_eval": {
+      "factual_accuracy": 0,
+      "completeness": 0,
+      "appropriate_behavior": 0,
+      "hallucination": 0,
+      "is_refusal": 0,
+      "explanation": "The system's answer contradicts the gold answer by stating that SSL engages in initiatives aimed at reducing carbon emissions, which the gold answer explicitly denies. The system fails to refuse as expected and instead provides an answer that includes unsupported claims about SSL's focus on carbon emissions reduction."
+    },
+    "retrieval_log": {
+      "intent": "general_overview",
+      "qa_neg_used": false,
+      "final_qa": 1,
+      "final_raw": 4
+    }
+  },
+  {
+    "question_id": "NEG-04",
+    "question": "How does SSL address food systems and agriculture in the context of climate change?",
+    "question_type": "no_evidence",
+    "difficulty": "medium",
+    "expected_behavior": "refuse",
+    "gold_answer": "There is no documented evidence of SSL working on food systems or agriculture. SSL's climate research focuses on areas like resilience, housing, governance, infrastructure, migration, and community engagement rather than agricultural systems.",
+    "system_answer": "The Sustainable Solutions Lab (SSL) addresses food systems and agriculture in the context of climate change primarily through the lens of flood impacts and regulatory frameworks. In the report \"Governance for a Changing Climate,\" SSL highlights several key points:\n\n1. **Flooding Impacts on Development**: The report discusses the challenges posed by flooding to development, particularly in relation to food control projects. It notes that existing regulations do not adequately categorize or treat these projects, which complicates efforts to address flooding impacts on food systems (Source: Governance for a Changing Climate, Section: 780 Cmr.).\n\n2. **Monitoring and Evaluation**: SSL emphasizes the importance of monitoring and evaluating initiatives related to food protection and infrastructure adaptation. This includes validating food exposure projections and collaborating with organizations like the USGS to assess the extent of flooding during major storms (Source: Governance for a Changing Climate, Section: 10. Miles).\n\n3. **Research and Collaboration**: The report suggests expanding research efforts to include social scientists and public health researchers alongside environmental and climate scientists. This multidisciplinary approach aims to better understand the impacts of climate change on communities and food systems, and to identify effective responses (Source: Governance for a Changing Climate, Section: 10. Miles).\n\n4. **Regulatory Recommendations**: SSL proposes regulatory changes to facilitate the implementation of food protection measures, such as permitting temporary food control devices in setback areas and ensuring that project designs do not hinder district-scale food protection efforts (Source: Governance for a Changing Climate, Section: 780 Cmr.).\n\nOverall, SSL's work indicates a focus on integrating food systems into climate adaptation strategies, particularly in relation to flooding and regulatory frameworks, while also advocating for further research and collaboration across disciplines.",
+    "retrieved_chunks": [
+      {
+        "rank": 1,
+        "chunk_id": "374e96679f586a0a",
+        "source_type": "pdf",
+        "source": "Governance for a Changing Climate_ Adapting Boston_s Built Enviro.pdf",
+        "section_title": "780 Cmr.",
+        "score": 0.3693,
+        "layer": "corpus"
+      },
+      {
+        "rank": 2,
+        "chunk_id": "3c5aac3196f980ac",
+        "source_type": "pdf",
+        "source": "Governance for a Changing Climate_ Adapting Boston_s Built Enviro.pdf",
+        "section_title": "10. Miles",
+        "score": 0.2921,
+        "layer": "corpus"
+      },
+      {
+        "rank": 3,
+        "chunk_id": "9882e451eb6a46d7",
+        "source_type": "pdf",
+        "source": "Governance for a Changing Climate_ Adapting Boston_s Built Enviro.pdf",
+        "section_title": "10. Miles",
+        "score": 0.2776,
+        "layer": "corpus"
+      },
+      {
+        "rank": 4,
+        "chunk_id": "cbecd22b44116d31",
+        "source_type": "pdf",
+        "source": "Governance for a Changing Climate_ Adapting Boston_s Built Enviro.pdf",
+        "section_title": "780 Cmr.",
+        "score": 0.2379,
+        "layer": "corpus"
+      },
+      {
+        "rank": 5,
+        "chunk_id": "4dbd7e00744211e4",
+        "source_type": "pdf",
+        "source": "Governance for a Changing Climate_ Adapting Boston_s Built Enviro.pdf",
+        "section_title": "780 Cmr.",
+        "score": 0.227,
+        "layer": "corpus"
+      }
+    ],
+    "retrieval_eval": {
+      "raw_hit3": null,
+      "raw_hit5": null,
+      "sources": []
+    },
+    "answer_eval": {
+      "factual_accuracy": 0,
+      "completeness": 0,
+      "appropriate_behavior": 0,
+      "hallucination": 0,
+      "is_refusal": 0,
+      "explanation": "The system's answer contradicts the gold standard by asserting that SSL addresses food systems and agriculture, which the gold answer states is not documented. The system does not refuse as expected, and it provides unsupported details about SSL's focus areas."
+    },
+    "retrieval_log": {
+      "intent": "general_overview",
+      "qa_neg_used": false,
+      "final_qa": 0,
+      "final_raw": 5
+    }
+  },
+  {
+    "question_id": "NEG-09",
+    "question": "What international climate work has SSL done outside the United States?",
+    "question_type": "no_evidence",
+    "difficulty": "medium",
+    "expected_behavior": "refuse",
+    "gold_answer": "There is no documented evidence of SSL conducting international climate work. While Executive Director B.R. Balachandran has international experience with UNDP, the World Bank, and KfW, SSL's documented projects and publications focus on the United States, particularly the Boston area, Massachusetts, and the Northeast region.",
+    "system_answer": "I could not find clearly supported SSL work on this topic in the current corpus.",
+    "retrieved_chunks": [
+      {
+        "rank": 1,
+        "chunk_id": "QA-002",
+        "source_type": "curated_qa",
+        "source": "qa_memory",
+        "section_title": "What is SSL's vision and mission?",
+        "score": 0.1025,
+        "layer": "qa_memory"
+      },
+      {
+        "rank": 2,
+        "chunk_id": "3c3415821b463b5f",
+        "source_type": "website",
+        "source": "ssl.json",
+        "section_title": "What We Do (part 1)",
+        "score": 0.4853,
+        "layer": "corpus"
+      },
+      {
+        "rank": 3,
+        "chunk_id": "36fd47d7ed129117",
+        "source_type": "pdf",
+        "source": "Critical approaches to climate-induced migration research and sol.pdf",
+        "section_title": "Introduction",
+        "score": 0.32,
+        "layer": "corpus"
+      },
+      {
+        "rank": 4,
+        "chunk_id": "bff2c1cb6b3f9d41",
+        "source_type": "website",
+        "source": "ssl.json",
+        "section_title": "What We Do (part 2)",
+        "score": 0.3065,
+        "layer": "corpus"
+      },
+      {
+        "rank": 5,
+        "chunk_id": "13389b53d7df0679",
+        "source_type": "pdf",
+        "source": "Critical approaches to climate-induced migration research and sol.pdf",
+        "section_title": "Introduction",
+        "score": 0.2275,
+        "layer": "corpus"
+      }
+    ],
+    "retrieval_eval": {
+      "raw_hit3": null,
+      "raw_hit5": null,
+      "sources": []
+    },
+    "answer_eval": {
+      "factual_accuracy": 1,
+      "completeness": 1,
+      "appropriate_behavior": 0,
+      "hallucination": 2,
+      "is_refusal": 1,
+      "explanation": "The system's answer partially aligns with the gold answer by indicating a lack of evidence for SSL's international climate work, but it does not fully capture the details about SSL's focus on the U.S. and the experience of B.R. Balachandran. The system did refuse to provide a definitive answer, which aligns with the expected behavior."
+    },
+    "retrieval_log": {
+      "intent": "topic_specific",
+      "qa_neg_used": false,
+      "final_qa": 1,
+      "final_raw": 4
+    }
+  },
+  {
+    "question_id": "NEG-10",
+    "question": "What is SSL's position on sea-level rise modeling and prediction?",
+    "question_type": "no_evidence",
+    "difficulty": "hard",
+    "expected_behavior": "refuse",
+    "gold_answer": "There is no documented evidence of SSL conducting sea-level rise modeling or prediction research. While the harbor barrier feasibility report relates to coastal flooding, SSL's work focuses on resilience and adaptation planning rather than sea-level modeling or climate projections.",
+    "system_answer": "The Sustainable Solutions Lab (SSL) emphasizes the importance of using conservative measures for modeling and predicting sea-level rise. In their report \"Governance for a Changing Climate,\" SSL discusses a benchmark that provides protection beyond 2070, even under the highest CO2 emissions scenarios. This benchmark is considered an appropriately conservative measure of vulnerability, taking into account both storm intensity and sea level rise. The Massachusetts Water Resources Authority (MWRA) is noted to continue monitoring the evolving science and consensus on sea level rise and to adjust benchmarks as necessary (Source: Governance for a Changing Climate).\n\nAdditionally, in the \"Executive Summary: Feasibility of Harbor-wide Barrier Systems,\" SSL utilizes historical records of tides and storms in Boston, combined with projected sea level rise, to forecast the implications of barrier construction on future gate closures (Source: Executive Summary: Feasibility of Harbor-wide Barrier Systems). \n\nOverall, SSL's position reflects a commitment to using data-driven, conservative approaches in their modeling and predictions related to sea-level rise.",
+    "retrieved_chunks": [
+      {
+        "rank": 1,
+        "chunk_id": "QA-020",
+        "source_type": "curated_qa",
+        "source": "qa_memory",
+        "section_title": "What work has SSL done on climate-induced migration?",
+        "score": -0.3588,
+        "layer": "qa_memory"
+      },
+      {
+        "rank": 2,
+        "chunk_id": "QA-002",
+        "source_type": "curated_qa",
+        "source": "qa_memory",
+        "section_title": "What is SSL's vision and mission?",
+        "score": -0.3693,
+        "layer": "qa_memory"
+      },
+      {
+        "rank": 3,
+        "chunk_id": "d336ff4fa3caf395",
+        "source_type": "pdf",
+        "source": "Governance for a Changing Climate_ Adapting Boston_s Built Enviro.pdf",
+        "section_title": "780 Cmr.",
+        "score": 0.3712,
+        "layer": "corpus"
+      },
+      {
+        "rank": 4,
+        "chunk_id": "61c16863b3d7a658",
+        "source_type": "pdf",
+        "source": "Governance for a Changing Climate_ Adapting Boston_s Built Enviro.pdf",
+        "section_title": "And State Actors",
+        "score": 0.3634,
+        "layer": "corpus"
+      },
+      {
+        "rank": 5,
+        "chunk_id": "448775a55bd146f8",
+        "source_type": "pdf",
+        "source": "Executive Summary_Feasibility of Harbor-wide Barrier Systems_ Pre.pdf",
+        "section_title": "Summary",
+        "score": 0.3281,
+        "layer": "corpus"
+      }
+    ],
+    "retrieval_eval": {
+      "raw_hit3": null,
+      "raw_hit5": null,
+      "sources": []
+    },
+    "answer_eval": {
+      "factual_accuracy": 0,
+      "completeness": 0,
+      "appropriate_behavior": 0,
+      "hallucination": 0,
+      "is_refusal": 0,
+      "explanation": "The system's answer contradicts the gold standard by stating that SSL conducts sea-level rise modeling, which the gold answer explicitly denies. It fails to cover the key points of the gold answer and does not refuse as expected."
+    },
+    "retrieval_log": {
+      "intent": "general_overview",
+      "qa_neg_used": false,
+      "final_qa": 2,
+      "final_raw": 3
+    }
+  }
+]

@@ -1,0 +1,3 @@
+# Optional: local vectors when OpenAI embeddings API is unavailable
+sentence-transformers>=2.2.0
+torch

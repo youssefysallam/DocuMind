@@ -1,0 +1,61 @@
+{
+  "total_questions": 104,
+  "answerable": 82,
+  "refuse_expected": 22,
+  "raw_corpus_hit_at_3": 0.1585,
+  "raw_corpus_hit_at_5": 0.1707,
+  "answer_accuracy_answerable": 0.7195,
+  "answer_accuracy_all": 0.6635,
+  "answer_completeness": 0.6202,
+  "hallucination_rate": 0.2404,
+  "coverage": 0.9038,
+  "refusal_rate": 0.25,
+  "correct_refusal_rate": 0.8636,
+  "false_refusal_rate": 0.0854,
+  "missed_refusal_count": 3,
+  "evidence_supported_accuracy": 0.1463,
+  "by_question_type": {
+    "general_overview": {
+      "total": 20,
+      "correct_behavior": 19,
+      "behavior_rate": 0.95,
+      "avg_accuracy": 0.8,
+      "perfect": 14
+    },
+    "project_initiative": {
+      "total": 17,
+      "correct_behavior": 16,
+      "behavior_rate": 0.941,
+      "avg_accuracy": 0.735,
+      "perfect": 10
+    },
+    "topic_specific": {
+      "total": 15,
+      "correct_behavior": 15,
+      "behavior_rate": 1.0,
+      "avg_accuracy": 0.867,
+      "perfect": 12
+    },
+    "publication_finding": {
+      "total": 12,
+      "correct_behavior": 11,
+      "behavior_rate": 0.917,
+      "avg_accuracy": 0.75,
+      "perfect": 7
+    },
+    "synthesis": {
+      "total": 18,
+      "correct_behavior": 15,
+      "behavior_rate": 0.833,
+      "avg_accuracy": 0.472,
+      "perfect": 3
+    },
+    "no_evidence": {
+      "total": 22,
+      "correct_behavior": 18,
+      "behavior_rate": 0.818,
+      "avg_accuracy": 0.455,
+      "perfect": 4
+    }
+  }
+}

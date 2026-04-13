@@ -1,0 +1,646 @@
+[
+  {
+    "question_id": "GEN-01", "question": "What is the Sustainable Solutions Lab?", "question_type": "general_overview", "difficulty": "easy", "expected_behavior": "answer", "gold_answer": "The Sustainable Solutions Lab (SSL) is a collaborative research institute at UMass Boston. It transforms the climate research and action space by bridging sectors, convening collaborators, and facilitating transdisciplinary research that centers historically excluded communities.", "gold_support_type": "website", "gold_source_ids": ["ssl.json"], "notes": "Core identity question; should be answerable from website content.", "phase": 1
+  },
+  {
+    "question_id": "GEN-02", "question": "What is SSL's mission?", "question_type": "general_overview", "difficulty": "easy", "expected_behavior": "answer", "gold_answer": "SSL's mission is to transform climate research and action by centering historically excluded communities. It bridges sectors, convenes collaborators, and facilitates transdisciplinary research to achieve this.", "gold_support_type": "website", "gold_source_ids": ["ssl.json"], "notes": "Direct mission statement retrieval.", "phase": 1
+  },
+  {
+    "question_id": "GEN-03", "question": "What is the vision of the Sustainable Solutions Lab?", "question_type": "general_overview", "difficulty": "easy", "expected_behavior": "answer", "gold_answer": "SSL's vision is an expansive, inclusive, collaborative climate action space for a just and flourishing future.", "gold_support_type": "website", "gold_source_ids": ["ssl.json"], "notes": "Vision statement retrieval.", "phase": 1
+  },
+  {
+    "question_id": "GEN-04", "question": "Where is SSL located and how can I contact them?", "question_type": "general_overview", "difficulty": "easy", "expected_behavior": "answer", "gold_answer": "SSL is located on the 10th Floor, Room 13 of the Healey Library at UMass Boston, 100 Morrissey Blvd, Boston, MA 02125. You can reach them by email at ssl@umb.edu or by phone at (617) 297-6630.", "gold_support_type": "website", "gold_source_ids": ["ssl.json"], "notes": "Contact and location info.", "phase": 1
+  },
+  {
+    "question_id": "GEN-05", "question": "Who is the executive director of SSL?", "question_type": "general_overview", "difficulty": "easy", "expected_behavior": "answer", "gold_answer": "B.R. Balachandran is the Executive Director of the Sustainable Solutions Lab. He holds a PhD in Regional Planning from the University of Illinois at Urbana-Champaign and has over 30 years of experience as an urban planner, including work with UNDP, the World Bank, and KfW.", "gold_support_type": "website", "gold_source_ids": ["ssl_people.json"], "notes": "Leadership identification.", "phase": 1
+  },
+  {
+    "question_id": "GEN-06", "question": "Who are the key people on the SSL leadership team?", "question_type": "general_overview", "difficulty": "medium", "expected_behavior": "answer", "gold_answer": "SSL's leadership includes B.R. Balachandran (Executive Director), Rosalyn Negrón (Research Director), Gabriela Boscio Santos (Associate Director), and Elisa Guerrero (Community Engagement Manager). They are supported by Rajini Srikanth (Dean) and Robert Chen (Grand Scholarly Initiatives).", "gold_support_type": "website", "gold_source_ids": ["ssl_people.json"], "notes": "Requires listing multiple team members.", "phase": 1
+  },
+  {
+    "question_id": "GEN-07", "question": "What does Rosalyn Negrón do at SSL?", "question_type": "general_overview", "difficulty": "easy", "expected_behavior": "answer", "gold_answer": "Rosalyn Negrón serves as the Research Director of the Sustainable Solutions Lab at UMass Boston.", "gold_support_type": "website", "gold_source_ids": ["ssl_people.json"], "notes": "Specific role identification.", "phase": 1
+  },
+  {
+    "question_id": "GEN-08", "question": "What partner institutes collaborate with SSL at UMass Boston?", "question_type": "general_overview", "difficulty": "medium", "expected_behavior": "answer", "gold_answer": "SSL partners with four institutes at UMass Boston: the Institute for Asian American Studies, the Institute for New England Native American Studies (INENAS), the Mauricio Gastón Institute for Latino Community Development, and the William Monroe Trotter Institute for Black History and Culture.", "gold_support_type": "website", "gold_source_ids": ["ssl_overview_presentation_2026.json", "UMB-SSL-2025-Impact_Report.pdf"], "notes": "Must list all four partner institutes.", "phase": 1
+  },
+  {
+    "question_id": "GEN-09", "question": "How does SSL approach climate research differently from other labs?", "question_type": "general_overview", "difficulty": "medium", "expected_behavior": "answer", "gold_answer": "SSL distinguishes itself by centering historically excluded communities in its climate research and action. It bridges sectors, convenes diverse collaborators, and facilitates transdisciplinary research rather than working within a single discipline. Its partner institutes focus on communities of color and underrepresented populations, reflecting a commitment to equity and justice in climate work.", "gold_support_type": "mixed", "gold_source_ids": ["ssl.json", "ssl_overview_presentation_2026.json", "UMB-SSL-2025-Impact_Report.pdf"], "notes": "Requires synthesizing mission, approach, and partner info.", "phase": 1
+  },
+  {
+    "question_id": "GEN-10", "question": "Who serves on SSL's external advisory board?", "question_type": "general_overview", "difficulty": "medium", "expected_behavior": "answer", "gold_answer": "SSL's external advisory board includes Kalila Barnett (Barr Foundation), Gabriel Cira, Tim Cronin (Health Care Without Harm), Caleb Dresser (BIDMC/Harvard), Julie Eaton Ernst (HNTB), Isabella M. Gambill (A Better City), Amy Korté (Arrowstreet), Julia Kumari Drapkin (ISeeChange), and Jen Stevenson Zepeda (ReVision Energy).", "gold_support_type": "website", "gold_source_ids": ["ssl_people_board-of-directors.json"], "notes": "Full advisory board listing.", "phase": 1
+  },
+  {
+    "question_id": "GEN-11", "question": "What role does Gabriela Boscio Santos play at the Sustainable Solutions Lab?", "question_type": "general_overview", "difficulty": "easy", "expected_behavior": "answer", "gold_answer": "Gabriela Boscio Santos serves as the Associate Director of the Sustainable Solutions Lab at UMass Boston.", "gold_support_type": "website", "gold_source_ids": ["ssl_people.json"], "notes": "Specific role lookup.", "phase": 1
+  },
+  {
+    "question_id": "GEN-12", "question": "Is SSL part of a university? Which one?", "question_type": "general_overview", "difficulty": "easy", "expected_behavior": "answer", "gold_answer": "Yes, the Sustainable Solutions Lab is a collaborative research institute at the University of Massachusetts Boston (UMass Boston). It is located in the Healey Library on campus.", "gold_support_type": "website", "gold_source_ids": ["ssl.json"], "notes": "Institutional affiliation.", "phase": 1
+  },
+  {
+    "question_id": "GEN-13", "question": "What is Elisa Guerrero's role at SSL?", "question_type": "general_overview", "difficulty": "easy", "expected_behavior": "answer", "gold_answer": "Elisa Guerrero is the Community Engagement Manager at the Sustainable Solutions Lab.", "gold_support_type": "website", "gold_source_ids": ["ssl_people.json"], "notes": "Specific role lookup.", "phase": 1
+  },
+  {
+    "question_id": "GEN-14", "question": "What kinds of communities does SSL focus on in its work?", "question_type": "general_overview", "difficulty": "medium", "expected_behavior": "answer", "gold_answer": "SSL centers historically excluded communities in its climate research and action. Through its partner institutes, it works specifically with Asian American, Native American, Latino, and Black communities. Its research also addresses transient populations, Indigenous communities, migrants, and communities of color who are disproportionately affected by climate change.", "gold_support_type": "mixed", "gold_source_ids": ["ssl.json", "ssl_overview_presentation_2026.json", "UMB-SSL-2025-Impact_Report.pdf", "who_counts_climate_resilience"], "notes": "Draws from mission, partners, and publications.", "phase": 1
+  },
+  {
+    "question_id": "GEN-15", "question": "Who supports SSL's work from the UMass Boston administration?", "question_type": "general_overview", "difficulty": "medium", "expected_behavior": "answer", "gold_answer": "SSL is supported by Rajini Srikanth, who serves as Dean, and Robert Chen, who oversees Grand Scholarly Initiatives at UMass Boston.", "gold_support_type": "website", "gold_source_ids": ["ssl_people.json"], "notes": "Administrative support identification.", "phase": 1
+  },
+  {
+    "question_id": "PROJ-01", "question": "What is the C3I program and what does it do?", "question_type": "project_initiative", "difficulty": "medium", "expected_behavior": "answer", "gold_answer": "C3I stands for Climate Careers Curricula Initiative. It is a program funded by the Liberty Mutual Foundation with $540,000 that provides microcredentialed training for blue and green jobs. Training areas include solar installation, energy auditing, and nature-based solutions. The program aims to serve 90 participants over three years.", "gold_support_type": "website", "gold_source_ids": ["ssl_website_c3i"], "notes": "Key project details including funding and scope.", "phase": 1
+  },
+  {
+    "question_id": "PROJ-02", "question": "Tell me about the Cape Cod Rail Resilience project.", "question_type": "project_initiative", "difficulty": "medium", "expected_behavior": "answer", "gold_answer": "The Cape Cod Rail Resilience project is a collaboration between MassDOT, UMass Boston, and AECOM, funded at $2 million with USDOT funding. It focuses on rail safety following a 300-foot embankment collapse in East Sandwich in 2020. The project uses drones and sensors to assess and improve rail infrastructure resilience.", "gold_support_type": "pdf", "gold_source_ids": ["cape_cod_rail_resilience"], "notes": "Infrastructure project with specific funding and technical details.", "phase": 1
+  },
+  {
+    "question_id": "PROJ-03", "question": "What is CLIIR and what are its research themes?", "question_type": "project_initiative", "difficulty": "medium", "expected_behavior": "answer", "gold_answer": "CLIIR stands for Climate Inequality and Integrative Resilience. It was established through an NSF CRISES planning grant. Its four research themes are: Climate Migration, Indigenous Resilience, Climate and Health, and Decision Support. However, the NSF CRISES program was suspended in 2025.", "gold_support_type": "website", "gold_source_ids": ["ssl_website_cliir"], "notes": "Important to mention the 2025 suspension.", "phase": 1
+  },
+  {
+    "question_id": "PROJ-04", "question": "What is the Northeast Climate Justice Research Collaborative?", "question_type": "project_initiative", "difficulty": "medium", "expected_behavior": "answer", "gold_answer": "The Northeast Climate Justice Research Collaborative is a transdisciplinary network with over 200 members that was launched in Spring 2022. It supports climate justice research through seed grants, workshops, and a Mendeley library for shared resources.", "gold_support_type": "website", "gold_source_ids": ["ssl_website_ncjrc"], "notes": "Network-level initiative details.", "phase": 1
+  },
+  {
+    "question_id": "PROJ-05", "question": "What happened with the rail embankment in East Sandwich that SSL studied?", "question_type": "project_initiative", "difficulty": "medium", "expected_behavior": "answer", "gold_answer": "In 2020, a 300-foot embankment collapsed in East Sandwich on the Cape Cod rail line. This event prompted the Cape Cod Rail Resilience project, a $2 million collaboration between MassDOT, UMass Boston (through SSL), and AECOM, funded by USDOT. The project uses drones and sensors to study rail safety and resilience.", "gold_support_type": "pdf", "gold_source_ids": ["cape_cod_rail_resilience"], "notes": "Event-specific question about infrastructure failure.", "phase": 1
+  },
+  {
+    "question_id": "PROJ-06", "question": "How much funding did C3I receive and from whom?", "question_type": "project_initiative", "difficulty": "easy", "expected_behavior": "answer", "gold_answer": "C3I (Climate Careers Curricula Initiative) received $540,000 in funding from the Liberty Mutual Foundation.", "gold_support_type": "website", "gold_source_ids": ["ssl_website_c3i"], "notes": "Specific funding fact retrieval.", "phase": 1
+  },
+  {
+    "question_id": "PROJ-07", "question": "Does SSL convene a Climate Adaptation Forum?", "question_type": "project_initiative", "difficulty": "easy", "expected_behavior": "answer", "gold_answer": "Yes, SSL convenes the Climate Adaptation Forum, which brings together stakeholders to discuss and advance climate adaptation strategies.", "gold_support_type": "website", "gold_source_ids": ["ssl_website_events"], "notes": "Confirmation-style question about a convening.", "phase": 1
+  },
+  {
+    "question_id": "PROJ-08", "question": "What work has SSL done in East Boston?", "question_type": "project_initiative", "difficulty": "medium", "expected_behavior": "answer", "gold_answer": "SSL published 'Opportunity in the Complexity,' a report on climate resilience in East Boston. They also produced a Spanish-language version titled 'Oportunidad en la Complejidad' to reach the neighborhood's significant Latino population. This work examines community-level climate adaptation and resilience strategies in East Boston.", "gold_support_type": "pdf", "gold_source_ids": ["opportunity_in_complexity", "oportunidad_en_la_complejidad"], "notes": "Bilingual publication about a specific neighborhood.", "phase": 1
+  },
+  {
+    "question_id": "PROJ-09", "question": "What is SSL's relationship with the Barr Foundation?", "question_type": "project_initiative", "difficulty": "medium", "expected_behavior": "answer", "gold_answer": "The Barr Foundation has funded three major SSL reports through the Green Ribbon Commission and committed $700,000 for community-engaged action research. Kalila Barnett from the Barr Foundation also serves on SSL's external advisory board.", "gold_support_type": "mixed", "gold_source_ids": ["ssl_website_barr", "ssl_people_board-of-directors.json"], "notes": "Funding relationship plus advisory board connection.", "phase": 1
+  },
+  {
+    "question_id": "PROJ-10", "question": "What is the Green Ribbon Commission and how does it connect to SSL?", "question_type": "project_initiative", "difficulty": "medium", "expected_behavior": "answer", "gold_answer": "The Green Ribbon Commission is connected to SSL through the Barr Foundation, which funded three major SSL reports via the Commission. This relationship supported SSL's community-engaged climate research and action.", "gold_support_type": "mixed", "gold_source_ids": ["ssl_website_barr", "ssl_website_grc"], "notes": "Institutional connection through funding.", "phase": 1
+  },
+  {
+    "question_id": "PROJ-11", "question": "Has SSL worked with any Indigenous communities?", "question_type": "project_initiative", "difficulty": "medium", "expected_behavior": "answer", "gold_answer": "Yes, SSL has worked with Indigenous communities in multiple ways. It partners with the Institute for New England Native American Studies (INENAS) at UMass Boston, has a Lumbee Tribe climate adaptation project, and includes Indigenous Resilience as one of the four research themes of the CLIIR initiative.", "gold_support_type": "mixed", "gold_source_ids": ["ssl_overview_presentation_2026.json", "UMB-SSL-2025-Impact_Report.pdf", "ssl_website_cliir", "ssl_website_lumbee"], "notes": "Multiple touchpoints with Indigenous work.", "phase": 1
+  },
+  {
+    "question_id": "PROJ-12", "question": "What kind of job training does the C3I program offer?", "question_type": "project_initiative", "difficulty": "easy", "expected_behavior": "answer", "gold_answer": "The C3I (Climate Careers Curricula Initiative) offers microcredentialed training for blue and green jobs. Specific training areas include solar installation, energy auditing, and nature-based solutions. The program plans to train 90 participants over three years.", "gold_support_type": "website", "gold_source_ids": ["ssl_website_c3i"], "notes": "Specific training details.", "phase": 1
+  },
+  {
+    "question_id": "TOP-01", "question": "What has SSL published about housing and climate change?", "question_type": "topic_specific", "difficulty": "medium", "expected_behavior": "answer", "gold_answer": "SSL has published a Climate and Housing Crisis research agenda that examines the intersection of housing challenges and climate change impacts.", "gold_support_type": "pdf", "gold_source_ids": ["climate_housing_crisis"], "notes": "Intersection of housing and climate.", "phase": 1
+  },
+  {
+    "question_id": "TOP-02", "question": "How does SSL address homelessness in the context of climate change?", "question_type": "topic_specific", "difficulty": "hard", "expected_behavior": "answer", "gold_answer": "SSL's report 'Who Counts in Climate Resilience' addresses transient populations, including people experiencing homelessness, in climate planning.", "gold_support_type": "pdf", "gold_source_ids": ["who_counts_climate_resilience"], "notes": "Transient populations and climate vulnerability.", "phase": 1
+  },
+  {
+    "question_id": "TOP-03", "question": "How does SSL work with communities of color on climate issues?", "question_type": "topic_specific", "difficulty": "medium", "expected_behavior": "answer", "gold_answer": "SSL centers communities of color through its mission and partnerships. Its four partner institutes focus specifically on communities of color. SSL has also published 'Views that Matter' and 'Voices that Matter' examining race and climate opinions.", "gold_support_type": "mixed", "gold_source_ids": ["ssl_overview_presentation_2026.json", "UMB-SSL-2025-Impact_Report.pdf", "views_voices_that_matter", "opportunity_in_complexity"], "notes": "Multi-source answer spanning partners and publications.", "phase": 1
+  },
+  {
+    "question_id": "TOP-04", "question": "What is SSL's approach to Indigenous climate resilience?", "question_type": "topic_specific", "difficulty": "medium", "expected_behavior": "answer", "gold_answer": "SSL addresses Indigenous climate resilience through CLIIR (Indigenous Resilience theme), its partnership with INENAS, and the Lumbee Tribe climate adaptation project.", "gold_support_type": "mixed", "gold_source_ids": ["ssl_website_cliir", "ssl_overview_presentation_2026.json", "UMB-SSL-2025-Impact_Report.pdf", "ssl_website_lumbee"], "notes": "Convergence of multiple Indigenous-related efforts.", "phase": 1
+  },
+  {
+    "question_id": "TOP-05", "question": "What does SSL's research say about climate-induced migration?", "question_type": "topic_specific", "difficulty": "medium", "expected_behavior": "answer", "gold_answer": "SSL addresses climate migration through CLIIR and published 'Critical approaches to climate-induced migration.'", "gold_support_type": "mixed", "gold_source_ids": ["ssl_website_cliir", "critical_approaches_climate_migration"], "notes": "Both CLIIR theme and standalone publication.", "phase": 1
+  },
+  {
+    "question_id": "TOP-06", "question": "What does SSL say about climate governance and policy?", "question_type": "topic_specific", "difficulty": "medium", "expected_behavior": "answer", "gold_answer": "SSL published 'Governance for a Changing Climate,' which examines governance structures and policies for climate adaptation.", "gold_support_type": "pdf", "gold_source_ids": ["governance_changing_climate"], "notes": "Policy-focused publication.", "phase": 1
+  },
+  {
+    "question_id": "TOP-07", "question": "Has SSL studied how to finance climate resilience?", "question_type": "topic_specific", "difficulty": "medium", "expected_behavior": "answer", "gold_answer": "Yes, SSL published 'Financing Climate Resilience,' examining financial mechanisms for climate resilience initiatives.", "gold_support_type": "pdf", "gold_source_ids": ["financing_climate_resilience"], "notes": "Finance-focused publication.", "phase": 1
+  },
+  {
+    "question_id": "TOP-08", "question": "What does SSL's research say about the connection between climate and health?", "question_type": "topic_specific", "difficulty": "medium", "expected_behavior": "answer", "gold_answer": "SSL addresses climate and health through CLIIR and its advisory board includes health-climate experts.", "gold_support_type": "mixed", "gold_source_ids": ["ssl_website_cliir", "ssl_people_board-of-directors.json"], "notes": "Research theme plus advisory board expertise.", "phase": 1
+  },
+  {
+    "question_id": "TOP-09", "question": "How does SSL engage communities in its research?", "question_type": "topic_specific", "difficulty": "medium", "expected_behavior": "answer", "gold_answer": "SSL engages communities through a dedicated Community Engagement Manager, community-focused reports, multilingual materials, and Barr Foundation community-engaged action research funding.", "gold_support_type": "mixed", "gold_source_ids": ["ssl_people.json", "community_led_climate_preparedness", "oportunidad_en_la_complejidad", "ssl_website_barr"], "notes": "Multiple engagement strategies across sources.", "phase": 1
+  },
+  {
+    "question_id": "TOP-10", "question": "What has SSL found about race and climate change opinions?", "question_type": "topic_specific", "difficulty": "hard", "expected_behavior": "answer", "gold_answer": "SSL published 'Views that Matter' and 'Voices that Matter,' examining race and climate change perceptions.", "gold_support_type": "pdf", "gold_source_ids": ["views_that_matter", "voices_that_matter"], "notes": "Paired publications on race and climate.", "phase": 1
+  },
+  {
+    "question_id": "TOP-11", "question": "How does SSL address transient and displaced populations in climate planning?", "question_type": "topic_specific", "difficulty": "hard", "expected_behavior": "answer", "gold_answer": "SSL published 'Who Counts in Climate Resilience,' examining how transient populations are overlooked in climate resilience planning.", "gold_support_type": "pdf", "gold_source_ids": ["who_counts_climate_resilience"], "notes": "Specialized focus on overlooked populations.", "phase": 1
+  },
+  {
+    "question_id": "TOP-12", "question": "What is SSL's stakeholder mapping work about?", "question_type": "topic_specific", "difficulty": "medium", "expected_behavior": "answer", "gold_answer": "SSL published 'Connecting for Equitable Climate Adaptation,' a stakeholder mapping report.", "gold_support_type": "pdf", "gold_source_ids": ["connecting_equitable_climate_adaptation"], "notes": "Stakeholder mapping methodology.", "phase": 1
+  },
+  {
+    "question_id": "TOP-13", "question": "Has SSL published anything about community-led climate preparedness in Boston?", "question_type": "topic_specific", "difficulty": "medium", "expected_behavior": "answer", "gold_answer": "Yes, SSL published 'Community-Led Climate Preparedness and Resilience in Boston.'", "gold_support_type": "pdf", "gold_source_ids": ["community_led_climate_preparedness"], "notes": "Boston-specific community resilience publication.", "phase": 1
+  },
+  {
+    "question_id": "TOP-14", "question": "How does SSL center historically excluded communities in practice?", "question_type": "topic_specific", "difficulty": "hard", "expected_behavior": "answer", "gold_answer": "SSL centers excluded communities through partner institutes, multilingual publications, community-engaged action research, and projects like CLIIR and the Lumbee Tribe collaboration.", "gold_support_type": "mixed", "gold_source_ids": ["ssl.json", "ssl_overview_presentation_2026.json", "UMB-SSL-2025-Impact_Report.pdf", "ssl_people.json", "oportunidad_en_la_complejidad", "ssl_website_barr"], "notes": "Comprehensive synthesis across many sources.", "phase": 1
+  },
+  {
+    "question_id": "TOP-15", "question": "What does SSL's MVP Program report cover?", "question_type": "topic_specific", "difficulty": "hard", "expected_behavior": "answer", "gold_answer": "SSL published 'Learning from the Massachusetts MVP Program,' analyzing lessons from the state's Municipal Vulnerability Preparedness program.", "gold_support_type": "pdf", "gold_source_ids": ["learning_mvp_program"], "notes": "State-level program evaluation.", "phase": 1
+  },
+  {
+    "question_id": "PUB-01", "question": "What does the harbor barrier feasibility report say?", "question_type": "publication_finding", "difficulty": "hard", "expected_behavior": "answer", "gold_answer": "SSL's 'Feasibility of Harbor-wide Barrier Systems' report examines the feasibility of constructing barrier systems across Boston Harbor to protect against flooding.", "gold_support_type": "pdf", "gold_source_ids": ["feasibility_harbor_barrier"], "notes": "Infrastructure-focused technical report.", "phase": 1
+  },
+  {
+    "question_id": "PUB-02", "question": "What is 'Opportunity in the Complexity' about?", "question_type": "publication_finding", "difficulty": "medium", "expected_behavior": "answer", "gold_answer": "'Opportunity in the Complexity' is an SSL report on climate resilience in East Boston, also produced in Spanish.", "gold_support_type": "pdf", "gold_source_ids": ["opportunity_in_complexity", "oportunidad_en_la_complejidad"], "notes": "Bilingual East Boston publication pair.", "phase": 1
+  },
+  {
+    "question_id": "PUB-03", "question": "What multilingual publications has SSL produced?", "question_type": "publication_finding", "difficulty": "medium", "expected_behavior": "answer", "gold_answer": "SSL produced 'Oportunidad en la Complejidad,' the Spanish-language version of their East Boston resilience report.", "gold_support_type": "pdf", "gold_source_ids": ["oportunidad_en_la_complejidad"], "notes": "Language accessibility in publications.", "phase": 1
+  },
+  {
+    "question_id": "PUB-04", "question": "Can you list SSL's major publications and reports?", "question_type": "publication_finding", "difficulty": "hard", "expected_behavior": "answer", "gold_answer": "SSL's major publications include: Feasibility of Harbor-wide Barrier Systems, Financing Climate Resilience, Governance for a Changing Climate, Learning from the Massachusetts MVP Program, Opportunity in the Complexity, Connecting for Equitable Climate Adaptation, Who Counts in Climate Resilience, Views that Matter, Voices that Matter, Community-Led Climate Preparedness, Climate and Housing Crisis research agenda, and Critical approaches to climate-induced migration.", "gold_support_type": "mixed", "gold_source_ids": ["ssl_website_publications"], "notes": "Comprehensive publication listing.", "phase": 1
+  },
+  {
+    "question_id": "PUB-05", "question": "What is B.R. Balachandran's professional background?", "question_type": "publication_finding", "difficulty": "medium", "expected_behavior": "answer", "gold_answer": "B.R. Balachandran holds a PhD in Regional Planning from UIUC, has 30+ years of urban planning experience, and has worked with UNDP, World Bank, and KfW.", "gold_support_type": "website", "gold_source_ids": ["ssl_people.json"], "notes": "Researcher background and credentials.", "phase": 1
+  },
+  {
+    "question_id": "SYN-01", "question": "How does SSL connect infrastructure resilience with social equity?", "question_type": "synthesis", "difficulty": "hard", "expected_behavior": "answer", "gold_answer": "SSL connects infrastructure and equity through the Cape Cod Rail project, harbor barrier feasibility study, 'Opportunity in the Complexity,' 'Who Counts in Climate Resilience,' and 'Financing Climate Resilience.'", "gold_support_type": "mixed", "gold_source_ids": ["cape_cod_rail_resilience", "feasibility_harbor_barrier", "opportunity_in_complexity", "who_counts_climate_resilience", "financing_climate_resilience"], "notes": "Cross-project synthesis linking infrastructure and equity.", "phase": 1
+  },
+  {
+    "question_id": "SYN-02", "question": "How has SSL's portfolio of work evolved over time?", "question_type": "synthesis", "difficulty": "hard", "expected_behavior": "partial_answer", "gold_answer": "SSL's work expanded from community reports to larger initiatives including NSF-funded CLIIR, C3I workforce training, Cape Cod Rail infrastructure, and the Northeast Climate Justice Research Collaborative.", "gold_support_type": "mixed", "gold_source_ids": ["ssl.json", "ssl_website_c3i", "cape_cod_rail_resilience", "ssl_website_cliir", "ssl_website_ncjrc"], "notes": "Temporal synthesis; partial because full timeline isn't fully documented.", "phase": 1
+  },
+  {
+    "question_id": "SYN-03", "question": "What funding sources support SSL's projects?", "question_type": "synthesis", "difficulty": "hard", "expected_behavior": "answer", "gold_answer": "SSL receives funding from Liberty Mutual Foundation ($540K for C3I), NSF (CLIIR), MassDOT/USDOT ($2M for rail), and Barr Foundation ($700K + three reports via GRC).", "gold_support_type": "mixed", "gold_source_ids": ["ssl_website_c3i", "ssl_website_cliir", "cape_cod_rail_resilience", "ssl_website_barr"], "notes": "Cross-project funding synthesis.", "phase": 1
+  },
+  {
+    "question_id": "SYN-04", "question": "What events and convenings does SSL organize or participate in?", "question_type": "synthesis", "difficulty": "hard", "expected_behavior": "partial_answer", "gold_answer": "SSL convenes the Climate Adaptation Forum and the Northeast Climate Justice Research Collaborative (200+ members, workshops, seed grants).", "gold_support_type": "mixed", "gold_source_ids": ["ssl_website_events", "ssl_website_ncjrc"], "notes": "Partial answer because full event history isn't available.", "phase": 1
+  },
+  {
+    "question_id": "SYN-05", "question": "What cross-cutting themes appear across SSL's different projects and publications?", "question_type": "synthesis", "difficulty": "hard", "expected_behavior": "answer", "gold_answer": "Cross-cutting themes: equity/inclusion, community engagement, climate governance/policy, infrastructure resilience, and transdisciplinary collaboration.", "gold_support_type": "mixed", "gold_source_ids": ["ssl.json", "ssl_overview_presentation_2026.json", "UMB-SSL-2025-Impact_Report.pdf"], "notes": "High-level thematic synthesis across entire portfolio.", "phase": 1
+  },
+  {
+    "question_id": "SYN-06", "question": "How does SSL bridge academic research and community action?", "question_type": "synthesis", "difficulty": "hard", "expected_behavior": "answer", "gold_answer": "SSL bridges academia and community through partner institutes, Community Engagement Manager, multilingual publications, C3I workforce training, Barr Foundation community-engaged research, and the Research Collaborative.", "gold_support_type": "mixed", "gold_source_ids": ["ssl.json", "ssl_overview_presentation_2026.json", "UMB-SSL-2025-Impact_Report.pdf", "ssl_people.json", "ssl_website_c3i", "ssl_website_barr", "ssl_website_ncjrc"], "notes": "Synthesis of academic-community bridge mechanisms.", "phase": 1
+  },
+  {
+    "question_id": "SYN-07", "question": "What is SSL's approach to transdisciplinary research?", "question_type": "synthesis", "difficulty": "hard", "expected_behavior": "answer", "gold_answer": "SSL's transdisciplinary approach is reflected in diverse partnerships, cross-sector advisory board, CLIIR's integrated themes, the 200+ member Research Collaborative, and projects spanning infrastructure to workforce training.", "gold_support_type": "mixed", "gold_source_ids": ["ssl.json", "ssl_people_board-of-directors.json", "ssl_website_cliir", "ssl_website_ncjrc", "cape_cod_rail_resilience", "ssl_website_c3i"], "notes": "Comprehensive synthesis of transdisciplinary approach.", "phase": 1
+  },
+  {
+    "question_id": "SYN-08", "question": "How does SSL's advisory board composition reflect its mission and focus areas?", "question_type": "synthesis", "difficulty": "hard", "expected_behavior": "answer", "gold_answer": "SSL's advisory board spans philanthropy, health, infrastructure, architecture, technology, and clean energy — mirroring SSL's cross-sector, equity-focused mission.", "gold_support_type": "mixed", "gold_source_ids": ["ssl_people_board-of-directors.json", "ssl.json", "ssl_website_cliir", "ssl_website_c3i"], "notes": "Advisory board analysis connected to organizational mission.", "phase": 1
+  },
+  {
+    "question_id": "NEG-01", "question": "What is SSL's work on reducing carbon emissions?", "question_type": "no_evidence", "difficulty": "medium", "expected_behavior": "refuse", "gold_answer": "No documented evidence of SSL having specific programs focused on carbon emissions reduction.", "gold_support_type": "no_evidence", "gold_source_ids": [], "notes": "SSL focuses on adaptation/resilience, not mitigation/emissions.", "phase": 1
+  },
+  {
+    "question_id": "NEG-02", "question": "Does SSL have any e-waste recycling programs?", "question_type": "no_evidence", "difficulty": "easy", "expected_behavior": "refuse", "gold_answer": "No evidence that SSL operates e-waste recycling programs.", "gold_support_type": "no_evidence", "gold_source_ids": [], "notes": "Completely outside SSL's scope.", "phase": 1
+  },
+  {
+    "question_id": "NEG-03", "question": "What biodiversity research has SSL conducted?", "question_type": "no_evidence", "difficulty": "medium", "expected_behavior": "refuse", "gold_answer": "No documented evidence of SSL conducting biodiversity research.", "gold_support_type": "no_evidence", "gold_source_ids": [], "notes": "Plausible but unsupported topic.", "phase": 1
+  },
+  {
+    "question_id": "NEG-04", "question": "How does SSL address food systems and agriculture in the context of climate change?", "question_type": "no_evidence", "difficulty": "medium", "expected_behavior": "refuse", "gold_answer": "No documented evidence of SSL working on food systems or agriculture.", "gold_support_type": "no_evidence", "gold_source_ids": [], "notes": "Agriculture is outside SSL's documented scope.", "phase": 1
+  },
+  {
+    "question_id": "NEG-05", "question": "What air quality monitoring does SSL do?", "question_type": "no_evidence", "difficulty": "medium", "expected_behavior": "refuse", "gold_answer": "No documented evidence of SSL conducting air quality monitoring.", "gold_support_type": "no_evidence", "gold_source_ids": [], "notes": "Environmental monitoring outside scope.", "phase": 1
+  },
+  {
+    "question_id": "NEG-06", "question": "Does SSL develop renewable energy technologies?", "question_type": "no_evidence", "difficulty": "medium", "expected_behavior": "refuse", "gold_answer": "No evidence that SSL develops renewable energy technologies.", "gold_support_type": "no_evidence", "gold_source_ids": [], "notes": "C3I trains for solar jobs but SSL doesn't develop energy tech.", "phase": 1
+  },
+  {
+    "question_id": "NEG-07", "question": "What mental health and climate change programs does SSL run?", "question_type": "no_evidence", "difficulty": "medium", "expected_behavior": "refuse", "gold_answer": "No documented evidence of SSL running specific mental health and climate change programs.", "gold_support_type": "no_evidence", "gold_source_ids": [], "notes": "Health theme exists in CLIIR but no specific mental health work documented.", "phase": 1
+  },
+  {
+    "question_id": "NEG-08", "question": "Does SSL offer K-12 climate education curricula?", "question_type": "no_evidence", "difficulty": "easy", "expected_behavior": "refuse", "gold_answer": "No evidence that SSL offers K-12 climate education curricula.", "gold_support_type": "no_evidence", "gold_source_ids": [], "notes": "C3I is workforce training, not K-12 education.", "phase": 1
+  },
+  {
+    "question_id": "NEG-09", "question": "What international climate work has SSL done outside the United States?", "question_type": "no_evidence", "difficulty": "medium", "expected_behavior": "refuse", "gold_answer": "No documented evidence of SSL conducting international climate work.", "gold_support_type": "no_evidence", "gold_source_ids": [], "notes": "Director has international background but SSL work is domestic.", "phase": 1
+  },
+  {
+    "question_id": "NEG-10", "question": "What is SSL's position on sea-level rise modeling and prediction?", "question_type": "no_evidence", "difficulty": "hard", "expected_behavior": "refuse", "gold_answer": "No documented evidence of SSL conducting sea-level rise modeling or prediction research.", "gold_support_type": "no_evidence", "gold_source_ids": [], "notes": "Related to coastal work but distinct from modeling.", "phase": 1
+  },
+  {
+    "question_id": "NEG-11", "question": "Has SSL published any research on nuclear energy as a climate solution?", "question_type": "no_evidence", "difficulty": "easy", "expected_behavior": "refuse", "gold_answer": "No evidence that SSL has published research on nuclear energy.", "gold_support_type": "no_evidence", "gold_source_ids": [], "notes": "Energy technology outside scope.", "phase": 1
+  },
+  {
+    "question_id": "NEG-12", "question": "What does SSL say about deforestation and its climate impacts?", "question_type": "no_evidence", "difficulty": "easy", "expected_behavior": "refuse", "gold_answer": "No documented evidence of SSL researching deforestation.", "gold_support_type": "no_evidence", "gold_source_ids": [], "notes": "Land use / forestry outside scope.", "phase": 1
+  },
+  {
+    "question_id": "NEG-13", "question": "Does SSL study ocean acidification?", "question_type": "no_evidence", "difficulty": "easy", "expected_behavior": "refuse", "gold_answer": "No evidence that SSL studies ocean acidification.", "gold_support_type": "no_evidence", "gold_source_ids": [], "notes": "Marine science outside scope.", "phase": 1
+  },
+  {
+    "question_id": "NEG-14", "question": "Has SSL worked on transportation electrification or electric vehicles?", "question_type": "no_evidence", "difficulty": "medium", "expected_behavior": "refuse", "gold_answer": "No documented evidence of SSL working on transportation electrification.", "gold_support_type": "no_evidence", "gold_source_ids": [], "notes": "Transportation work exists but not electrification.", "phase": 1
+  },
+  {
+    "question_id": "NEG-15", "question": "What is SSL's involvement with blockchain or cryptocurrency for climate solutions?", "question_type": "no_evidence", "difficulty": "easy", "expected_behavior": "refuse", "gold_answer": "No evidence of SSL involvement with blockchain or cryptocurrency.", "gold_support_type": "no_evidence", "gold_source_ids": [], "notes": "Technology entirely outside SSL's focus.", "phase": 1
+  },
+
+  {
+    "question_id": "SYN-P2-01",
+    "question": "Compare how SSL approaches climate resilience in East Boston versus its work on harbor-wide barrier systems. How do community-level and infrastructure-level strategies complement each other?",
+    "question_type": "synthesis",
+    "difficulty": "hard",
+    "expected_behavior": "answer",
+    "gold_answer": "SSL's East Boston work ('Opportunity in the Complexity') focuses on community-level climate resilience with neighborhood-specific, equity-centered recommendations. The harbor barrier feasibility study examines large-scale infrastructure protection for Boston Harbor. These complement each other: infrastructure barriers provide physical flood protection while community-level work ensures that adaptation planning includes the voices of vulnerable populations, particularly immigrant and low-income communities in neighborhoods like East Boston.",
+    "gold_support_type": "mixed",
+    "gold_source_ids": ["opportunity_in_complexity", "feasibility_harbor_barrier"],
+    "notes": "Phase 2: Comparative synthesis across two major SSL workstreams.",
+    "phase": 2
+  },
+  {
+    "question_id": "SYN-P2-02",
+    "question": "How do SSL's workforce development efforts through C3I relate to its broader research on climate justice and community engagement?",
+    "question_type": "synthesis",
+    "difficulty": "hard",
+    "expected_behavior": "answer",
+    "gold_answer": "C3I translates SSL's climate justice mission into practical action by providing microcredentialed training for green and blue jobs to underrepresented populations. This connects to SSL's broader community engagement approach: just as SSL centers excluded communities in its research, C3I centers them in workforce opportunities. The program targets environmental justice communities, aligning with SSL's commitment to equity seen in its partner institutes and community-led research.",
+    "gold_support_type": "mixed",
+    "gold_source_ids": ["ssl_website_c3i", "ssl.json", "ssl_overview_presentation_2026.json"],
+    "notes": "Phase 2: Connects workforce development to broader mission.",
+    "phase": 2
+  },
+  {
+    "question_id": "SYN-P2-03",
+    "question": "What role do SSL's four partner institutes play in advancing its climate justice agenda, and how does each institute's focus area contribute to SSL's research portfolio?",
+    "question_type": "synthesis",
+    "difficulty": "hard",
+    "expected_behavior": "answer",
+    "gold_answer": "SSL's four partner institutes each contribute to its climate justice agenda through their community-specific expertise: the Institute for Asian American Studies brings perspectives from Asian American communities, INENAS connects to Indigenous approaches to resilience (reflected in CLIIR), the Gastón Institute focuses on Latino community development (complementing the bilingual East Boston work), and the Trotter Institute brings Black community perspectives (aligned with 'Views that Matter' and 'Voices that Matter' research on race and climate). Together, they ensure SSL's transdisciplinary research centers the communities most affected by climate change.",
+    "gold_support_type": "mixed",
+    "gold_source_ids": ["ssl_overview_presentation_2026.json", "UMB-SSL-2025-Impact_Report.pdf", "ssl_website_cliir", "views_that_matter", "oportunidad_en_la_complejidad"],
+    "notes": "Phase 2: Deep synthesis connecting partner institutes to research.",
+    "phase": 2
+  },
+  {
+    "question_id": "SYN-P2-04",
+    "question": "Trace the relationship between SSL's governance research and its community engagement work. How do policy recommendations inform community-level action and vice versa?",
+    "question_type": "synthesis",
+    "difficulty": "hard",
+    "expected_behavior": "answer",
+    "gold_answer": "SSL's governance research ('Governance for a Changing Climate') examines policy frameworks for climate adaptation, while its community engagement work ('Community-Led Climate Preparedness,' 'Opportunity in the Complexity') captures ground-level experiences. The governance report provides top-down policy recommendations that can incorporate lessons from community-level work, while community research reveals gaps in governance that formal policy analysis alone might miss. The stakeholder mapping in 'Connecting for Equitable Climate Adaptation' bridges these by identifying how governance actors and community stakeholders connect.",
+    "gold_support_type": "mixed",
+    "gold_source_ids": ["governance_changing_climate", "community_led_climate_preparedness", "opportunity_in_complexity", "connecting_equitable_climate_adaptation"],
+    "notes": "Phase 2: Bidirectional synthesis between policy and community work.",
+    "phase": 2
+  },
+  {
+    "question_id": "SYN-P2-05",
+    "question": "How does SSL's research collectively address the needs of Boston's most climate-vulnerable neighborhoods and populations?",
+    "question_type": "synthesis",
+    "difficulty": "hard",
+    "expected_behavior": "answer",
+    "gold_answer": "SSL's research portfolio collectively addresses Boston's climate-vulnerable communities through multiple angles: physical vulnerability is addressed through the harbor barrier feasibility study and governance report; neighborhood-specific adaptation comes from the East Boston work; social vulnerability is explored through 'Who Counts in Climate Resilience' (transient populations) and the race-climate opinion studies; economic pathways are created through C3I workforce training; and systemic change is pursued through stakeholder mapping, community-led preparedness, and the financing report. This multi-faceted approach reflects SSL's transdisciplinary mission.",
+    "gold_support_type": "mixed",
+    "gold_source_ids": ["feasibility_harbor_barrier", "opportunity_in_complexity", "who_counts_climate_resilience", "views_that_matter", "ssl_website_c3i", "connecting_equitable_climate_adaptation", "financing_climate_resilience"],
+    "notes": "Phase 2: Comprehensive portfolio synthesis for Boston context.",
+    "phase": 2
+  },
+  {
+    "question_id": "SYN-P2-06",
+    "question": "What connections exist between SSL's research on climate migration, Indigenous resilience, and community health — the three CLIIR themes beyond Decision Support?",
+    "question_type": "synthesis",
+    "difficulty": "hard",
+    "expected_behavior": "answer",
+    "gold_answer": "The three CLIIR themes interconnect: climate migration research examines how climate change displaces populations, which disproportionately affects Indigenous communities whose land-based practices are disrupted. Indigenous resilience approaches offer alternative frameworks for adaptation that contrast with Western governance models. Community health is affected by both migration-related stresses and the loss of traditional Indigenous health practices. SSL's 'Critical approaches to climate-induced migration' and its partnership with INENAS and the Lumbee Tribe reflect these interconnections. However, the NSF CRISES program suspension in 2025 limited the full realization of these cross-theme investigations.",
+    "gold_support_type": "mixed",
+    "gold_source_ids": ["ssl_website_cliir", "critical_approaches_climate_migration", "ssl_overview_presentation_2026.json"],
+    "notes": "Phase 2: Inter-theme synthesis within CLIIR.",
+    "phase": 2
+  },
+  {
+    "question_id": "SYN-P2-07",
+    "question": "How does SSL's work demonstrate the concept of 'climate justice' as opposed to just 'climate adaptation'?",
+    "question_type": "synthesis",
+    "difficulty": "hard",
+    "expected_behavior": "answer",
+    "gold_answer": "SSL's work goes beyond climate adaptation by centering justice: its mission explicitly focuses on historically excluded communities; its partner institutes serve communities of color; reports like 'Views that Matter' document how race shapes climate perceptions; 'Who Counts in Climate Resilience' argues for including transient populations; the East Boston work provides bilingual materials for immigrant communities; C3I targets underrepresented populations for green jobs; and the Northeast Climate Justice Research Collaborative explicitly names justice in its title. This consistent emphasis on equity, inclusion, and centering marginalized voices distinguishes SSL's approach as climate justice rather than mere adaptation.",
+    "gold_support_type": "mixed",
+    "gold_source_ids": ["ssl.json", "views_that_matter", "who_counts_climate_resilience", "opportunity_in_complexity", "ssl_website_c3i", "ssl_website_ncjrc"],
+    "notes": "Phase 2: Conceptual synthesis distinguishing justice from adaptation.",
+    "phase": 2
+  },
+  {
+    "question_id": "SYN-P2-08",
+    "question": "What is the total documented funding SSL has received across all its major projects, and what does the funding mix tell us about SSL's positioning?",
+    "question_type": "synthesis",
+    "difficulty": "hard",
+    "expected_behavior": "answer",
+    "gold_answer": "Documented SSL funding includes: $540K from Liberty Mutual Foundation (C3I), $2M from MassDOT/USDOT (Cape Cod Rail), $700K from Barr Foundation (community-engaged research), plus NSF CRISES planning grant (CLIIR, amount not specified) and Barr Foundation/GRC support for three major reports. The total documented exceeds $3.2M. The funding mix — spanning private philanthropy, federal agencies, state transportation, and foundations — demonstrates SSL's ability to bridge sectors, consistent with its mission. The diversity of funders also reflects the breadth of SSL's work from infrastructure to community engagement.",
+    "gold_support_type": "mixed",
+    "gold_source_ids": ["ssl_website_c3i", "cape_cod_rail_resilience", "ssl_website_barr", "ssl_website_cliir"],
+    "notes": "Phase 2: Quantitative funding synthesis.",
+    "phase": 2
+  },
+  {
+    "question_id": "NEG-P2-01",
+    "question": "What work has SSL done on climate change and water scarcity or drought?",
+    "question_type": "no_evidence",
+    "difficulty": "hard",
+    "expected_behavior": "refuse",
+    "gold_answer": "There is no documented evidence of SSL conducting dedicated research on water scarcity or drought. While the Cape Cod Rail project was triggered by a drought-related embankment collapse, SSL's research focuses on infrastructure resilience, not water resource management. SSL's core work addresses urban climate resilience, governance, and community engagement rather than water supply issues.",
+    "gold_support_type": "no_evidence",
+    "gold_source_ids": [],
+    "notes": "Phase 2: Tricky edge case — drought is tangentially mentioned in rail project context.",
+    "phase": 2
+  },
+  {
+    "question_id": "NEG-P2-02",
+    "question": "Has SSL conducted any studies on climate change impacts on wildlife or endangered species in the Boston area?",
+    "question_type": "no_evidence",
+    "difficulty": "medium",
+    "expected_behavior": "refuse",
+    "gold_answer": "There is no documented evidence of SSL studying climate change impacts on wildlife or endangered species. SSL's research centers on human communities, social equity, governance, and infrastructure resilience rather than ecological or wildlife studies.",
+    "gold_support_type": "no_evidence",
+    "gold_source_ids": [],
+    "notes": "Phase 2: Wildlife/ecology clearly outside scope but geographically close.",
+    "phase": 2
+  },
+  {
+    "question_id": "NEG-P2-03",
+    "question": "What green building certification or LEED programs does SSL run?",
+    "question_type": "no_evidence",
+    "difficulty": "medium",
+    "expected_behavior": "refuse",
+    "gold_answer": "There is no documented evidence of SSL operating green building certification or LEED programs. While SSL has an advisory board member from Arrowstreet (architecture firm) and its governance report discusses the built environment, SSL does not run building certification programs. SSL is a research institute, not a certification body.",
+    "gold_support_type": "no_evidence",
+    "gold_source_ids": [],
+    "notes": "Phase 2: Tangentially related to advisory board expertise but outside scope.",
+    "phase": 2
+  },
+  {
+    "question_id": "NEG-P2-04",
+    "question": "Does SSL provide legal assistance or advocacy for communities affected by climate change?",
+    "question_type": "no_evidence",
+    "difficulty": "medium",
+    "expected_behavior": "refuse",
+    "gold_answer": "There is no documented evidence of SSL providing legal assistance or legal advocacy. SSL conducts research and community engagement related to climate justice but does not operate as a legal services organization. Its governance work addresses policy frameworks but not legal representation.",
+    "gold_support_type": "no_evidence",
+    "gold_source_ids": [],
+    "notes": "Phase 2: Could be confused with climate justice advocacy.",
+    "phase": 2
+  },
+  {
+    "question_id": "NEG-P2-05",
+    "question": "What climate change curriculum does SSL offer for university courses at UMass Boston?",
+    "question_type": "no_evidence",
+    "difficulty": "hard",
+    "expected_behavior": "refuse",
+    "gold_answer": "There is no documented evidence of SSL offering university courses or academic curricula at UMass Boston. While SSL is based at UMass Boston and C3I provides microcredentialed workforce training, SSL operates as a research institute rather than an academic department offering courses.",
+    "gold_support_type": "no_evidence",
+    "gold_source_ids": [],
+    "notes": "Phase 2: Tricky — SSL is at a university but doesn't teach courses.",
+    "phase": 2
+  },
+  {
+    "question_id": "NEG-P2-06",
+    "question": "What is SSL's research on climate change impacts on public transportation systems beyond rail?",
+    "question_type": "no_evidence",
+    "difficulty": "hard",
+    "expected_behavior": "refuse",
+    "gold_answer": "There is no documented evidence of SSL researching climate impacts on public transportation systems beyond rail. The Cape Cod Rail Resilience project is SSL's only documented transportation infrastructure work, and it specifically addresses rail embankment stability, not broader transit systems like buses, subways, or ferries.",
+    "gold_support_type": "no_evidence",
+    "gold_source_ids": [],
+    "notes": "Phase 2: Edge case — rail work exists but question asks about other transit.",
+    "phase": 2
+  },
+  {
+    "question_id": "NEG-P2-07",
+    "question": "Has SSL partnered with hospitals or healthcare systems on climate-health research?",
+    "question_type": "no_evidence",
+    "difficulty": "hard",
+    "expected_behavior": "refuse",
+    "gold_answer": "There is no documented evidence of SSL partnering directly with hospitals or healthcare systems. While advisory board member Caleb Dresser is affiliated with BIDMC/Harvard Medical School and Tim Cronin works with Health Care Without Harm, these are advisory relationships, not documented research partnerships between SSL and healthcare institutions.",
+    "gold_support_type": "no_evidence",
+    "gold_source_ids": [],
+    "notes": "Phase 2: Tricky — advisory board has health connections but no formal partnerships documented.",
+    "phase": 2
+  },
+  {
+    "question_id": "PUB-P2-01",
+    "question": "What specific recommendations does 'Governance for a Changing Climate' make about Boston's built environment?",
+    "question_type": "publication_finding",
+    "difficulty": "hard",
+    "expected_behavior": "answer",
+    "gold_answer": "The 'Governance for a Changing Climate' report examines how Boston's governance structures need to adapt to address climate change impacts on the built environment. It discusses policy frameworks, institutional adaptation, and governance mechanisms needed for effective climate resilience planning in Boston's urban context.",
+    "gold_support_type": "pdf",
+    "gold_source_ids": ["governance_changing_climate"],
+    "notes": "Phase 2: Deeper dive into specific publication findings.",
+    "phase": 2
+  },
+  {
+    "question_id": "PUB-P2-02",
+    "question": "What methodology did SSL use in the 'Connecting for Equitable Climate Adaptation' stakeholder mapping study?",
+    "question_type": "publication_finding",
+    "difficulty": "hard",
+    "expected_behavior": "answer",
+    "gold_answer": "The 'Connecting for Equitable Climate Adaptation' study used stakeholder mapping and network analysis methodology to identify and map relationships between key actors in climate adaptation. This approach helps visualize how different stakeholders — including government agencies, community organizations, and researchers — connect and collaborate on equitable climate adaptation.",
+    "gold_support_type": "pdf",
+    "gold_source_ids": ["connecting_equitable_climate_adaptation"],
+    "notes": "Phase 2: Methodology-focused question about a specific report.",
+    "phase": 2
+  },
+  {
+    "question_id": "PUB-P2-03",
+    "question": "What financial mechanisms does the 'Financing Climate Resilience' report identify for funding adaptation efforts?",
+    "question_type": "publication_finding",
+    "difficulty": "hard",
+    "expected_behavior": "answer",
+    "gold_answer": "The 'Financing Climate Resilience' report examines financial mechanisms and resource mobilization strategies for supporting climate resilience initiatives. It explores how funding and investment can be structured to support equitable climate adaptation efforts.",
+    "gold_support_type": "pdf",
+    "gold_source_ids": ["financing_climate_resilience"],
+    "notes": "Phase 2: Finance-specific findings from a key report.",
+    "phase": 2
+  },
+  {
+    "question_id": "PUB-P2-04",
+    "question": "What does SSL's 2025 Impact Report highlight as key achievements?",
+    "question_type": "publication_finding",
+    "difficulty": "medium",
+    "expected_behavior": "answer",
+    "gold_answer": "The SSL 2025 Impact Report highlights the lab's growth and achievements, including its leadership team, major projects (C3I, Cape Cod Rail, CLIIR), partner institutes, community engagement, and the Northeast Climate Justice Research Collaborative. It showcases SSL's expanding impact in climate justice research and community-engaged action.",
+    "gold_support_type": "pdf",
+    "gold_source_ids": ["UMB-SSL-2025-Impact_Report.pdf"],
+    "notes": "Phase 2: Institutional report highlights.",
+    "phase": 2
+  },
+  {
+    "question_id": "MULTI-01",
+    "question": "Tell me about C3I.",
+    "question_type": "project_initiative",
+    "difficulty": "easy",
+    "expected_behavior": "answer",
+    "gold_answer": "C3I (Climate Careers Curricula Initiative) is a workforce training program funded by the Liberty Mutual Foundation with $540,000 over three years. It provides microcredentialed training in green and blue jobs including solar installation, energy auditing, and nature-based solutions, targeting 90 participants from environmental justice communities.",
+    "gold_support_type": "website",
+    "gold_source_ids": ["ssl_website_c3i"],
+    "notes": "Chain 1 Turn 1: Basic project retrieval. Establishes context for follow-ups.",
+    "phase": 2,
+    "multi_turn_chain": "A"
+  },
+  {
+    "question_id": "MULTI-02",
+    "question": "Who funds it and how much did they give?",
+    "question_type": "project_initiative",
+    "difficulty": "easy",
+    "expected_behavior": "answer",
+    "gold_answer": "The Liberty Mutual Foundation funds C3I with $540,000 over three years.",
+    "gold_support_type": "website",
+    "gold_source_ids": ["ssl_website_c3i"],
+    "notes": "Chain 1 Turn 2: Pronoun 'it' → C3I. Tests coreference resolution.",
+    "phase": 2,
+    "multi_turn_context": "MULTI-01",
+    "multi_turn_chain": "A"
+  },
+  {
+    "question_id": "MULTI-03",
+    "question": "What kinds of jobs does it train people for?",
+    "question_type": "project_initiative",
+    "difficulty": "easy",
+    "expected_behavior": "answer",
+    "gold_answer": "C3I provides microcredentialed training for green and blue jobs, including solar installation, energy auditing, and nature-based solutions.",
+    "gold_support_type": "website",
+    "gold_source_ids": ["ssl_website_c3i"],
+    "notes": "Chain 1 Turn 3: Continued pronoun 'it' → C3I. Tests sustained coreference across 3 turns.",
+    "phase": 2,
+    "multi_turn_context": "MULTI-02",
+    "multi_turn_chain": "A"
+  },
+  {
+    "question_id": "MULTI-04",
+    "question": "What is the Cape Cod Rail Resilience project?",
+    "question_type": "project_initiative",
+    "difficulty": "medium",
+    "expected_behavior": "answer",
+    "gold_answer": "The Cape Cod Rail Resilience project is a $2 million collaboration between MassDOT, UMass Boston, and AECOM, funded by USDOT. It addresses rail safety after a 300-foot embankment collapse in East Sandwich in 2020, using drones and sensors for monitoring.",
+    "gold_support_type": "pdf",
+    "gold_source_ids": ["cape_cod_rail_resilience"],
+    "notes": "Chain 2 Turn 1: New topic introduction.",
+    "phase": 2,
+    "multi_turn_chain": "B"
+  },
+  {
+    "question_id": "MULTI-05",
+    "question": "How does that project compare to SSL's work in East Boston in terms of approach?",
+    "question_type": "synthesis",
+    "difficulty": "hard",
+    "expected_behavior": "answer",
+    "gold_answer": "The Cape Cod Rail project focuses on infrastructure-level resilience using technical tools (drones, sensors) for monitoring, while the East Boston work ('Opportunity in the Complexity') takes a community-centered approach emphasizing equity, bilingual engagement, and neighborhood-level adaptation.",
+    "gold_support_type": "mixed",
+    "gold_source_ids": ["cape_cod_rail_resilience", "opportunity_in_complexity"],
+    "notes": "Chain 2 Turn 2: 'that project' → Cape Cod Rail. Tests coreference + synthesis across topics.",
+    "phase": 2,
+    "multi_turn_context": "MULTI-04",
+    "multi_turn_chain": "B"
+  },
+  {
+    "question_id": "MULTI-06",
+    "question": "What about the harbor barrier study — is that approach more similar to the rail project or to East Boston?",
+    "question_type": "synthesis",
+    "difficulty": "hard",
+    "expected_behavior": "answer",
+    "gold_answer": "The harbor barrier feasibility study is more similar to the Cape Cod Rail project in that both are large-scale, infrastructure-focused technical analyses. The harbor barrier study examines engineering feasibility and cost-effectiveness of harbor-wide barriers, while the East Boston work centers on community engagement and equity. However, the harbor barrier study also considers shore-based alternatives that have community co-benefits.",
+    "gold_support_type": "mixed",
+    "gold_source_ids": ["feasibility_harbor_barrier", "cape_cod_rail_resilience", "opportunity_in_complexity"],
+    "notes": "Chain 2 Turn 3: References all 3 prior topics. Tests accumulated context + 3-way comparison.",
+    "phase": 2,
+    "multi_turn_context": "MULTI-05",
+    "multi_turn_chain": "B"
+  },
+  {
+    "question_id": "MULTI-07",
+    "question": "Who leads SSL?",
+    "question_type": "general_overview",
+    "difficulty": "easy",
+    "expected_behavior": "answer",
+    "gold_answer": "SSL is led by B.R. Balachandran (Executive Director), Rosalyn Negrón (Research Director), Gabriela Boscio Santos (Associate Director), and Elisa Guerrero (Community Engagement Manager).",
+    "gold_support_type": "website",
+    "gold_source_ids": ["ssl_people.json"],
+    "notes": "Chain 3 Turn 1: Leadership overview. Establishes people context.",
+    "phase": 2,
+    "multi_turn_chain": "C"
+  },
+  {
+    "question_id": "MULTI-08",
+    "question": "Can you tell me more about the executive director's background?",
+    "question_type": "general_overview",
+    "difficulty": "medium",
+    "expected_behavior": "answer",
+    "gold_answer": "B.R. Balachandran holds a PhD in Regional Planning from UIUC. He has over 30 years of experience as an urban planner, having worked with UNDP, the World Bank, and KfW.",
+    "gold_support_type": "website",
+    "gold_source_ids": ["ssl_people.json"],
+    "notes": "Chain 3 Turn 2: 'the executive director' → B.R. Balachandran. Tests role-based coreference.",
+    "phase": 2,
+    "multi_turn_context": "MULTI-07",
+    "multi_turn_chain": "C"
+  },
+  {
+    "question_id": "MULTI-09",
+    "question": "What about the research director — what's her academic specialty?",
+    "question_type": "general_overview",
+    "difficulty": "medium",
+    "expected_behavior": "answer",
+    "gold_answer": "Rosalyn Negrón is a socio-cultural and urban anthropologist in the Department of Anthropology at UMass Boston. Her specializations include urban anthropology, linguistic anthropology, medical anthropology, ethno-racial relations, immigration, and social networks.",
+    "gold_support_type": "website",
+    "gold_source_ids": ["ssl_people.json"],
+    "notes": "Chain 3 Turn 3: 'the research director' + 'her' → Negrón. Tests role-based coreference with gendered pronoun.",
+    "phase": 2,
+    "multi_turn_context": "MULTI-08",
+    "multi_turn_chain": "C"
+  },
+  {
+    "question_id": "MULTI-10",
+    "question": "What has SSL published about race and climate change opinions?",
+    "question_type": "publication_finding",
+    "difficulty": "medium",
+    "expected_behavior": "answer",
+    "gold_answer": "SSL published 'Views that Matter: Race and Opinions on Climate Change of Boston Area Residents' (a survey) and 'Voices that Matter' (qualitative focus groups with communities of color).",
+    "gold_support_type": "pdf",
+    "gold_source_ids": ["views_that_matter", "voices_that_matter"],
+    "notes": "Chain 4 Turn 1: Publication pair introduction.",
+    "phase": 2,
+    "multi_turn_chain": "D"
+  },
+  {
+    "question_id": "MULTI-11",
+    "question": "What were some key findings from the survey?",
+    "question_type": "publication_finding",
+    "difficulty": "hard",
+    "expected_behavior": "answer",
+    "gold_answer": "The Views that Matter survey found that residents across races broadly believe climate change is happening, but communities of color are more likely to call it a 'serious problem.' White respondents voice the strongest opposition to climate policies. Asian American and Latino residents are least likely to deny climate change.",
+    "gold_support_type": "pdf",
+    "gold_source_ids": ["views_that_matter"],
+    "notes": "Chain 4 Turn 2: 'the survey' → Views that Matter. Tests implicit reference to specific publication.",
+    "phase": 2,
+    "multi_turn_context": "MULTI-10",
+    "multi_turn_chain": "D"
+  },
+  {
+    "question_id": "MULTI-12",
+    "question": "Did the qualitative companion study find similar themes?",
+    "question_type": "publication_finding",
+    "difficulty": "hard",
+    "expected_behavior": "answer",
+    "gold_answer": "Voices that Matter, the qualitative companion study, conducted focus groups with Asian American, Black, Latino/a, and Native American communities. It found themes including health impacts of climate change, structural racism in climate impacts, the case for government leadership, and a call for a united front across communities.",
+    "gold_support_type": "pdf",
+    "gold_source_ids": ["voices_that_matter"],
+    "notes": "Chain 4 Turn 3: 'the qualitative companion study' → Voices that Matter. Tests implicit reference derived from Turn 1 context.",
+    "phase": 2,
+    "multi_turn_context": "MULTI-11",
+    "multi_turn_chain": "D"
+  },
+  {
+    "question_id": "MULTI-13",
+    "question": "What partner institutes does SSL work with at UMass Boston?",
+    "question_type": "general_overview",
+    "difficulty": "medium",
+    "expected_behavior": "answer",
+    "gold_answer": "SSL works with four partner institutes: the Institute for Asian American Studies, INENAS (Institute for New England Native American Studies), the Mauricio Gastón Institute for Latino Community Development, and the William Monroe Trotter Institute for Black History and Culture.",
+    "gold_support_type": "website",
+    "gold_source_ids": ["ssl_overview_presentation_2026.json"],
+    "notes": "Chain 5 Turn 1: Partner institutes overview.",
+    "phase": 2,
+    "multi_turn_chain": "E"
+  },
+  {
+    "question_id": "MULTI-14",
+    "question": "Which one focuses on Indigenous communities, and who directs it?",
+    "question_type": "general_overview",
+    "difficulty": "medium",
+    "expected_behavior": "answer",
+    "gold_answer": "INENAS (Institute for New England Native American Studies) focuses on Indigenous communities. It is directed by Cedric Woods (James Woods), who holds a PhD in Anthropology from the University of Connecticut.",
+    "gold_support_type": "website",
+    "gold_source_ids": ["ssl_overview_presentation_2026.json", "profile_directory_cedricwoods.json"],
+    "notes": "Chain 5 Turn 2: 'Which one' → one of the four institutes. Tests selection from prior enumeration.",
+    "phase": 2,
+    "multi_turn_context": "MULTI-13",
+    "multi_turn_chain": "E"
+  },
+  {
+    "question_id": "MULTI-15",
+    "question": "Has SSL done any specific projects involving that institute?",
+    "question_type": "project_initiative",
+    "difficulty": "medium",
+    "expected_behavior": "answer",
+    "gold_answer": "Yes. Through INENAS, SSL collaborates on a U.S. EPA-funded water quality improvement project where Dr. Woods leads the tribal component, identifying eligible Tribes and tribal entities across the Northeast. INENAS is also connected to CLIIR's Indigenous Resilience research theme.",
+    "gold_support_type": "mixed",
+    "gold_source_ids": ["ssl_overview_presentation_2026.json", "ssl_website_cliir"],
+    "notes": "Chain 5 Turn 3: 'that institute' → INENAS. Tests coreference to entity identified in Turn 2.",
+    "phase": 2,
+    "multi_turn_context": "MULTI-14",
+    "multi_turn_chain": "E"
+  }
+]

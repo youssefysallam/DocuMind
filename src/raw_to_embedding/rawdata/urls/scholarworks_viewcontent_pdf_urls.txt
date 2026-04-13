@@ -1,0 +1,16 @@
+# ScholarWorks viewcontent.cgi (same set as index #article / #executive_summary / #researchreport)
+https://scholarworks.umb.edu/cgi/viewcontent.cgi?article=1000&context=ssl
+https://scholarworks.umb.edu/cgi/viewcontent.cgi?article=1001&context=ssl
+https://scholarworks.umb.edu/cgi/viewcontent.cgi?article=1002&context=ssl
+https://scholarworks.umb.edu/cgi/viewcontent.cgi?article=1003&context=ssl
+https://scholarworks.umb.edu/cgi/viewcontent.cgi?article=1004&context=ssl
+https://scholarworks.umb.edu/cgi/viewcontent.cgi?article=1005&context=ssl
+https://scholarworks.umb.edu/cgi/viewcontent.cgi?article=1006&context=ssl
+https://scholarworks.umb.edu/cgi/viewcontent.cgi?article=1007&context=ssl
+https://scholarworks.umb.edu/cgi/viewcontent.cgi?article=1008&context=ssl
+https://scholarworks.umb.edu/cgi/viewcontent.cgi?article=1009&context=ssl
+https://scholarworks.umb.edu/cgi/viewcontent.cgi?article=1010&context=ssl
+https://scholarworks.umb.edu/cgi/viewcontent.cgi?article=1011&context=ssl
+https://scholarworks.umb.edu/cgi/viewcontent.cgi?article=1012&context=ssl
+https://scholarworks.umb.edu/cgi/viewcontent.cgi?article=1013&context=ssl
+https://scholarworks.umb.edu/cgi/viewcontent.cgi?article=1014&context=ssl

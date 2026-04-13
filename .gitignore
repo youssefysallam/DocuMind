@@ -205,3 +205,27 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Project-specific: regenerated binary artifacts
+data/rag_v1/contextualized_embeddings.npy
+data/rag_v1/contextualized_index.faiss
+
+# Local data folders (not for git)
+SSL+PDF/
+websitedata/
+2020-2021report/
+crawler/
+ssl_rag_crawler/
+website_crawler/
+scholarworks_ssl_collector/
+raw_to_embedding_agent/
+
+# Raw source PDFs (too large for git)
+src/raw_to_embedding/rawdata/pdfs/
+
+# Frontend (Next.js) — override Python lib/ rule
+!frontend/lib/
+
+# OS files
+Thumbs.db
+.DS_Store

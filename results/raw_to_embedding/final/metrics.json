@@ -1,0 +1,14 @@
+{
+  "description": "High-level index for final raw-to-embedding experiment outputs in this folder",
+  "pdf_batch": {
+    "report_file": "full_pipeline_report.json",
+    "summary": "18 PDFs processed, 5121 chunks before website merge (see report for per-PDF stats)"
+  },
+  "website_merge_and_smoke_test": {
+    "report_file": "website_pipeline_report.json",
+    "smoke_test_extract": "../smoke_test/metrics.json",
+    "website_hit_at_5_rate": 0.8571,
+    "smoke_queries": 14
+  },
+  "narrative_report": "FINAL_CORPUS_REPORT.md"
+}

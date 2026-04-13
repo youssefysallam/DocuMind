@@ -214,6 +214,43 @@ The interface shows:
 - The generated answer with inline citations
 - An expandable panel showing the retrieved source passages and URLs
 
+### Running the InfoWeave V2 UI
+
+The improved UI in `frontend/` runs separately from the legacy chatbot UI and
+expects the FastAPI backend in `src/rag_v2/api.py`.
+
+Run these in two terminals:
+
+```bash
+# Terminal 1
+set PYTHONPATH=src
+python -m rag_v2.api
+```
+
+```bash
+# Terminal 2
+cd frontend
+npm run dev
+```
+
+Then open:
+
+```text
+http://localhost:3000/chat
+```
+
+If port `3000` is already in use, run:
+
+```bash
+cd frontend
+npm run dev -- --port 3001
+```
+
+and then open `http://localhost:3001/chat`.
+
+The V2 UI proxies `/api/*` requests to the FastAPI backend on port `8000`, so
+the backend must be running for chat to work.
+
 ---
 
 ## Running Evaluation

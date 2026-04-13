@@ -1,0 +1,8 @@
+# UMass Boston marketing site — SSL section
+https://www.umb.edu/ssl
+https://www.umb.edu/ssl/people
+https://www.umb.edu/ssl/projects
+https://www.umb.edu/ssl/research
+https://www.umb.edu/ssl/people/board-of-directors
+https://www.umb.edu/ssl/people/students
+https://www.umb.edu/ssl/people/university-affiliates

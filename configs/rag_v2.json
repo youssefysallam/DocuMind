@@ -1,0 +1,21 @@
+{
+  "description": "Path conventions for RAG V2 (Phase 2, relative to repository root)",
+  "corpus_bundle": "data/final_corpus_bundle/merged",
+  "unified_metadata": "data/final_corpus_bundle/merged/unified_index_metadata.json",
+  "contextualized_embeddings": "data/rag_v1/contextualized_embeddings.npy",
+  "contextualized_faiss": "data/rag_v1/contextualized_index.faiss",
+  "qa_memory": "data/rag_v1/qa_memory/qa_memory.json",
+  "eval_dataset_v1": "data/eval_70/stakeholder_eval_70.json",
+  "eval_dataset_v2": "data/eval_phase2/stakeholder_eval_phase2.json",
+  "eval_outputs": "results/v2",
+  "v1_metrics": "results/final/rag_v1_metrics.json",
+  "features": {
+    "hyde": true,
+    "sub_query_decomposition": true,
+    "llm_intent_classification": true,
+    "diversity_penalty": true,
+    "consistency_check": true,
+    "session_memory": true,
+    "multi_turn": true
+  }
+}

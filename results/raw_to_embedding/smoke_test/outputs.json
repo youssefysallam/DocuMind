@@ -1,0 +1,159 @@
+{
+  "per_file_stats": [
+    {
+      "file": "news_recent-news_beyond-survival-Sustainable-Solutions-Labs-Drive.json",
+      "chunks": 16,
+      "avg_len": 575,
+      "min_len": 422,
+      "max_len": 696
+    },
+    {
+      "file": "profile_directory_antonioraciti.json",
+      "chunks": 14,
+      "avg_len": 474,
+      "min_len": 342,
+      "max_len": 680
+    },
+    {
+      "file": "profile_directory_brbalachandran.json",
+      "chunks": 16,
+      "avg_len": 438,
+      "min_len": 159,
+      "max_len": 659
+    },
+    {
+      "file": "profile_directory_ceciliaidikakalu.json",
+      "chunks": 1,
+      "avg_len": 142,
+      "min_len": 142,
+      "max_len": 142
+    },
+    {
+      "file": "profile_directory_cedricwoods.json",
+      "chunks": 1,
+      "avg_len": 313,
+      "min_len": 313,
+      "max_len": 313
+    },
+    {
+      "file": "profile_directory_elisaguerrero.json",
+      "chunks": 5,
+      "avg_len": 406,
+      "min_len": 139,
+      "max_len": 627
+    },
+    {
+      "file": "profile_directory_evanstewart.json",
+      "chunks": 10,
+      "avg_len": 368,
+      "min_len": 108,
+      "max_len": 552
+    },
+    {
+      "file": "profile_directory_gabrielaboscio.json",
+      "chunks": 5,
+      "avg_len": 413,
+      "min_len": 143,
+      "max_len": 650
+    },
+    {
+      "file": "profile_directory_johnnaflahive001.json",
+      "chunks": 1,
+      "avg_len": 138,
+      "min_len": 138,
+      "max_len": 138
+    },
+    {
+      "file": "profile_directory_patriciobelloy001.json",
+      "chunks": 1,
+      "avg_len": 147,
+      "min_len": 147,
+      "max_len": 147
+    },
+    {
+      "file": "profile_directory_paulkirshen.json",
+      "chunks": 21,
+      "avg_len": 549,
+      "min_len": 269,
+      "max_len": 687
+    },
+    {
+      "file": "profile_directory_paulwatanabe.json",
+      "chunks": 5,
+      "avg_len": 446,
+      "min_len": 279,
+      "max_len": 680
+    },
+    {
+      "file": "profile_directory_rajinisrikanth.json",
+      "chunks": 40,
+      "avg_len": 399,
+      "min_len": 191,
+      "max_len": 790
+    },
+    {
+      "file": "profile_directory_rosalynnegron.json",
+      "chunks": 18,
+      "avg_len": 527,
+      "min_len": 143,
+      "max_len": 1027
+    },
+    {
+      "file": "ssl.json",
+      "chunks": 7,
+      "avg_len": 492,
+      "min_len": 219,
+      "max_len": 627
+    },
+    {
+      "file": "ssl_overview_presentation_2026.json",
+      "chunks": 13,
+      "avg_len": 515,
+      "min_len": 348,
+      "max_len": 831
+    },
+    {
+      "file": "ssl_people.json",
+      "chunks": 10,
+      "avg_len": 588,
+      "min_len": 408,
+      "max_len": 688
+    },
+    {
+      "file": "ssl_people_board-of-directors.json",
+      "chunks": 23,
+      "avg_len": 566,
+      "min_len": 169,
+      "max_len": 675
+    },
+    {
+      "file": "ssl_people_students.json",
+      "chunks": 29,
+      "avg_len": 530,
+      "min_len": 241,
+      "max_len": 697
+    },
+    {
+      "file": "ssl_projects.json",
+      "chunks": 18,
+      "avg_len": 549,
+      "min_len": 88,
+      "max_len": 699
+    },
+    {
+      "file": "ssl_research.json",
+      "chunks": 14,
+      "avg_len": 452,
+      "min_len": 302,
+      "max_len": 652
+    }
+  ],
+  "artifacts": {
+    "website_metadata": "data/final_corpus_bundle/website/website_index_metadata.json",
+    "website_chunks": "data/final_corpus_bundle/website/website_chunks_with_embeddings.json",
+    "website_embeddings": "data/final_corpus_bundle/website/website_embeddings.npy",
+    "website_faiss": "data/final_corpus_bundle/website/website_index.faiss",
+    "unified_metadata": "data/final_corpus_bundle/merged/unified_index_metadata.json",
+    "unified_faiss": "data/final_corpus_bundle/merged/unified_index.faiss"
+  }
+}

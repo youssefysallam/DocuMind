@@ -1,0 +1,11 @@
+{
+  "description": "Path conventions for RAG V1 (relative to repository root)",
+  "corpus_bundle": "data/final_corpus_bundle/merged",
+  "unified_metadata": "data/final_corpus_bundle/merged/unified_index_metadata.json",
+  "unified_faiss": "data/final_corpus_bundle/merged/unified_index.faiss",
+  "contextualized_embeddings": "data/rag_v1/contextualized_embeddings.npy",
+  "contextualized_faiss": "data/rag_v1/contextualized_index.faiss",
+  "qa_memory": "data/rag_v1/qa_memory/qa_memory.json",
+  "eval_dataset": "data/eval_70/stakeholder_eval_70.json",
+  "eval_outputs": "results/final"
+}
