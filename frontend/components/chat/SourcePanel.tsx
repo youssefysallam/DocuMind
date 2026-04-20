@@ -21,7 +21,7 @@ export default function SourcePanel({ sources }: SourcePanelProps) {
   return (
     <div className="border-t border-slate-200/50">
       <button
-        className="flex w-full items-center justify-between px-4 py-3 text-sm font-medium text-zinc-900 transition-colors hover:bg-slate-50"
+        className="flex w-full cursor-pointer items-center justify-between px-4 py-3 text-sm font-medium text-zinc-900 transition-colors hover:bg-slate-50"
         onClick={() => setOpen(!open)}
       >
         <span>Retrieved Sources</span>

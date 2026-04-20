@@ -40,7 +40,7 @@ export default function EmptyState({ onSelectExample }: EmptyStateProps) {
         {EXAMPLES.map((example) => (
           <motion.button
             key={example}
-            className="rounded-lg border border-slate-200/50 bg-white px-4 py-2 text-sm text-slate-600 shadow-sm transition-all hover:border-slate-300 hover:text-zinc-900 hover:shadow-md active:scale-[0.98]"
+            className="cursor-pointer rounded-lg border border-slate-200/50 bg-white px-4 py-2 text-sm text-slate-600 shadow-sm transition-all hover:border-slate-300 hover:text-zinc-900 hover:shadow-md active:scale-[0.98]"
             onClick={() => onSelectExample(example)}
             variants={{
               hidden: { opacity: 0, y: 10 },
