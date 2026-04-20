@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useCallback } from "react";
+import { useState, useCallback, useMemo } from "react";
 import Link from "next/link";
 import { ArrowLeft, Plus } from "@phosphor-icons/react";
 import { sendMessage, clearSession } from "@/lib/api";
@@ -71,6 +71,12 @@ export default function ChatInterface() {
 
   const isEmpty = messages.length === 0;
 
+  // Memoise the user-message slice — passing an unstable array reference invalidates downstream memos every render.
+  const priorQuestions = useMemo(
+    () => messages.filter((m) => m.role === "user").map((m) => m.content),
+    [messages]
+  );
+
   return (
     <div className="flex h-[100dvh] flex-col bg-[#f9fafb]">
       {/* Top bar */}
@@ -89,7 +95,7 @@ export default function ChatInterface() {
         </div>
         <button
           onClick={handleClear}
-          className="flex items-center gap-1.5 rounded-lg border border-slate-200/50 px-3 py-1.5 text-xs text-slate-500 transition-all hover:border-slate-300 hover:text-zinc-900 active:scale-[0.98]"
+          className="flex cursor-pointer items-center gap-1.5 rounded-lg border border-slate-200/50 px-3 py-1.5 text-xs text-slate-500 transition-all hover:border-slate-300 hover:text-zinc-900 active:scale-[0.98]"
         >
           <Plus size={12} />
           New conversation
@@ -103,12 +109,17 @@ export default function ChatInterface() {
           {isEmpty ? (
             <EmptyState onSelectExample={handleSend} />
           ) : (
-            <MessageList messages={messages} loading={loading} />
+            <MessageList
+              messages={messages}
+              loading={loading}
+              onSelectFollowUp={handleSend}
+            />
           )}
           <InputBar
             onSend={handleSend}
             disabled={loading}
             showTypewriter={isEmpty}
+            priorQuestions={priorQuestions}
           />
         </div>
 
