@@ -64,3 +64,34 @@ export interface SystemInfo {
   top_k: { dense: number; sparse: number; final: number };
   features: string[];
 }
+
+export interface Suggestion {
+  qa_id: string;
+  question: string;
+  score: number;
+  source_type: string;
+}
+
+export interface SuggestResponse {
+  suggestions: Suggestion[];
+  is_fallback?: boolean;
+}
+
+export type SourceFilter = "pdf" | "website" | null;
+
+export interface FeaturedItem {
+  qa_id: string;
+  question: string;
+  intent: string;
+  source_type: string;
+}
+
+export interface FeaturedGroup {
+  intent: string;
+  label: string;
+  items: FeaturedItem[];
+}
+
+export interface FeaturedResponse {
+  groups: FeaturedGroup[];
+}
