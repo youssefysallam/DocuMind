@@ -110,7 +110,7 @@ DocuMind/
 │   └── eval_job.slurm        # P5 — HPC batch evaluation job script
 ├── .env.example              # API key template — copy to .env and fill in
 ├── .gitignore
-├── requirements.txt
+├── pyproject.toml
 ├── CONTRIBUTING.md
 └── README.md
 ```
@@ -151,7 +151,7 @@ source .venv/bin/activate
 
 ### 3. Install dependencies
 ```bash
-pip install -r requirements.txt
+pip install -e .
 ```
 
 ### 4. Configure environment variables
