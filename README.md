@@ -1,4 +1,4 @@
-# Institute RAG — Knowledge Chatbot
+# DocuMind — Knowledge Chatbot
 > CS 438/638 Applied Machine Learning — Term Project
 > University of Massachusetts Boston
 
@@ -90,7 +90,7 @@ Clean JSON: { text, chunk_id, source, url, date }
 ## Folder Structure
 
 ```
-institute-rag/
+DocuMind/
 ├── data/
 │   ├── raw/                  # Scraped HTML and downloaded PDFs (not committed)
 │   ├── processed/            # Chunked JSON output from ingest.py
@@ -131,8 +131,8 @@ institute-rag/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/institute-rag.git
-cd institute-rag
+git clone https://github.com/YOUR_USERNAME/DocuMind.git
+cd DocuMind
 ```
 
 ### 2. Create and activate a virtual environment

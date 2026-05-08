@@ -247,10 +247,10 @@ if __name__ == "__main__":
 
 - [ ] **Step 2: Verify it doesn't break existing Gradio app**
 
-Run: `cd c:/Users/Youssef/institute-rag-1 && python -c "import ast; ast.parse(open('src/rag_v2/api.py').read()); print('SYNTAX OK')"`
+Run: `cd c:/Users/Youssef/DocuMind-1 && python -c "import ast; ast.parse(open('src/rag_v2/api.py').read()); print('SYNTAX OK')"`
 Expected: `SYNTAX OK`
 
-Run: `cd c:/Users/Youssef/institute-rag-1 && python -c "import ast; ast.parse(open('src/rag_v2/app.py').read()); print('GRADIO UNTOUCHED OK')"`
+Run: `cd c:/Users/Youssef/DocuMind-1 && python -c "import ast; ast.parse(open('src/rag_v2/app.py').read()); print('GRADIO UNTOUCHED OK')"`
 Expected: `GRADIO UNTOUCHED OK`
 
 - [ ] **Step 3: Commit**
@@ -476,14 +476,14 @@ Empty file -- placeholder directory for the Kling video.
 
 - [ ] **Step 8: Install dependencies**
 
-Run: `cd c:/Users/Youssef/institute-rag-1/frontend && npm install`
+Run: `cd c:/Users/Youssef/DocuMind-1/frontend && npm install`
 
 Note: Also install `geist` font package:
-Run: `cd c:/Users/Youssef/institute-rag-1/frontend && npm install geist`
+Run: `cd c:/Users/Youssef/DocuMind-1/frontend && npm install geist`
 
 - [ ] **Step 9: Verify Next.js builds**
 
-Run: `cd c:/Users/Youssef/institute-rag-1/frontend && npx next build`
+Run: `cd c:/Users/Youssef/DocuMind-1/frontend && npx next build`
 Expected: Build succeeds (may warn about missing page.tsx -- that's fine, we create it in the next task)
 
 - [ ] **Step 10: Commit**
@@ -1256,7 +1256,7 @@ export default function LandingPage() {
 
 - [ ] **Step 2: Run the dev server and verify landing page renders**
 
-Run: `cd c:/Users/Youssef/institute-rag-1/frontend && npm run dev`
+Run: `cd c:/Users/Youssef/DocuMind-1/frontend && npm run dev`
 
 Open `http://localhost:3000` in a browser. Verify:
 - Navbar is visible and transparent
@@ -2047,7 +2047,7 @@ export default function ChatPage() {
 
 - [ ] **Step 3: Run dev server and verify chat page**
 
-Run: `cd c:/Users/Youssef/institute-rag-1/frontend && npm run dev`
+Run: `cd c:/Users/Youssef/DocuMind-1/frontend && npm run dev`
 
 Open `http://localhost:3000/chat` in a browser. Verify:
 - Empty state renders with InfoWeave heading and example chips
@@ -2073,7 +2073,7 @@ This is a manual verification task to confirm the full stack works end-to-end.
 
 Run in terminal 1:
 ```bash
-cd c:/Users/Youssef/institute-rag-1
+cd c:/Users/Youssef/DocuMind-1
 set PYTHONPATH=src
 python -m rag_v2.api
 ```
@@ -2084,7 +2084,7 @@ Wait for `[API] System ready.` to appear.
 
 Run in terminal 2:
 ```bash
-cd c:/Users/Youssef/institute-rag-1/frontend
+cd c:/Users/Youssef/DocuMind-1/frontend
 npm run dev
 ```
 
@@ -2114,7 +2114,7 @@ Navigate to `http://localhost:3000/chat`. Check:
 
 Run in terminal 3:
 ```bash
-cd c:/Users/Youssef/institute-rag-1
+cd c:/Users/Youssef/DocuMind-1
 set PYTHONPATH=src
 python -m rag_v2.app
 ```

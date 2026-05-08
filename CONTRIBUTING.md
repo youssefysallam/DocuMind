@@ -1,4 +1,4 @@
-# Contributing Guide — institute-rag
+# Contributing Guide — DocuMind
 
 ## Team Roles and Branch Ownership
 
@@ -16,8 +16,8 @@
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/YOUR_USERNAME/institute-rag.git
-cd institute-rag
+git clone https://github.com/YOUR_USERNAME/DocuMind.git
+cd DocuMind
 ```
 
 ### 2. Create and activate a virtual environment
