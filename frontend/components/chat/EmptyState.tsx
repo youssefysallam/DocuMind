@@ -24,7 +24,7 @@ export default function EmptyState({ onSelectExample }: EmptyStateProps) {
         transition={{ type: "spring", stiffness: 100, damping: 20 }}
       >
         <h2 className="text-2xl font-bold tracking-tight text-zinc-900">
-          InfoWeave
+          DocuMind
         </h2>
         <p className="mt-2 text-sm text-slate-500">
           Ask about SSL's research, projects, or publications

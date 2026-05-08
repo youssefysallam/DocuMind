@@ -84,7 +84,7 @@ export default function ChatInterface() {
             <span>Back</span>
           </Link>
           <span className="text-sm font-semibold text-zinc-900">
-            InfoWeave
+            DocuMind
           </span>
         </div>
         <button

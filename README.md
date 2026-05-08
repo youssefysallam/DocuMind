@@ -214,7 +214,7 @@ The interface shows:
 - The generated answer with inline citations
 - An expandable panel showing the retrieved source passages and URLs
 
-### Running the InfoWeave V2 UI
+### Running the DocuMind V2 UI
 
 The improved UI in `frontend/` runs separately from the legacy chatbot UI and
 expects the FastAPI backend in `src/rag_v2/api.py`.

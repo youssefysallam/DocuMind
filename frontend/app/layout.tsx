@@ -36,7 +36,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "InfoWeave — SSL Research Assistant",
+  title: "DocuMind — SSL Research Assistant",
   description:
     "Sustainable Solutions Lab Research Assistant. Multi-turn dialogue with source attribution, powered by RAG V2.",
 };

@@ -58,7 +58,7 @@ export default function Navbar() {
           href="/"
           className="text-lg font-semibold tracking-tight text-zinc-900"
         >
-          InfoWeave
+          DocuMind
         </Link>
 
         <div className={`hidden items-center md:flex ${expanded ? "gap-8" : "gap-5"}`}>

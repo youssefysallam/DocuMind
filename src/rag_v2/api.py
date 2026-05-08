@@ -1,5 +1,5 @@
 """
-FastAPI backend for InfoWeave UI V2.
+FastAPI backend for DocuMind UI V2.
 
 Exposes the RAG V2 pipeline over HTTP for the Next.js frontend.
 The existing Gradio UI (app.py) is NOT modified — both can run independently.
@@ -11,12 +11,14 @@ Usage (from repo root, with PYTHONPATH=src):
 from __future__ import annotations
 
 import json
+import logging
 import os
 import sys
+import time
 from pathlib import Path
 
 from dotenv import load_dotenv
-from fastapi import FastAPI
+from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
@@ -24,6 +26,8 @@ PROJECT_ROOT = Path(__file__).resolve().parents[2]
 load_dotenv(PROJECT_ROOT / ".env")
 
 sys.stdout.reconfigure(encoding="utf-8")
+logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s: %(message)s")
+log = logging.getLogger("documind.api")
 
 _bu = os.environ.get("OPENAI_BASE_URL")
 if _bu is not None and not str(_bu).strip():
@@ -31,7 +35,7 @@ if _bu is not None and not str(_bu).strip():
 
 # ── App ──────────────────────────────────────────────────────────
 
-app = FastAPI(title="InfoWeave API", version="2.0")
+app = FastAPI(title="DocuMind API", version="2.0")
 
 app.add_middleware(
     CORSMiddleware,
@@ -40,22 +44,24 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# ── Lazy system loading (same pattern as app.py) ──────────────────
+# ── Lazy system loading ──────────────────────────────────────────
 
 _SYSTEM: dict | None = None
-_SESSIONS: dict[str, "SessionMemory"] = {}
+_SESSIONS: dict[str, tuple[float, "SessionMemory"]] = {}  # id → (last_access, session)
+_SESSION_TTL = 3600  # evict sessions idle for 1 hour
+_MAX_SESSIONS = 200
 
 
 def _load_system():
     from sentence_transformers import CrossEncoder, SentenceTransformer
     from rag_v1.pipeline import load_all, openai_client, EMBED_MODEL_NAME, RERANK_MODEL_NAME
 
-    print("[API] Loading models and corpus ...")
+    log.info("Loading models and corpus ...")
     embed_model = SentenceTransformer(EMBED_MODEL_NAME)
     reranker = CrossEncoder(RERANK_MODEL_NAME)
     client = openai_client()
     meta, ctx_idx, qa_items, qa_idx, bm25, dataset = load_all(embed_model)
-    print("[API] System ready.")
+    log.info("System ready.")
     return dict(
         embed_model=embed_model, reranker=reranker, client=client,
         meta=meta, ctx_idx=ctx_idx, qa_items=qa_items, qa_idx=qa_idx,
@@ -70,11 +76,27 @@ def get_system():
     return _SYSTEM
 
 
+def _evict_sessions() -> None:
+    now = time.monotonic()
+    expired = [k for k, (ts, _) in _SESSIONS.items() if now - ts > _SESSION_TTL]
+    for k in expired:
+        _SESSIONS.pop(k, None)
+
+    if len(_SESSIONS) > _MAX_SESSIONS:
+        oldest = sorted(_SESSIONS.items(), key=lambda kv: kv[1][0])
+        for k, _ in oldest[: len(_SESSIONS) - _MAX_SESSIONS]:
+            _SESSIONS.pop(k, None)
+
+
 def _get_session(session_id: str):
     from rag_v2.session import SessionMemory
+    _evict_sessions()
     if session_id not in _SESSIONS:
-        _SESSIONS[session_id] = SessionMemory(max_turns=10)
-    return _SESSIONS[session_id]
+        _SESSIONS[session_id] = (time.monotonic(), SessionMemory(max_turns=10))
+    else:
+        _, mem = _SESSIONS[session_id]
+        _SESSIONS[session_id] = (time.monotonic(), mem)
+    return _SESSIONS[session_id][1]
 
 
 # ── Request/response models ───────────────────────────────────────
@@ -97,21 +119,25 @@ def chat(req: ChatRequest):
     if not req.message.strip():
         return {"answer": "", "retrieved": [], "retrieval_log": {}, "consistency": None}
 
-    sys_data = get_system()
-    session = _get_session(req.session_id)
+    try:
+        sys_data = get_system()
+        session = _get_session(req.session_id)
 
-    result = ask(
-        req.message,
-        session=session,
-        client=sys_data["client"],
-        embed_model=sys_data["embed_model"],
-        corpus_idx=sys_data["ctx_idx"],
-        corpus_meta=sys_data["meta"],
-        bm25=sys_data["bm25"],
-        qa_items=sys_data["qa_items"],
-        qa_idx=sys_data["qa_idx"],
-        reranker=sys_data["reranker"],
-    )
+        result = ask(
+            req.message,
+            session=session,
+            client=sys_data["client"],
+            embed_model=sys_data["embed_model"],
+            corpus_idx=sys_data["ctx_idx"],
+            corpus_meta=sys_data["meta"],
+            bm25=sys_data["bm25"],
+            qa_items=sys_data["qa_items"],
+            qa_idx=sys_data["qa_idx"],
+            reranker=sys_data["reranker"],
+        )
+    except Exception as e:
+        log.exception("chat failed for session %s", req.session_id)
+        raise HTTPException(500, f"chat failed: {e}") from e
 
     return {
         "answer": result["answer"],
@@ -124,7 +150,7 @@ def chat(req: ChatRequest):
 @app.post("/api/session/clear")
 def clear_session(req: ClearRequest):
     if req.session_id in _SESSIONS:
-        _SESSIONS[req.session_id].clear()
+        _SESSIONS[req.session_id][1].clear()
     return {"status": "ok"}
 
 
@@ -171,9 +197,5 @@ def get_system_info():
 
 if __name__ == "__main__":
     import uvicorn
-    print("\n" + "=" * 60)
-    print("  InfoWeave API — FastAPI Backend")
-    print("  http://localhost:8000")
-    print("  Docs: http://localhost:8000/docs")
-    print("=" * 60 + "\n")
+    log.info("DocuMind API — http://localhost:8000 | Docs: http://localhost:8000/docs")
     uvicorn.run(app, host="0.0.0.0", port=8000)

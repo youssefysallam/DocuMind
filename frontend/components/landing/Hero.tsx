@@ -35,7 +35,7 @@ export default function Hero() {
             animate={{ y: 0, opacity: 1 }}
             transition={{ type: "spring", stiffness: 100, damping: 20, delay: 0.1 }}
           >
-            InfoWeave
+            DocuMind
           </motion.h1>
 
           <motion.p

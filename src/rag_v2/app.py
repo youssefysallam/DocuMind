@@ -325,7 +325,7 @@ def build_ui():
     import uuid
 
     with gr.Blocks(
-        title="SSL RAG V2 — InfoWeave",
+        title="DocuMind — Research Assistant",
         theme=gr.themes.Soft(primary_hue="blue", secondary_hue="slate"),
         css=CSS,
     ) as demo:
@@ -335,7 +335,7 @@ def build_ui():
         gr.HTML(
             "<div style='text-align:center;padding:16px 0 8px'>"
             "<h1 style='margin:0;font-size:1.6em;font-weight:700'>"
-            "🔬 SSL RAG V2 — InfoWeave"
+            "🔬 DocuMind — Research Assistant"
             "</h1>"
             "<p style='margin:4px 0 0;color:#64748b;font-size:0.95em'>"
             "Sustainable Solutions Lab Research Assistant · Multi-turn Dialogue · Source Attribution"
@@ -455,7 +455,7 @@ def build_ui():
 def main():
     demo = build_ui()
     print("\n" + "=" * 60)
-    print("  SSL RAG V2 — Web UI")
+    print("  DocuMind — Research Assistant UI")
     print("  http://localhost:7860")
     print("=" * 60 + "\n")
     demo.launch(
