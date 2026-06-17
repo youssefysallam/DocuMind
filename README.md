@@ -6,7 +6,7 @@ A multi-turn RAG chatbot that answers questions about a research institute's doc
 
 ## What it does
 
-Give DocuMind any question about the Sustainable Solutions Lab and it:
+Give DocuMind any question about the Sustainable Solutions Lab and it will:
 1. Classifies intent and decomposes multi-part queries into sub-questions
 2. Retrieves relevant passages with HyDE + BM25 + dense embeddings + cross-encoder reranking
 3. Checks answer consistency against retrieved evidence
